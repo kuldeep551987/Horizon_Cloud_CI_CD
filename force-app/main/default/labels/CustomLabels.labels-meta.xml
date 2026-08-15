@@ -39,7 +39,7 @@
         <fullName>Test_Label</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Test Label</shortDescription>
+        <shortDescription>Test Label123</shortDescription>
         <value>Test</value>
     </labels>
 </CustomLabels>
