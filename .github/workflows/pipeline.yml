@@ -1,131 +1,713 @@
 # ================================================================
 # Salesforce Delta Deployment Pipeline
 #
-# FLOW:
-# 1. Developer creates PR  → Validation runs automatically
-# 2. Validation passes     → Reviewer approves PR manually  
-# 3. PR merged             → Actual deployment runs
+# ENFORCED FLOW:
+#
+# feature/* ──PR──> DEV ──PR──> QA ──PR──> master (PROD)
+#
+# PR:
+#   1. Developer creates PR
+#   2. Promotion path is validated
+#   3. Delta package is generated
+#   4. Salesforce validation runs
+#   5. Reviewer approves PR
+#   6. PR is merged
+#
+# PUSH:
+#   1. Merge to DEV  → Deploy to DEV
+#   2. Merge to QA   → Deploy to QA
+#   3. Merge to master → Deploy to PROD
 #
 # BRANCH → ORG MAPPING:
-# DEV → Horizon    (NoTestRun)
+#
+# DEV    → Horizon       (NoTestRun)
 # QA     → agentforce    (RunLocalTests)
-# master    → NewAF (PRODUCTION)     (RunAllTestsInOrg)
+# master → NewAF         (RunAllTestsInOrg)
+#
+# ALLOWED PROMOTION PATHS:
+#
+# feature/* → DEV
+# DEV       → QA
+# QA        → master
+#
+# DIRECT / INVALID PATHS:
+#
+# feature/* → QA       ❌
+# feature/* → master   ❌
+# DEV       → master   ❌
+# QA        → DEV      ❌
 # ================================================================
 
 name: Salesforce Delta Pipeline
 
 on:
-  push:
-    branches:
-      - DEV
-      - QA
-      - master
+
+  # --------------------------------------------------------------
+  # Pull Requests
+  # Used for validation only
+  # --------------------------------------------------------------
   pull_request:
     branches:
       - DEV
       - QA
       - master
 
+  # --------------------------------------------------------------
+  # Push
+  # Used for actual deployment after PR merge
+  # --------------------------------------------------------------
+  push:
+    branches:
+      - DEV
+      - QA
+      - master
+
+
+# ================================================================
+# GLOBAL PERMISSIONS
+# ================================================================
+
+permissions:
+  contents: read
+  pull-requests: read
+
+
+# ================================================================
+# JOBS
+# ================================================================
+
 jobs:
-  deploy:
+
+  # ==============================================================
+  # JOB 1
+  # Validate Promotion Path
+  #
+  # This prevents:
+  #
+  # feature → QA
+  # feature → PROD
+  # DEV → PROD
+  #
+  # Only these are allowed:
+  #
+  # feature/* → DEV
+  # DEV → QA
+  # QA → master
+  # ==============================================================
+
+  validate-pr-path:
+
+    name: Validate Promotion Path
+
     runs-on: ubuntu-latest
+
+    # This job is required for PRs.
+    # For push events there is nothing to validate.
+    if: github.event_name == 'pull_request'
 
     steps:
 
+      - name: Validate Source and Target Branch
+        shell: bash
+        run: |
+
+          SOURCE_BRANCH="${{ github.head_ref }}"
+          TARGET_BRANCH="${{ github.base_ref }}"
+
+          echo "=========================================="
+          echo "Salesforce Promotion Path Validation"
+          echo "=========================================="
+          echo "Source Branch : $SOURCE_BRANCH"
+          echo "Target Branch : $TARGET_BRANCH"
+          echo "=========================================="
+
+          # --------------------------------------------------------
+          # feature/* → DEV
+          # --------------------------------------------------------
+
+          if [[ "$TARGET_BRANCH" == "DEV" && "$SOURCE_BRANCH" == feature/* ]]; then
+
+            echo "✅ VALID PROMOTION PATH"
+            echo "   $SOURCE_BRANCH → DEV"
+
+            exit 0
+
+          fi
+
+
+          # --------------------------------------------------------
+          # DEV → QA
+          # --------------------------------------------------------
+
+          if [[ "$SOURCE_BRANCH" == "DEV" && "$TARGET_BRANCH" == "QA" ]]; then
+
+            echo "✅ VALID PROMOTION PATH"
+            echo "   DEV → QA"
+
+            exit 0
+
+          fi
+
+
+          # --------------------------------------------------------
+          # QA → master
+          # --------------------------------------------------------
+
+          if [[ "$SOURCE_BRANCH" == "QA" && "$TARGET_BRANCH" == "master" ]]; then
+
+            echo "✅ VALID PROMOTION PATH"
+            echo "   QA → master (PROD)"
+
+            exit 0
+
+          fi
+
+
+          # --------------------------------------------------------
+          # Everything else is rejected
+          # --------------------------------------------------------
+
+          echo ""
+          echo "❌ INVALID PROMOTION PATH"
+          echo ""
+          echo "Allowed promotion paths:"
+          echo ""
+          echo "  feature/* → DEV"
+          echo "  DEV       → QA"
+          echo "  QA        → master"
+          echo ""
+          echo "Requested:"
+          echo ""
+          echo "  $SOURCE_BRANCH → $TARGET_BRANCH"
+          echo ""
+
+          exit 1
+
+
+  # ==============================================================
+  # JOB 2
+  # Salesforce Deployment / Validation
+  #
+  # PR  → Validate only
+  # PUSH → Actual deployment
+  # ==============================================================
+
+  deploy:
+
+    name: Salesforce ${{ github.event_name == 'pull_request' && 'Validation' || 'Deployment' }}
+
+    runs-on: ubuntu-latest
+
+    # For PRs, wait for promotion-path validation.
+    # For pushes, this job runs normally.
+    needs: validate-pr-path
+
+    # Because validate-pr-path doesn't run on push events,
+    # explicitly allow deploy to continue for push events.
+    if: |
+      always() &&
+      (
+        github.event_name == 'push' ||
+        needs.validate-pr-path.result == 'success'
+      )
+
+    steps:
+
+      # ============================================================
+      # STEP 1
+      # Checkout complete Git history
+      # ============================================================
+
       - name: Checkout Full Git History
+
         uses: actions/checkout@v4
+
         with:
           fetch-depth: 0
 
+
+      # ============================================================
+      # STEP 2
+      # Install Salesforce CLI
+      # ============================================================
+
       - name: Install Salesforce CLI
+
         run: |
+
           npm install --global @salesforce/cli
+
+          echo "Salesforce CLI version:"
           sf --version
 
+
+      # ============================================================
+      # STEP 3
+      # Install sfdx-git-delta
+      # ============================================================
+
       - name: Install sfdx-git-delta
-        run: echo y | sf plugins install sfdx-git-delta
+
+        run: |
+
+          echo "Installing sfdx-git-delta..."
+
+          echo y | sf plugins install sfdx-git-delta
+
+          echo "Installed plugins:"
+          sf plugins
+
+
+      # ============================================================
+      # STEP 4
+      # Determine Environment
+      #
+      # PR:
+      #   github.base_ref = target branch
+      #
+      # PUSH:
+      #   github.ref_name = branch receiving the push
+      # ============================================================
 
       - name: Set Environment Variables by Branch
+
+        shell: bash
+
         run: |
-          if [ "${{ github.ref_name }}" == "DEV" ] || \
-             [ "${{ github.base_ref }}" == "DEV" ]; then
-            echo "AUTH_URL=${{ secrets.DEV_AUTH_URL }}" >> $GITHUB_ENV
-            echo "TEST_LEVEL=NoTestRun" >> $GITHUB_ENV
-            echo "ENV_NAME=DEV" >> $GITHUB_ENV
 
-          elif [ "${{ github.ref_name }}" == "QA" ] || \
-               [ "${{ github.base_ref }}" == "QA" ]; then
-            echo "AUTH_URL=${{ secrets.QA_AUTH_URL }}" >> $GITHUB_ENV
-            echo "TEST_LEVEL=RunLocalTests" >> $GITHUB_ENV
-            echo "ENV_NAME=QA" >> $GITHUB_ENV
+          echo "=========================================="
+          echo "Determining Salesforce Environment"
+          echo "=========================================="
 
-          elif [ "${{ github.ref_name }}" == "master" ] || \
-               [ "${{ github.base_ref }}" == "master" ]; then
-            echo "AUTH_URL=${{ secrets.PROD_AUTH_URL }}" >> $GITHUB_ENV
-            echo "TEST_LEVEL=RunAllTestsInOrg" >> $GITHUB_ENV
-            echo "ENV_NAME=PROD" >> $GITHUB_ENV
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+
+            BRANCH="${{ github.base_ref }}"
+
+            echo "Event Type : Pull Request"
+            echo "Target     : $BRANCH"
+
+          else
+
+            BRANCH="${{ github.ref_name }}"
+
+            echo "Event Type : Push"
+            echo "Branch     : $BRANCH"
+
           fi
 
-      - name: Authenticate to Salesforce (${{ env.ENV_NAME }})
+
+          # --------------------------------------------------------
+          # DEV
+          # --------------------------------------------------------
+
+          if [ "$BRANCH" == "DEV" ]; then
+
+            echo "AUTH_URL=${{ secrets.DEV_AUTH_URL }}" >> "$GITHUB_ENV"
+
+            echo "TEST_LEVEL=NoTestRun" >> "$GITHUB_ENV"
+
+            echo "ENV_NAME=DEV" >> "$GITHUB_ENV"
+
+            echo "SALESFORCE_ORG=Horizon" >> "$GITHUB_ENV"
+
+
+          # --------------------------------------------------------
+          # QA
+          # --------------------------------------------------------
+
+          elif [ "$BRANCH" == "QA" ]; then
+
+            echo "AUTH_URL=${{ secrets.QA_AUTH_URL }}" >> "$GITHUB_ENV"
+
+            echo "TEST_LEVEL=RunLocalTests" >> "$GITHUB_ENV"
+
+            echo "ENV_NAME=QA" >> "$GITHUB_ENV"
+
+            echo "SALESFORCE_ORG=agentforce" >> "$GITHUB_ENV"
+
+
+          # --------------------------------------------------------
+          # PROD
+          # --------------------------------------------------------
+
+          elif [ "$BRANCH" == "master" ]; then
+
+            echo "AUTH_URL=${{ secrets.PROD_AUTH_URL }}" >> "$GITHUB_ENV"
+
+            echo "TEST_LEVEL=RunAllTestsInOrg" >> "$GITHUB_ENV"
+
+            echo "ENV_NAME=PROD" >> "$GITHUB_ENV"
+
+            echo "SALESFORCE_ORG=NewAF" >> "$GITHUB_ENV"
+
+
+          else
+
+            echo "❌ Unknown branch: $BRANCH"
+
+            exit 1
+
+          fi
+
+
+          echo ""
+          echo "Environment selected:"
+          echo "ENV_NAME       = $BRANCH"
+          echo "Salesforce Org = $SALESFORCE_ORG"
+          echo "Test Level     = $TEST_LEVEL"
+
+
+      # ============================================================
+      # STEP 5
+      # Determine Git Delta Range
+      #
+      # PR:
+      #   Base SHA → PR Head SHA
+      #
+      # PUSH:
+      #   Previous branch SHA → Current SHA
+      #
+      # This is better than simply using HEAD~1.
+      # ============================================================
+
+      - name: Determine Git Delta Range
+
+        shell: bash
+
         run: |
-          echo "${{ env.AUTH_URL }}" | sf org login sfdx-url \
+
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+
+            FROM_SHA="${{ github.event.pull_request.base.sha }}"
+            TO_SHA="${{ github.event.pull_request.head.sha }}"
+
+          else
+
+            FROM_SHA="${{ github.event.before }}"
+            TO_SHA="${{ github.sha }}"
+
+          fi
+
+
+          # Handle first push / empty previous SHA
+          if [ "$FROM_SHA" == "0000000000000000000000000000000000000000" ]; then
+
+            echo "No previous commit detected."
+
+            FROM_SHA="$(git rev-list --max-parents=0 HEAD)"
+
+          fi
+
+
+          echo "FROM_SHA=$FROM_SHA" >> "$GITHUB_ENV"
+          echo "TO_SHA=$TO_SHA" >> "$GITHUB_ENV"
+
+          echo "=========================================="
+          echo "Delta Range"
+          echo "=========================================="
+          echo "FROM : $FROM_SHA"
+          echo "TO   : $TO_SHA"
+          echo "=========================================="
+
+
+      # ============================================================
+      # STEP 6
+      # Authenticate to Salesforce
+      # ============================================================
+
+      - name: Authenticate to Salesforce (${{ env.ENV_NAME }})
+
+        shell: bash
+
+        run: |
+
+          echo "${AUTH_URL}" | sf org login sfdx-url \
             --alias target-org \
             --set-default \
             --sfdx-url-stdin
 
+          echo ""
+          echo "Authenticated Salesforce Org:"
+          sf org display --target-org target-org
+
+
+      # ============================================================
+      # STEP 7
+      # Generate Salesforce Delta Package
+      # ============================================================
+
       - name: Generate Delta Package
+
+        shell: bash
+
         run: |
+
+          rm -rf delta
+
           mkdir -p delta
+
+          echo "=========================================="
+          echo "Generating Salesforce Delta"
+          echo "=========================================="
+
+          echo "FROM SHA: $FROM_SHA"
+          echo "TO SHA  : $TO_SHA"
+
           sf sgd source delta \
-            --to HEAD \
-            --from HEAD~1 \
+            --from "$FROM_SHA" \
+            --to "$TO_SHA" \
             --output-dir delta \
             --source-dir force-app \
             --generate-delta
-          echo "====== Delta Components for ${{ env.ENV_NAME }} ======"
-          cat delta/package/package.xml
+
+
+          echo ""
+          echo "=========================================="
+          echo "Generated Delta Files"
+          echo "=========================================="
+
+          find delta -type f -print
+
+
+          echo ""
+          echo "=========================================="
+          echo "Generated package.xml"
+          echo "=========================================="
+
+          if [ -f "delta/package/package.xml" ]; then
+
+            cat delta/package/package.xml
+
+          else
+
+            echo "No package.xml generated."
+
+          fi
+
+
+      # ============================================================
+      # STEP 8
+      # Validate Delta During Pull Request
+      #
+      # IMPORTANT:
+      #
+      # DEV uses NoTestRun for deployment.
+      #
+      # Salesforce validation does not use NoTestRun,
+      # so DEV validation is changed to RunLocalTests.
+      # ============================================================
 
       - name: Validate Delta (${{ env.ENV_NAME }})
+
         if: github.event_name == 'pull_request'
+
+        shell: bash
+
         run: |
-          if grep -q '<members>' delta/package/package.xml; then
-            VALIDATE_TEST_LEVEL=${{ env.TEST_LEVEL }}
-            if [ "$VALIDATE_TEST_LEVEL" == "NoTestRun" ]; then
-              VALIDATE_TEST_LEVEL="RunLocalTests"
-            fi
-            sf project deploy validate \
-              --manifest delta/package/package.xml \
-              --target-org target-org \
-              --test-level $VALIDATE_TEST_LEVEL \
-              --wait 60
-          else
-            echo "No Salesforce metadata changes found. Skipping validation."
+
+          if [ ! -f "delta/package/package.xml" ]; then
+
+            echo "No package.xml found."
+            echo "No Salesforce metadata changes detected."
+
+            exit 0
+
           fi
+
+
+          if ! grep -q "<members>" delta/package/package.xml; then
+
+            echo "No Salesforce metadata changes found."
+
+            exit 0
+
+          fi
+
+
+          VALIDATE_TEST_LEVEL="$TEST_LEVEL"
+
+
+          # Salesforce validation requires tests.
+          if [ "$VALIDATE_TEST_LEVEL" == "NoTestRun" ]; then
+
+            VALIDATE_TEST_LEVEL="RunLocalTests"
+
+          fi
+
+
+          echo "=========================================="
+          echo "Salesforce Validation"
+          echo "=========================================="
+          echo "Environment : $ENV_NAME"
+          echo "Test Level  : $VALIDATE_TEST_LEVEL"
+          echo "=========================================="
+
+
+          sf project deploy validate \
+            --manifest delta/package/package.xml \
+            --target-org target-org \
+            --test-level "$VALIDATE_TEST_LEVEL" \
+            --wait 60
+
+
+      # ============================================================
+      # STEP 9
+      # Deploy Delta After PR Merge
+      #
+      # This only runs on push to:
+      #
+      # DEV
+      # QA
+      # master
+      #
+      # Branch protection should prevent direct pushes.
+      # ============================================================
 
       - name: Deploy Delta to ${{ env.ENV_NAME }}
+
         if: github.event_name == 'push'
+
+        shell: bash
+
         run: |
-          if grep -q '<members>' delta/package/package.xml; then
-            sf project deploy start \
-              --manifest delta/package/package.xml \
-              --target-org target-org \
-              --test-level ${{ env.TEST_LEVEL }} \
-              --wait 60
-          else
-            echo "No Salesforce metadata changes found. Skipping deployment."
+
+          if [ ! -f "delta/package/package.xml" ]; then
+
+            echo "No package.xml found."
+            echo "No Salesforce metadata changes detected."
+
+            exit 0
+
           fi
 
-      - name: Deploy Destructive Changes
+
+          if ! grep -q "<members>" delta/package/package.xml; then
+
+            echo "No Salesforce metadata changes found."
+
+            exit 0
+
+          fi
+
+
+          echo "=========================================="
+          echo "Salesforce Delta Deployment"
+          echo "=========================================="
+          echo "Environment : $ENV_NAME"
+          echo "Salesforce  : $SALESFORCE_ORG"
+          echo "Test Level  : $TEST_LEVEL"
+          echo "=========================================="
+
+
+          sf project deploy start \
+            --manifest delta/package/package.xml \
+            --target-org target-org \
+            --test-level "$TEST_LEVEL" \
+            --wait 60
+
+
+      # ============================================================
+      # STEP 10
+      # Deploy Pre-Destructive Changes
+      # ============================================================
+
+      - name: Deploy Pre-Destructive Changes
+
         if: github.event_name == 'push'
+
+        shell: bash
+
         run: |
-          if [ -f "delta/destructiveChanges/destructiveChanges.xml" ] && \
-             grep -q '<types>' delta/destructiveChanges/destructiveChanges.xml; then
+
+          if [ ! -f "delta/destructiveChanges/destructiveChanges.xml" ]; then
+
+            echo "No destructive changes found."
+
+            exit 0
+
+          fi
+
+
+          if ! grep -q "<types>" delta/destructiveChanges/destructiveChanges.xml; then
+
+            echo "No destructive changes found."
+
+            exit 0
+
+          fi
+
+
+          echo "=========================================="
+          echo "Pre-Destructive Changes"
+          echo "=========================================="
+
+
+          # Salesforce CLI expects a package.xml manifest
+          # for the metadata being deleted.
+
+          if [ -f "delta/destructiveChanges/package.xml" ]; then
+
             sf project deploy start \
               --manifest delta/destructiveChanges/package.xml \
-              --post-destructive-changes delta/destructiveChanges/destructiveChanges.xml \
               --target-org target-org \
-              --test-level NoTestRun \
-              --wait 30
+              --pre-destructive-changes delta/destructiveChanges/destructiveChanges.xml \
+              --test-level "$TEST_LEVEL" \
+              --wait 60
+
           else
-            echo "No destructive changes found. Skipping."
+
+            echo "No destructive package.xml found."
+
+          fi
+
+
+      # ============================================================
+      # STEP 11
+      # Deploy Post-Destructive Changes
+      # ============================================================
+
+      - name: Deploy Post-Destructive Changes
+
+        if: github.event_name == 'push'
+
+        shell: bash
+
+        run: |
+
+          if [ ! -f "delta/destructiveChanges/postDestructiveChanges.xml" ]; then
+
+            echo "No post-destructive changes found."
+
+            exit 0
+
+          fi
+
+
+          if ! grep -q "<types>" delta/destructiveChanges/postDestructiveChanges.xml; then
+
+            echo "No post-destructive changes found."
+
+            exit 0
+
+          fi
+
+
+          echo "=========================================="
+          echo "Post-Destructive Changes"
+          echo "=========================================="
+
+
+          if [ -f "delta/destructiveChanges/package.xml" ]; then
+
+            sf project deploy start \
+              --manifest delta/destructiveChanges/package.xml \
+              --target-org target-org \
+              --post-destructive-changes delta/destructiveChanges/postDestructiveChanges.xml \
+              --test-level "$TEST_LEVEL" \
+              --wait 60
+
+          else
+
+            echo "No destructive package.xml found."
+
           fi
