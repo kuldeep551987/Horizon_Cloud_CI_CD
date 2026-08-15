@@ -1,0 +1,45 @@
+<apex:page controller="CaseSearchPaginationController" lightningStylesheets="true">
+    <apex:form >
+
+        <apex:pageBlock title="Case Search with Pagination">
+
+            <apex:pageBlockSection columns="2">
+                <apex:inputText value="{!searchText}" label="Search Subject"/>
+                <apex:commandButton value="Search" action="{!searchCases}" rerender="resultPanel"/>
+            </apex:pageBlockSection>
+
+            <!-- 🔴 EVERYTHING must be inside this panel -->
+            <apex:outputPanel id="resultPanel">
+
+                <apex:pageBlockTable value="{!Cases}" var="c">
+
+                    <apex:column headerValue="Case #">
+                        <apex:outputLink value="/{!c.Id}">
+                            {!c.CaseNumber}
+                        </apex:outputLink>
+                    </apex:column>
+
+                    <apex:column value="{!c.Subject}"/>
+                    <apex:column value="{!c.Status}"/>
+                    <apex:column value="{!c.Priority}"/>
+                </apex:pageBlockTable>
+
+                <!-- Pagination Buttons -->
+                <div style="margin-top:10px">
+                    <apex:commandButton value="Previous"
+                                        action="{!previous}"
+                                        rerender="resultPanel"
+                                        disabled="{!NOT(hasPrevious)}"/>
+
+                    <apex:commandButton value="Next"
+                                        action="{!next}"
+                                        rerender="resultPanel"
+                                        disabled="{!NOT(hasNext)}"/>
+                </div>
+
+            </apex:outputPanel>
+
+        </apex:pageBlock>
+
+    </apex:form>
+</apex:page>

@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title="Case Search">
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-gutters slds-align-middle">
+                <div class="slds-col slds-size_1-of-8">
+                    <label for="caseInput" class="slds-form-element__label">Case Numbers</label>
+                </div>
+                <div class="slds-col slds-size_3-of-8">
+                    <lightning-textarea variant="label-hidden" onchange={handlechange} id="caseInput"
+                        value={caseNumbers}></lightning-textarea>
+                </div>
+            </div>
+            <div class="slds-m-top_medium">
+                <lightning-button variant="brand" label="Submit" onclick={handleSubmit}></lightning-button>
+            </div>
+            <template if:true={cases}>
+                <div class="slds-m-top_medium">
+                    <lightning-datatable key-field="Id" data={cases} columns={columns}></lightning-datatable>
+                </div>
+            </template>
+            <template if:true={error}>
+                <div class="slds-m-top_medium slds-text-color_error">
+                    {error}
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

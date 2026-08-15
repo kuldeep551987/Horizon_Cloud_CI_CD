@@ -1,0 +1,56 @@
+<template>
+    <lightning-card title="Create Case">
+
+        <lightning-record-edit-form
+            object-api-name="Case"
+            onsuccess={handleSuccess}
+            onerror={handleError}>
+
+            <div class="slds-grid slds-wrap">
+
+                <!-- Column 1 -->
+                <div class="slds-col slds-size_1-of-2 slds-p-around_small">
+                    <lightning-input-field field-name="Subject"></lightning-input-field>
+                    <lightning-input-field field-name="Status"></lightning-input-field>
+                    <lightning-input-field field-name="Priority"></lightning-input-field>
+                    <lightning-input-field field-name="Origin"></lightning-input-field>
+                    <lightning-input-field field-name="Type"></lightning-input-field>
+                    <lightning-input-field field-name="Reason"></lightning-input-field>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="slds-col slds-size_1-of-2 slds-p-around_small">
+                    <lightning-input-field field-name="AccountId"></lightning-input-field>
+                    <lightning-input-field field-name="ContactId"></lightning-input-field>
+                    <lightning-input-field field-name="OwnerId"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedEmail"></lightning-input-field>
+                    <lightning-input-field field-name="SuppliedPhone"></lightning-input-field>
+                </div>
+
+                <!-- Full Width -->
+                <div class="slds-col slds-size_1-of-1 slds-p-around_small">
+                    <lightning-input-field field-name="Description"></lightning-input-field>
+                </div>
+
+            </div>
+
+            <!-- Custom Buttons -->
+            <div class="slds-align_absolute-center slds-m-top_medium">
+                <lightning-button
+                    variant="brand"
+                    type="submit"
+                    label="Save Case">
+                </lightning-button>
+
+                <lightning-button
+                    variant="neutral"
+                    label="Cancel"
+                    class="slds-m-left_small"
+                    onclick={handleCancel}>
+                </lightning-button>
+            </div>
+
+        </lightning-record-edit-form>
+
+    </lightning-card>
+</template>

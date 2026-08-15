@@ -1,0 +1,94 @@
+<template>
+  <!-- ====== Card wrapper ====== -->
+  <lightning-card title="Lightning Base Components Demo" icon-name="utility:apps">
+    <div class="slds-p-around_medium">
+
+      <!-- 📝 Inputs -->
+      <lightning-input type="text" label="Name"></lightning-input>
+      <lightning-input type="email" label="Email"></lightning-input>
+      <lightning-textarea label="Description"></lightning-textarea>
+      <lightning-input-rich-text label="Notes"></lightning-input-rich-text>
+      <lightning-combobox
+          label="Industry"
+          value={selectedIndustry}
+          options={industryOptions}
+          onchange={handleChange}>
+      </lightning-combobox>
+      <lightning-dual-listbox
+          label="Select Skills"
+          options={skillOptions}
+          onchange={handleChange}>
+      </lightning-dual-listbox>
+      <!--lightning-checkbox-group
+          label="Hobbies"
+          options={hobbyOptions}
+          onchange={handleChange}>
+      </lightning-checkbox-group-->
+      <lightning-radio-group
+          label="Gender"
+          options={genderOptions}
+          onchange={handleChange}>
+      </lightning-radio-group>
+      <lightning-slider label="Volume" min="0" max="100" value="50"></lightning-slider>
+      <lightning-input type="toggle" label="Active?"></lightning-input>
+
+
+      <hr class="slds-m-vertical_medium"/>
+
+      <!-- 📑 Record Form -->
+      <lightning-record-edit-form object-api-name="Account">
+        <lightning-input-field field-name="Name"></lightning-input-field>
+        <lightning-input-field field-name="Industry"></lightning-input-field>
+        <lightning-button type="submit" label="Save"></lightning-button>
+      </lightning-record-edit-form>
+
+      <hr class="slds-m-vertical_medium"/>
+
+      <!-- 📊 Display -->
+      <lightning-badge label="New"></lightning-badge>
+      <lightning-pill label="Salesforce"></lightning-pill>
+      <lightning-formatted-text value="Hello World"></lightning-formatted-text>
+      <lightning-formatted-date-time value="2025-08-16T08:00:00Z"></lightning-formatted-date-time>
+      <lightning-formatted-number value="12345.67"></lightning-formatted-number>
+      <lightning-formatted-url value="https://salesforce.com" label="Salesforce"></lightning-formatted-url>
+
+      <hr class="slds-m-vertical_medium"/>
+
+      <!-- 🔄 Buttons -->
+      <lightning-button label="Save" onclick={handleClick}></lightning-button>
+      <lightning-button-icon icon-name="utility:edit" alternative-text="Edit"></lightning-button-icon>
+      <lightning-button-group>
+        <lightning-button label="One"></lightning-button>
+        <lightning-button label="Two"></lightning-button>
+      </lightning-button-group>
+
+      <hr class="slds-m-vertical_medium"/>
+
+      <!-- 🔗 Navigation -->
+      <lightning-tabset>
+        <lightning-tab label="Details">Details content here</lightning-tab>
+        <lightning-tab label="Related">Related content here</lightning-tab>
+      </lightning-tabset>
+
+      <lightning-tree items={treeItems}></lightning-tree>
+
+      <lightning-breadcrumbs>
+        <lightning-breadcrumb label="Home"></lightning-breadcrumb>
+        <lightning-breadcrumb label="Accounts"></lightning-breadcrumb>
+      </lightning-breadcrumbs>
+
+      <hr class="slds-m-vertical_medium"/>
+
+      <!-- ⏳ Feedback -->
+      <!--lightning-spinner alternative-text="Loading..." size="small"></lightning-spinner-->
+      <lightning-progress-bar value="60"></lightning-progress-bar>
+      <lightning-progress-indicator current-step="step2">
+        <lightning-progress-step label="Step 1" value="step1"></lightning-progress-step>
+        <lightning-progress-step label="Step 2" value="step2"></lightning-progress-step>
+        <lightning-progress-step label="Step 3" value="step3"></lightning-progress-step>
+      </lightning-progress-indicator>
+      <lightning-helptext content="This field is required"></lightning-helptext>
+
+    </div>
+  </lightning-card>
+</template>
