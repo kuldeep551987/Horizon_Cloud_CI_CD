@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>AUF_Close_URL</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>AUF_Close_URL</shortDescription>
-        <value>https://orgfarm-599e5e7a7c-dev-ed.develop.my.salesforce.com/</value>
-    </labels>
-    <labels>
-        <fullName>AUF_Open_URL</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>AUF_Open_URL</shortDescription>
-        <value>https://orgfarm-599e5e7a7c-dev-ed.develop.my.salesforce.com/</value>
-    </labels>
-    <labels>
-        <fullName>Client_Name</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Client Name</shortDescription>
-        <value>1</value>
-    </labels>
-    <labels>
-        <fullName>Order_Batch_Record_Limit</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Order Batch Record Limit</shortDescription>
-        <value>1</value>
-    </labels>
-    <labels>
-        <fullName>Survey_URL</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Survey_URL</shortDescription>
-        <value>https://orgfarm-599e5e7a7c-dev-ed.develop.my.salesforce.com/</value>
-    </labels>
-    <labels>
         <fullName>Test_Label</fullName>
         <language>en_US</language>
         <protected>true</protected>
