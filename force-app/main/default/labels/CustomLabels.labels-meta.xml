@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>New_Test_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New Test Label</shortDescription>
+        <value>Test</value>
+    </labels>
+    <labels>
         <fullName>AUF_Close_URL</fullName>
         <language>en_US</language>
         <protected>true</protected>
