@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Case Status">
+        <div class="slds-p-around_medium">
+            <lightning-input
+                label="Case Record Id"
+                value={recordId}
+                readonly
+            ></lightning-input>
+
+            <p class="slds-m-top_small">
+                <strong>Current Status:</strong> {currentStatus}
+            </p>
+
+            <lightning-button
+                class="slds-m-top_small"
+                label="Close Case"
+                variant="brand"
+                onclick={handleCloseCase}
+                disabled={isButtonDisabled}
+            ></lightning-button>
+
+            <template if:true={isClosed}>
+                <p class="slds-m-top_small slds-text-color_success">This case is already closed.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
