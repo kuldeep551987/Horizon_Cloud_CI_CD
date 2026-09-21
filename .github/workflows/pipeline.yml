@@ -125,7 +125,7 @@ jobs:
           # feature/* → DEV
           # --------------------------------------------------------
 
-          if [[ "$TARGET_BRANCH" == "DEV" && "$SOURCE_BRANCH" == feature/* ]]; then
+          if [[ "$TARGET_BRANCH" == "DEV" && "$SOURCE_BRANCH" == kuldeep/* ]]; then
 
             echo "✅ VALID PROMOTION PATH"
             echo "   $SOURCE_BRANCH → DEV"
