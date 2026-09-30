@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C3i_NN_Escalation_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    OR(
+        ISPICKVAL(Type__c, &quot;Insufficient Information&quot;),
+        ISPICKVAL(Type__c, &quot;Knowledge Base Usage&quot;)
+    ),
+    Account_Name__c = &quot;Novo Nordisk Clinical&quot;,
+    ISBLANK(TEXT(Escalation_Type__c))
+)</errorConditionFormula>
+    <errorDisplayField>Escalation_Type__c</errorDisplayField>
+    <errorMessage>Escalation Type is a required field for this activity type</errorMessage>
+</ValidationRule>

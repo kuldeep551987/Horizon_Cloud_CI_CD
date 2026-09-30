@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Horizon_Account_Type__c</fullName>
+    <label>Horizon Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Retailer</fullName>
+                <default>false</default>
+                <label>Direct Retailer</label>
+            </value>
+            <value>
+                <fullName>Indirect Retailer</fullName>
+                <default>false</default>
+                <label>Indirect Retailer</label>
+            </value>
+            <value>
+                <fullName>Central Bank</fullName>
+                <default>false</default>
+                <label>Central Bank</label>
+            </value>
+            <value>
+                <fullName>Firms</fullName>
+                <default>false</default>
+                <label>Firms</label>
+            </value>
+            <value>
+                <fullName>NRI</fullName>
+                <default>false</default>
+                <label>NRI</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <label>VIP</label>
+            </value>
+            <value>
+                <fullName>Walkin</fullName>
+                <default>false</default>
+                <label>Walkin</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>US CO</fullName>
+                <default>false</default>
+                <label>US CO</label>
+            </value>
+            <value>
+                <fullName>All Studies</fullName>
+                <default>false</default>
+                <label>All Studies</label>
+            </value>
+            <value>
+                <fullName>Investor</fullName>
+                <default>false</default>
+                <label>Investor</label>
+            </value>
+            <value>
+                <fullName>Investment Offering</fullName>
+                <default>false</default>
+                <label>Investment Offering</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Corporation</fullName>
+                <default>false</default>
+                <label>Corporation</label>
+            </value>
+            <value>
+                <fullName>Department</fullName>
+                <default>false</default>
+                <label>Department</label>
+            </value>
+            <value>
+                <fullName>Law Enforcement</fullName>
+                <default>false</default>
+                <label>Law Enforcement</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>University</fullName>
+                <default>false</default>
+                <label>University</label>
+            </value>
+            <value>
+                <fullName>All Suite</fullName>
+                <default>false</default>
+                <label>All Suite</label>
+            </value>
+            <value>
+                <fullName>Resort</fullName>
+                <default>false</default>
+                <label>Resort</label>
+            </value>
+            <value>
+                <fullName>Extended Stay</fullName>
+                <default>false</default>
+                <label>Extended Stay</label>
+            </value>
+            <value>
+                <fullName>Corporate/Transient</fullName>
+                <default>false</default>
+                <label>Corporate/Transient</label>
+            </value>
+            <value>
+                <fullName>Meeting/Convention</fullName>
+                <default>false</default>
+                <label>Meeting/Convention</label>
+            </value>
+            <value>
+                <fullName>S-Corp</fullName>
+                <default>false</default>
+                <label>S-Corp</label>
+            </value>
+            <value>
+                <fullName>Sole Proprietorship</fullName>
+                <default>false</default>
+                <label>Sole Proprietorship</label>
+            </value>
+            <value>
+                <fullName>LLC</fullName>
+                <default>false</default>
+                <label>LLC</label>
+            </value>
+            <value>
+                <fullName>LLP</fullName>
+                <default>false</default>
+                <label>LLP</label>
+            </value>
+            <value>
+                <fullName>Not-for-Profit</fullName>
+                <default>false</default>
+                <label>Not-for-Profit</label>
+            </value>
+            <value>
+                <fullName>Trust</fullName>
+                <default>false</default>
+                <label>Trust</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Housing Company</fullName>
+                <default>false</default>
+                <label>Housing Company</label>
+            </value>
+            <value>
+                <fullName>Contract Manufacturer</fullName>
+                <default>false</default>
+                <label>Contract Manufacturer</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Clinic</fullName>
+                <default>false</default>
+                <label>Clinic</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Impound Agency</fullName>
+                <default>false</default>
+                <label>Impound Agency</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>Wireline Operating Company</fullName>
+                <default>false</default>
+                <label>Wireline Operating Company</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Business Customer</fullName>
+                <default>false</default>
+                <label>Business Customer</label>
+            </value>
+            <value>
+                <fullName>Insurance Provider</fullName>
+                <default>false</default>
+                <label>Insurance Provider</label>
+            </value>
+            <value>
+                <fullName>Finance Provider</fullName>
+                <default>false</default>
+                <label>Finance Provider</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Vendor</fullName>
+                <default>false</default>
+                <label>Miscellaneous Vendor</label>
+            </value>
+            <value>
+                <fullName>Body Shop</fullName>
+                <default>false</default>
+                <label>Body Shop</label>
+            </value>
+            <value>
+                <fullName>Competing Dealer</fullName>
+                <default>false</default>
+                <label>Competing Dealer</label>
+            </value>
+            <value>
+                <fullName>Competing OEM</fullName>
+                <default>false</default>
+                <label>Competing OEM</label>
+            </value>
+            <value>
+                <fullName>Internet Lead Service</fullName>
+                <default>false</default>
+                <label>Internet Lead Service</label>
+            </value>
+            <value>
+                <fullName>ESP BSU</fullName>
+                <default>false</default>
+                <label>ESP BSU</label>
+            </value>
+            <value>
+                <fullName>Contact Us</fullName>
+                <default>false</default>
+                <label>Contact Us</label>
+            </value>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Shipper</fullName>
+                <default>false</default>
+                <label>Fulfillment Shipper</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>3rd Party Training Center</fullName>
+                <default>false</default>
+                <label>3rd Party Training Center</label>
+            </value>
+            <value>
+                <fullName>Corporate Training Center</fullName>
+                <default>false</default>
+                <label>Corporate Training Center</label>
+            </value>
+            <value>
+                <fullName>Convention Center</fullName>
+                <default>false</default>
+                <label>Convention Center</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>Venue</fullName>
+                <default>false</default>
+                <label>Venue</label>
+            </value>
+            <value>
+                <fullName>Subcontractor</fullName>
+                <default>false</default>
+                <label>Subcontractor</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Manufacturer Rep</fullName>
+                <default>false</default>
+                <label>Manufacturer Rep</label>
+            </value>
+            <value>
+                <fullName>ODM</fullName>
+                <default>false</default>
+                <label>ODM</label>
+            </value>
+            <value>
+                <fullName>Design House</fullName>
+                <default>false</default>
+                <label>Design House</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Broker</fullName>
+                <default>false</default>
+                <label>Broker</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Auto/Home Supply Store</fullName>
+                <default>false</default>
+                <label>Auto/Home Supply Store</label>
+            </value>
+            <value>
+                <fullName>Chain Drug</fullName>
+                <default>false</default>
+                <label>Chain Drug</label>
+            </value>
+            <value>
+                <fullName>Chain Food</fullName>
+                <default>false</default>
+                <label>Chain Food</label>
+            </value>
+            <value>
+                <fullName>Department Store</fullName>
+                <default>false</default>
+                <label>Department Store</label>
+            </value>
+            <value>
+                <fullName>Discount Store</fullName>
+                <default>false</default>
+                <label>Discount Store</label>
+            </value>
+            <value>
+                <fullName>Drug Wholesaler</fullName>
+                <default>false</default>
+                <label>Drug Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Grocery Store</fullName>
+                <default>false</default>
+                <label>Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Home Center</fullName>
+                <default>false</default>
+                <label>Home Center</label>
+            </value>
+            <value>
+                <fullName>Home Electronics Store</fullName>
+                <default>false</default>
+                <label>Home Electronics Store</label>
+            </value>
+            <value>
+                <fullName>Mass Merchandiser</fullName>
+                <default>false</default>
+                <label>Mass Merchandiser</label>
+            </value>
+            <value>
+                <fullName>Non-Store Retailer</fullName>
+                <default>false</default>
+                <label>Non-Store Retailer</label>
+            </value>
+            <value>
+                <fullName>On Premises</fullName>
+                <default>false</default>
+                <label>On Premises</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Supermarket</fullName>
+                <default>false</default>
+                <label>Supermarket</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Wholesale Club</fullName>
+                <default>false</default>
+                <label>Wholesale Club</label>
+            </value>
+            <value>
+                <fullName>HQ</fullName>
+                <default>false</default>
+                <label>HQ</label>
+            </value>
+            <value>
+                <fullName>Planning Group</fullName>
+                <default>false</default>
+                <label>Planning Group</label>
+            </value>
+            <value>
+                <fullName>Fire</fullName>
+                <default>false</default>
+                <label>Fire</label>
+            </value>
+            <value>
+                <fullName>Police</fullName>
+                <default>false</default>
+                <label>Police</label>
+            </value>
+            <value>
+                <fullName>Paramedics</fullName>
+                <default>false</default>
+                <label>Paramedics</label>
+            </value>
+            <value>
+                <fullName>Department Group</fullName>
+                <default>false</default>
+                <label>Department Group</label>
+            </value>
+            <value>
+                <fullName>Company</fullName>
+                <default>false</default>
+                <label>Company</label>
+            </value>
+            <value>
+                <fullName>Division</fullName>
+                <default>false</default>
+                <label>Division</label>
+            </value>
+            <value>
+                <fullName>Service Center</fullName>
+                <default>false</default>
+                <label>Service Center</label>
+            </value>
+            <value>
+                <fullName>Branch</fullName>
+                <default>false</default>
+                <label>Branch</label>
+            </value>
+            <value>
+                <fullName>Managed Care</fullName>
+                <default>false</default>
+                <label>Managed Care</label>
+            </value>
+            <value>
+                <fullName>Long Term Care</fullName>
+                <default>false</default>
+                <label>Long Term Care</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Account MovedOut</fullName>
+                <default>false</default>
+                <label>Account MovedOut</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Full Processing</fullName>
+                <default>false</default>
+                <label>Full Processing</label>
+            </value>
+            <value>
+                <fullName>Hosted only</fullName>
+                <default>false</default>
+                <label>Hosted only</label>
+            </value>
+            <value>
+                <fullName>Pega</fullName>
+                <default>false</default>
+                <label>Pega</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

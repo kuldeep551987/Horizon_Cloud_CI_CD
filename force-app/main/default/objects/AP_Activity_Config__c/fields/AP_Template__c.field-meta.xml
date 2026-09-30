@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AP_Template__c</fullName>
+    <label>AP Template</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AR / Termination Return</fullName>
+                <default>false</default>
+                <label>AR / Termination Return</label>
+            </value>
+            <value>
+                <fullName>RAVE External Account Creation</fullName>
+                <default>false</default>
+                <label>RAVE External Account Creation</label>
+            </value>
+            <value>
+                <fullName>RAVE Internal Account Creation</fullName>
+                <default>false</default>
+                <label>RAVE Internal Account Creation</label>
+            </value>
+            <value>
+                <fullName>DU File Pre-Verification</fullName>
+                <default>false</default>
+                <label>DU File Pre-Verification</label>
+            </value>
+            <value>
+                <fullName>DU File Verification</fullName>
+                <default>false</default>
+                <label>DU File Verification</label>
+            </value>
+            <value>
+                <fullName>Vendor Extract Verification</fullName>
+                <default>false</default>
+                <label>Vendor Extract Verification</label>
+            </value>
+            <value>
+                <fullName>Site CSR CD</fullName>
+                <default>false</default>
+                <label>Site CSR CD</label>
+            </value>
+            <value>
+                <fullName>Site Closeout</fullName>
+                <default>false</default>
+                <label>Site Closeout</label>
+            </value>
+            <value>
+                <fullName>Site Laptop Cleaning</fullName>
+                <default>false</default>
+                <label>Site Laptop Cleaning</label>
+            </value>
+            <value>
+                <fullName>Laptop Provisioning</fullName>
+                <default>false</default>
+                <label>Laptop Provisioning</label>
+            </value>
+            <value>
+                <fullName>Site Closeout - I*Net</fullName>
+                <default>false</default>
+                <label>Site Closeout - I*Net</label>
+            </value>
+            <value>
+                <fullName>Site Closeout - I*Net (EDC Form)</fullName>
+                <default>false</default>
+                <label>Site Closeout - I*Net (EDC Form)</label>
+            </value>
+            <value>
+                <fullName>Cleaning Report</fullName>
+                <default>false</default>
+                <label>Cleaning Report</label>
+            </value>
+            <value>
+                <fullName>I*NET Laptop Verification</fullName>
+                <default>false</default>
+                <label>I*NET Laptop Verification</label>
+            </value>
+            <value>
+                <fullName>I*NET Site Laptop Cleaning</fullName>
+                <default>false</default>
+                <label>I*NET Site Laptop Cleaning</label>
+            </value>
+            <value>
+                <fullName>Site Closeout - Transferred patient</fullName>
+                <default>false</default>
+                <label>Site Closeout - Transferred patient</label>
+            </value>
+            <value>
+                <fullName>User Management</fullName>
+                <default>false</default>
+                <label>User Management</label>
+            </value>
+            <value>
+                <fullName>User Deactivation</fullName>
+                <default>false</default>
+                <label>User Deactivation</label>
+            </value>
+            <value>
+                <fullName>User Update</fullName>
+                <default>false</default>
+                <label>User Update</label>
+            </value>
+            <value>
+                <fullName>Study Closeout</fullName>
+                <default>false</default>
+                <label>Study Closeout</label>
+            </value>
+            <value>
+                <fullName>Connectivity Provisioning</fullName>
+                <default>false</default>
+                <label>Connectivity Provisioning</label>
+            </value>
+            <value>
+                <fullName>Connectivity Cancellation</fullName>
+                <default>false</default>
+                <label>Connectivity Cancellation</label>
+            </value>
+            <value>
+                <fullName>Laptop Return</fullName>
+                <default>false</default>
+                <label>Laptop Return</label>
+            </value>
+            <value>
+                <fullName>Site Assessment</fullName>
+                <default>false</default>
+                <label>Site Assessment</label>
+            </value>
+            <value>
+                <fullName>iRelease General</fullName>
+                <default>false</default>
+                <label>iRelease General</label>
+            </value>
+            <value>
+                <fullName>iRelease GMP-DOCS</fullName>
+                <default>false</default>
+                <label>iRelease GMP-DOCS</label>
+            </value>
+            <value>
+                <fullName>iRelease GxP Drive</fullName>
+                <default>false</default>
+                <label>iRelease GxP Drive</label>
+            </value>
+            <value>
+                <fullName>iRelease Core</fullName>
+                <default>false</default>
+                <label>iRelease Core</label>
+            </value>
+            <value>
+                <fullName>iRelease IDS</fullName>
+                <default>false</default>
+                <label>iRelease IDS</label>
+            </value>
+            <value>
+                <fullName>iRelease Admin</fullName>
+                <default>false</default>
+                <label>iRelease Admin</label>
+            </value>
+            <value>
+                <fullName>iRelease Remove Access</fullName>
+                <default>false</default>
+                <label>iRelease Remove Access</label>
+            </value>
+            <value>
+                <fullName>iRelease Account</fullName>
+                <default>false</default>
+                <label>iRelease Account</label>
+            </value>
+            <value>
+                <fullName>iRelease iCS-NIRT</fullName>
+                <default>false</default>
+                <label>iRelease iCS-NIRT</label>
+            </value>
+            <value>
+                <fullName>iRelease Business</fullName>
+                <default>false</default>
+                <label>iRelease Business</label>
+            </value>
+            <value>
+                <fullName>SAP-Webscreen-UAM</fullName>
+                <default>false</default>
+                <label>SAP-Webscreen-UAM</label>
+            </value>
+            <value>
+                <fullName>NIRT-UAM-Activation</fullName>
+                <default>false</default>
+                <label>NIRT-UAM-Activation</label>
+            </value>
+            <value>
+                <fullName>NIRT-UAM-Inactivation</fullName>
+                <default>false</default>
+                <label>NIRT-UAM-Inactivation</label>
+            </value>
+            <value>
+                <fullName>NIRT-UAM-Modification</fullName>
+                <default>false</default>
+                <label>NIRT-UAM-Modification</label>
+            </value>
+            <value>
+                <fullName>iRelease - UAM - Training</fullName>
+                <default>false</default>
+                <label>iRelease - UAM - Training</label>
+            </value>
+            <value>
+                <fullName>RDC-Add Access-UAM</fullName>
+                <default>false</default>
+                <label>RDC-Add Access-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-New Account-UAM</fullName>
+                <default>false</default>
+                <label>RDC-New Account-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-Remove Access-UAM</fullName>
+                <default>false</default>
+                <label>RDC-Remove Access-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-Revoke Account-UAM</fullName>
+                <default>false</default>
+                <label>RDC-Revoke Account-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-CRA Account Revoke-UAM</fullName>
+                <default>false</default>
+                <label>RDC-CRA Account Revoke-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-CRA Add Access-UAM</fullName>
+                <default>false</default>
+                <label>RDC-CRA Add Access-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-CRA New Account-UAM</fullName>
+                <default>false</default>
+                <label>RDC-CRA New Account-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-CRA Remove Access-UAM</fullName>
+                <default>false</default>
+                <label>RDC-CRA Remove Access-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-IAP-UAM</fullName>
+                <default>false</default>
+                <label>RDC-IAP-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-Modification-UAM</fullName>
+                <default>false</default>
+                <label>RDC-Modification-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-CRA-UAM</fullName>
+                <default>false</default>
+                <label>RDC-CRA-UAM</label>
+            </value>
+            <value>
+                <fullName>RDC-Vendor-IAP</fullName>
+                <default>false</default>
+                <label>RDC-Vendor-IAP</label>
+            </value>
+            <value>
+                <fullName>iRelease IMP QA Drive</fullName>
+                <default>false</default>
+                <label>iRelease IMP QA Drive</label>
+            </value>
+            <value>
+                <fullName>iRelease Perform</fullName>
+                <default>false</default>
+                <label>iRelease Perform</label>
+            </value>
+            <value>
+                <fullName>iRelease Role Modification</fullName>
+                <default>false</default>
+                <label>iRelease Role Modification</label>
+            </value>
+            <value>
+                <fullName>Study Closure</fullName>
+                <default>false</default>
+                <label>Study Closure</label>
+            </value>
+            <value>
+                <fullName>iRelease VPH/ PH CA Update</fullName>
+                <default>false</default>
+                <label>iRelease VPH/ PH CA Update</label>
+            </value>
+            <value>
+                <fullName>iRelease VPH/PH</fullName>
+                <default>false</default>
+                <label>iRelease VPH/PH</label>
+            </value>
+            <value>
+                <fullName>Study Setup - Main</fullName>
+                <default>false</default>
+                <label>Study Setup - Main</label>
+            </value>
+            <value>
+                <fullName>Study Setup - Dispensation</fullName>
+                <default>false</default>
+                <label>Study Setup - Dispensation</label>
+            </value>
+            <value>
+                <fullName>Study Setup - UAM</fullName>
+                <default>false</default>
+                <label>Study Setup - UAM</label>
+            </value>
+            <value>
+                <fullName>Site Data Archival</fullName>
+                <default>false</default>
+                <label>Site Data Archival</label>
+            </value>
+            <value>
+                <fullName>RDC Database Lock</fullName>
+                <default>false</default>
+                <label>RDC Database Lock</label>
+            </value>
+            <value>
+                <fullName>Database Lock</fullName>
+                <default>false</default>
+                <label>Database Lock</label>
+            </value>
+            <value>
+                <fullName>Database Unlock/Relock</fullName>
+                <default>false</default>
+                <label>Database Unlock/Relock</label>
+            </value>
+            <value>
+                <fullName>NIRT-Site-Drug Return</fullName>
+                <default>false</default>
+                <label>NIRT-Site-Drug Return</label>
+            </value>
+            <value>
+                <fullName>Study Setup-Training-Update</fullName>
+                <default>false</default>
+                <label>Study Setup-Training-Update</label>
+            </value>
+            <value>
+                <fullName>Study Setup - Training</fullName>
+                <default>false</default>
+                <label>Study Setup - Training</label>
+            </value>
+            <value>
+                <fullName>NIRT-Site-Supplying Depot</fullName>
+                <default>false</default>
+                <label>NIRT-Site-Supplying Depot</label>
+            </value>
+            <value>
+                <fullName>Study Setup-Dispensation-Update</fullName>
+                <default>false</default>
+                <label>Study Setup-Dispensation-Update</label>
+            </value>
+            <value>
+                <fullName>Study Setup-Main-Update</fullName>
+                <default>false</default>
+                <label>Study Setup-Main-Update</label>
+            </value>
+            <value>
+                <fullName>NIRT System Roles Setup</fullName>
+                <default>false</default>
+                <label>NIRT System Roles Setup</label>
+            </value>
+            <value>
+                <fullName>NIRT-Site-Distribution Depot</fullName>
+                <default>false</default>
+                <label>NIRT-Site-Distribution Depot</label>
+            </value>
+            <value>
+                <fullName>Study Setup-UAM-Update</fullName>
+                <default>false</default>
+                <label>Study Setup-UAM-Update</label>
+            </value>
+            <value>
+                <fullName>Tablet Setup Call</fullName>
+                <default>false</default>
+                <label>Tablet Setup Call</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <label>Update</label>
+            </value>
+            <value>
+                <fullName>Tablet Provisioning</fullName>
+                <default>false</default>
+                <label>Tablet Provisioning</label>
+            </value>
+            <value>
+                <fullName>Tablet Return</fullName>
+                <default>false</default>
+                <label>Tablet Return</label>
+            </value>
+            <value>
+                <fullName>Site Assesment</fullName>
+                <default>false</default>
+                <label>Site Assesment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

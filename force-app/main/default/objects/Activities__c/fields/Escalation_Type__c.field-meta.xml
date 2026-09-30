@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Type__c</fullName>
+    <label>Escalation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Additional Issue</fullName>
+                <default>false</default>
+                <label>Additional Issue</label>
+            </value>
+            <value>
+                <fullName>Consult</fullName>
+                <default>false</default>
+                <label>Consult</label>
+            </value>
+            <value>
+                <fullName>Home Office</fullName>
+                <default>false</default>
+                <label>Home Office</label>
+            </value>
+            <value>
+                <fullName>Appointment</fullName>
+                <default>false</default>
+                <label>Appointment</label>
+            </value>
+            <value>
+                <fullName>Follow up</fullName>
+                <default>false</default>
+                <label>Follow up</label>
+            </value>
+            <value>
+                <fullName>Level II Technician</fullName>
+                <default>false</default>
+                <label>Level II Technician</label>
+            </value>
+            <value>
+                <fullName>Remote Session</fullName>
+                <default>false</default>
+                <label>Remote Session</label>
+            </value>
+            <value>
+                <fullName>TAS/SME</fullName>
+                <default>false</default>
+                <label>TAS/SME</label>
+            </value>
+            <value>
+                <fullName>UMA</fullName>
+                <default>false</default>
+                <label>UMA</label>
+            </value>
+            <value>
+                <fullName>UPDATE REQUEST</fullName>
+                <default>false</default>
+                <label>UPDATE REQUEST</label>
+            </value>
+            <value>
+                <fullName>Incoming Transfer</fullName>
+                <default>false</default>
+                <label>Incoming Transfer</label>
+            </value>
+            <value>
+                <fullName>REC VM @ C3i</fullName>
+                <default>false</default>
+                <label>REC VM @ C3i</label>
+            </value>
+            <value>
+                <fullName>REC VM @ C3I DR</fullName>
+                <default>false</default>
+                <label>REC VM @ C3I DR</label>
+            </value>
+            <value>
+                <fullName>REC VM @ Client VM Acct</fullName>
+                <default>false</default>
+                <label>REC VM @ Client VM Acct</label>
+            </value>
+            <value>
+                <fullName>REC VM @ Client VM After Hours</fullName>
+                <default>false</default>
+                <label>REC VM @ Client VM After Hours</label>
+            </value>
+            <value>
+                <fullName>Rec VM, no CB Req</fullName>
+                <default>false</default>
+                <label>Rec VM, no CB Req</label>
+            </value>
+            <value>
+                <fullName>Left VM - On Client System</fullName>
+                <default>false</default>
+                <label>Left VM - On Client System</label>
+            </value>
+            <value>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+                <label>Left Voicemail</label>
+            </value>
+            <value>
+                <fullName>Shipment Information</fullName>
+                <default>false</default>
+                <label>Shipment Information</label>
+            </value>
+            <value>
+                <fullName>Transfer</fullName>
+                <default>false</default>
+                <label>Transfer</label>
+            </value>
+            <value>
+                <fullName>Unresponsive - Closed 3 VMs</fullName>
+                <default>false</default>
+                <label>Unresponsive - Closed 3 VMs</label>
+            </value>
+            <value>
+                <fullName>Unresponsive ¿ No VMs Option</fullName>
+                <default>false</default>
+                <label>Unresponsive ¿ No VMs Option</label>
+            </value>
+            <value>
+                <fullName>Continuing Support</fullName>
+                <default>false</default>
+                <label>Continuing Support</label>
+            </value>
+            <value>
+                <fullName>Initial Support</fullName>
+                <default>false</default>
+                <label>Initial Support</label>
+            </value>
+            <value>
+                <fullName>Resolution Confirmation</fullName>
+                <default>false</default>
+                <label>Resolution Confirmation</label>
+            </value>
+            <value>
+                <fullName>Shipment Delay</fullName>
+                <default>false</default>
+                <label>Shipment Delay</label>
+            </value>
+            <value>
+                <fullName>Deskside</fullName>
+                <default>false</default>
+                <label>Deskside</label>
+            </value>
+            <value>
+                <fullName>Article Not Available</fullName>
+                <default>false</default>
+                <label>Article Not Available</label>
+            </value>
+            <value>
+                <fullName>Successful</fullName>
+                <default>false</default>
+                <label>Successful</label>
+            </value>
+            <value>
+                <fullName>Unsuccessful</fullName>
+                <default>false</default>
+                <label>Unsuccessful</label>
+            </value>
+            <value>
+                <fullName>Correction Needed</fullName>
+                <default>false</default>
+                <label>Correction Needed</label>
+            </value>
+            <value>
+                <fullName>Reviewed</fullName>
+                <default>false</default>
+                <label>Reviewed</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Not Offered</fullName>
+                <default>false</default>
+                <label>Not Offered</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Connected</fullName>
+                <default>false</default>
+                <label>Connected</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+            <value>
+                <fullName>Via Email</fullName>
+                <default>false</default>
+                <label>Via Email</label>
+            </value>
+            <value>
+                <fullName>DMD-C3391003</fullName>
+                <default>false</default>
+                <label>DMD-C3391003</label>
+            </value>
+            <value>
+                <fullName>Compensation</fullName>
+                <default>false</default>
+                <label>Compensation</label>
+            </value>
+            <value>
+                <fullName>Site Complaints</fullName>
+                <default>false</default>
+                <label>Site Complaints</label>
+            </value>
+            <value>
+                <fullName>Media - Legal</fullName>
+                <default>false</default>
+                <label>Media - Legal</label>
+            </value>
+            <value>
+                <fullName>FDA</fullName>
+                <default>false</default>
+                <label>FDA</label>
+            </value>
+            <value>
+                <fullName>Pediatric</fullName>
+                <default>false</default>
+                <label>Pediatric</label>
+            </value>
+            <value>
+                <fullName>Site Personnel Inquiries</fullName>
+                <default>false</default>
+                <label>Site Personnel Inquiries</label>
+            </value>
+            <value>
+                <fullName>Russia/Ukraine</fullName>
+                <default>false</default>
+                <label>Russia/Ukraine</label>
+            </value>
+            <value>
+                <fullName>Spotfire</fullName>
+                <default>false</default>
+                <label>Spotfire</label>
+            </value>
+            <value>
+                <fullName>iConnect</fullName>
+                <default>false</default>
+                <label>iConnect</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Info Seeker</fullName>
+                <default>false</default>
+                <label>Info Seeker</label>
+            </value>
+            <value>
+                <fullName>Info Seeker 2</fullName>
+                <default>false</default>
+                <label>Info Seeker 2</label>
+            </value>
+            <value>
+                <fullName>Info Seeker 3</fullName>
+                <default>false</default>
+                <label>Info Seeker 3</label>
+            </value>
+            <value>
+                <fullName>888-477-2425- Talapro-3</fullName>
+                <default>false</default>
+                <label>888-477-2425- Talapro-3</label>
+            </value>
+            <value>
+                <fullName>888-851-0018 - MagnetisMM</fullName>
+                <default>false</default>
+                <label>888-851-0018 - MagnetisMM</label>
+            </value>
+            <value>
+                <fullName>833-751-4343 - HCP</fullName>
+                <default>false</default>
+                <label>833-751-4343 - HCP</label>
+            </value>
+            <value>
+                <fullName>888-225-0115-T2DM</fullName>
+                <default>false</default>
+                <label>888-225-0115-T2DM</label>
+            </value>
+            <value>
+                <fullName>888-345-5127-Tranquillo-2</fullName>
+                <default>false</default>
+                <label>888-345-5127-Tranquillo-2</label>
+            </value>
+            <value>
+                <fullName>888-477-2431- Vitiligo</fullName>
+                <default>false</default>
+                <label>888-477-2431- Vitiligo</label>
+            </value>
+            <value>
+                <fullName>833-751-5252 -Zoster</fullName>
+                <default>false</default>
+                <label>833-751-5252 -Zoster</label>
+            </value>
+            <value>
+                <fullName>866-866-0332 - Veritac-2</fullName>
+                <default>false</default>
+                <label>866-866-0332 - Veritac-2</label>
+            </value>
+            <value>
+                <fullName>866-866-0007 - Sickle Cell</fullName>
+                <default>false</default>
+                <label>866-866-0007 - Sickle Cell</label>
+            </value>
+            <value>
+                <fullName>866-866-0066- Atopic Derm</fullName>
+                <default>false</default>
+                <label>866-866-0066- Atopic Derm</label>
+            </value>
+            <value>
+                <fullName>833-751-7676 - Cachexia</fullName>
+                <default>false</default>
+                <label>833-751-7676 - Cachexia</label>
+            </value>
+            <value>
+                <fullName>888-225-0143-Covid_Flu</fullName>
+                <default>false</default>
+                <label>888-225-0143-Covid_Flu</label>
+            </value>
+            <value>
+                <fullName>888-445-2688 - Ped Bivalent</fullName>
+                <default>false</default>
+                <label>888-445-2688 - Ped Bivalent</label>
+            </value>
+            <value>
+                <fullName>888-345-5108 – AD002</fullName>
+                <default>false</default>
+                <label>888-345-5108 – AD002</label>
+            </value>
+            <value>
+                <fullName>866-778-2323-CPB(6m-23m)</fullName>
+                <default>false</default>
+                <label>866-778-2323-CPB(6m-23m)</label>
+            </value>
+            <value>
+                <fullName>800-596-7002-CPB(2y-4y)</fullName>
+                <default>false</default>
+                <label>800-596-7002-CPB(2y-4y)</label>
+            </value>
+            <value>
+                <fullName>866-866-0154 - Shine-HR</fullName>
+                <default>false</default>
+                <label>866-866-0154 - Shine-HR</label>
+            </value>
+            <value>
+                <fullName>800-680-3221 - Seagen-002</fullName>
+                <default>false</default>
+                <label>800-680-3221 - Seagen-002</label>
+            </value>
+            <value>
+                <fullName>866-866-0335-Veritac3</fullName>
+                <default>false</default>
+                <label>866-866-0335-Veritac3</label>
+            </value>
+            <value>
+                <fullName>833-751-6767-My(O)path</fullName>
+                <default>false</default>
+                <label>833-751-6767-My(O)path</label>
+            </value>
+            <value>
+                <fullName>833-877-8333-Tactive-K</fullName>
+                <default>false</default>
+                <label>833-877-8333-Tactive-K</label>
+            </value>
+            <value>
+                <fullName>866-311-6354 - Migraine</fullName>
+                <default>false</default>
+                <label>866-311-6354 - Migraine</label>
+            </value>
+            <value>
+                <fullName>800-390-3737 Amelie RSV Vaccine</fullName>
+                <default>false</default>
+                <label>800-390-3737 Amelie RSV Vaccine</label>
+            </value>
+            <value>
+                <fullName>800-596-7004 Covid19 Flu-Vaccine Stratego</fullName>
+                <default>false</default>
+                <label>800-596-7004 Covid19 Flu-Vaccine Stratego</label>
+            </value>
+            <value>
+                <fullName>E-mail Template</fullName>
+                <default>false</default>
+                <label>E-mail Template</label>
+            </value>
+            <value>
+                <fullName>CQ Fluency</fullName>
+                <default>false</default>
+                <label>CQ Fluency</label>
+            </value>
+            <value>
+                <fullName>TransPerfect</fullName>
+                <default>false</default>
+                <label>TransPerfect</label>
+            </value>
+            <value>
+                <fullName>Compliment</fullName>
+                <default>false</default>
+                <label>Compliment</label>
+            </value>
+            <value>
+                <fullName>Dislike</fullName>
+                <default>false</default>
+                <label>Dislike</label>
+            </value>
+            <value>
+                <fullName>Escalate - Tier 2</fullName>
+                <default>false</default>
+                <label>Escalate - Tier 2</label>
+            </value>
+            <value>
+                <fullName>Deskside - Parsippany</fullName>
+                <default>false</default>
+                <label>Deskside - Parsippany</label>
+            </value>
+            <value>
+                <fullName>Deskside - Edison</fullName>
+                <default>false</default>
+                <label>Deskside - Edison</label>
+            </value>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>IMS</fullName>
+                <default>false</default>
+                <label>IMS</label>
+            </value>
+            <value>
+                <fullName>IncentiveCompensation</fullName>
+                <default>false</default>
+                <label>IncentiveCompensation</label>
+            </value>
+            <value>
+                <fullName>DataGovernance</fullName>
+                <default>false</default>
+                <label>DataGovernance</label>
+            </value>
+            <value>
+                <fullName>Alignments</fullName>
+                <default>false</default>
+                <label>Alignments</label>
+            </value>
+            <value>
+                <fullName>DSI Internal Data Governance</fullName>
+                <default>false</default>
+                <label>DSI Internal Data Governance</label>
+            </value>
+            <value>
+                <fullName>Tier2-Salix</fullName>
+                <default>false</default>
+                <label>Tier2-Salix</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <label>Update</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

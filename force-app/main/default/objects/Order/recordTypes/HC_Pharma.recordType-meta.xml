@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Pharma</fullName>
+    <active>false</active>
+    <label>HC Pharma</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Accessory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aruba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRTC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete Reconfiguration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Docking Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Help Desk Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Office Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Transaction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigator Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%2FStolen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hire - Refurbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hire Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POA No-Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POA Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POA Return to Inventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Password Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refresh - Refurbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollout Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollout Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollout Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shell Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WUE - Refurbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>l</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Credit_Assignment_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crediting Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Post Validation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Run Assignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Error</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Currency__c</picklist>
+        <values>
+            <fullName>AED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DKK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HKD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ILS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MXN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MYR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZAR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>Clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Glovia_Order_Status__c</picklist>
+        <values>
+            <fullName>Approval Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future Ship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Invoice Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pull Inventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOC Future Ship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ship From SOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ship from Pittston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Glovia_Shipping_Carrier__c</picklist>
+        <values>
+            <fullName>Airborne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Dart Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DHL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sagawa Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamato</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ship_Via__c</picklist>
+        <values>
+            <fullName>02R02 FX Ground Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A01-ABX Exp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A01R-ABX Exp W%2FRet Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A01S-ABX Exp Sat Del</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A01SR-ABX Exp w%2FRet Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A02-ABX Exp Ltr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A02R-ABX Exp Ltr W%2FRet Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A03-ABX 2Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A03R-ABX 2Day W%2FRet Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A04-ABX 2Day Ltr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A04R-ABX 2Day Ltr W%2FRet Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A05-ABX Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airborne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D01-DHL Worldwide Pri Exp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D01-DHL Worldwide Pri Exp%28NON-EU%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D04-DHL Ovrnite PCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D04R-DHL Ovrnite PCK w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D04S-DHL Sat PCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D04SR-DHL Sat PCK w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D05-DHL Ovrnite Let</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D05R-DHL Ovrnite Let w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D05S-DHL Sat Let</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D05SR-DHL Sat Let w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1-DHL DOMESTIC EXPRESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D10-DHL USA 2nd Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DHL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMY SELECT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F01-FX Pri Ovnght</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F01S-FX Saturday Del</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F02-FX Pri Ovnght Env</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F03-FX Pri Ovnght Pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F04-FX Pri Ovnght Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F06-FX Stn Ovnght</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F11-FX 2nd Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F14-FX EX SVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F14-FX EXP SVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F18-FX First Ovnght</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Shipper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U01-UPS Next Day Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U01R-UPS Next Day Air w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U01S-UPS ND Air Sat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U01S-UPS Next Day Air Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U07-UPS 2nd Day Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U07R-UPS 2nd Day Air w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U11-UPS Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U11R-UPS Ground w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U21-UPS 3 Day Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U21R-UPS 3 Day Select w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U35-UPS 2nd Day Air A%2EM%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U35R-UPS 2nd Day Air A%2EM%2E w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U43-UPS Next Day Air Saver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U43R-UPS Next Day Air Saver RL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U49-UPS Ship Exp Svc Intl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U49R-UPS Ship Exp Svc Intl RL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U54-UPS Ship Expd Svc Intl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U54R-UPS Ship Expd Svc Intl RL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U60-UPS Early A%2EM%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U60R-UPS Early A%2EM%2E w%2FRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U61-UPS Early A%2EM%2E Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U61R-UPS Early A%2EM%2E Letter RL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U63-UPS Ship Exp%2B Svc Intl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U63R-UPS Ship Exp%2B Svc Intl RL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS international</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Category__c</picklist>
+        <values>
+            <fullName>Boston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brazil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dalian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fukuoka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POC-Pittston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pittston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sao Leopoldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seaport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sofia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waltham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wayne</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

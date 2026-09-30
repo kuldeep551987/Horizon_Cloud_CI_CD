@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Method__c</fullName>
+    <label>Contact Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Web - Announcements</fullName>
+                <default>false</default>
+                <label>Web - Announcements</label>
+            </value>
+            <value>
+                <fullName>Web - Intentions</fullName>
+                <default>false</default>
+                <label>Web - Intentions</label>
+            </value>
+            <value>
+                <fullName>Web - Life Events</fullName>
+                <default>false</default>
+                <label>Web - Life Events</label>
+            </value>
+            <value>
+                <fullName>Contact Call</fullName>
+                <default>false</default>
+                <label>Contact Call</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Wireless Message</fullName>
+                <default>false</default>
+                <label>Wireless Message</label>
+            </value>
+            <value>
+                <fullName>Web - Outbound</fullName>
+                <default>false</default>
+                <label>Web - Outbound</label>
+            </value>
+            <value>
+                <fullName>Phone - Outbound</fullName>
+                <default>false</default>
+                <label>Phone - Outbound</label>
+            </value>
+            <value>
+                <fullName>Web - Inbound</fullName>
+                <default>false</default>
+                <label>Web - Inbound</label>
+            </value>
+            <value>
+                <fullName>Phone - Inbound</fullName>
+                <default>false</default>
+                <label>Phone - Inbound</label>
+            </value>
+            <value>
+                <fullName>Channel</fullName>
+                <default>false</default>
+                <label>Channel</label>
+            </value>
+            <value>
+                <fullName>Direct Sales</fullName>
+                <default>false</default>
+                <label>Direct Sales</label>
+            </value>
+            <value>
+                <fullName>Channel Sales</fullName>
+                <default>false</default>
+                <label>Channel Sales</label>
+            </value>
+            <value>
+                <fullName>Media: Billboard</fullName>
+                <default>false</default>
+                <label>Media: Billboard</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Indirect</fullName>
+                <default>false</default>
+                <label>Indirect</label>
+            </value>
+            <value>
+                <fullName>Media: Print Ad</fullName>
+                <default>false</default>
+                <label>Media: Print Ad</label>
+            </value>
+            <value>
+                <fullName>Media: Press Release</fullName>
+                <default>false</default>
+                <label>Media: Press Release</label>
+            </value>
+            <value>
+                <fullName>Media: Radio</fullName>
+                <default>false</default>
+                <label>Media: Radio</label>
+            </value>
+            <value>
+                <fullName>Media: TV</fullName>
+                <default>false</default>
+                <label>Media: TV</label>
+            </value>
+            <value>
+                <fullName>Media: Seminar</fullName>
+                <default>false</default>
+                <label>Media: Seminar</label>
+            </value>
+            <value>
+                <fullName>Media: Trade Show</fullName>
+                <default>false</default>
+                <label>Media: Trade Show</label>
+            </value>
+            <value>
+                <fullName>Sales Visit</fullName>
+                <default>false</default>
+                <label>Sales Visit</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Fax</fullName>
+                <default>false</default>
+                <label>Fax</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Package</fullName>
+                <default>false</default>
+                <label>Package</label>
+            </value>
+            <value>
+                <fullName>Pager</fullName>
+                <default>false</default>
+                <label>Pager</label>
+            </value>
+            <value>
+                <fullName>Email - Confirm Out</fullName>
+                <default>false</default>
+                <label>Email - Confirm Out</label>
+            </value>
+            <value>
+                <fullName>Email - Confirm In</fullName>
+                <default>false</default>
+                <label>Email - Confirm In</label>
+            </value>
+            <value>
+                <fullName>Email - Welcome</fullName>
+                <default>false</default>
+                <label>Email - Welcome</label>
+            </value>
+            <value>
+                <fullName>Newspaper</fullName>
+                <default>false</default>
+                <label>Newspaper</label>
+            </value>
+            <value>
+                <fullName>Qtr Page</fullName>
+                <default>false</default>
+                <label>Qtr Page</label>
+            </value>
+            <value>
+                <fullName>Half Page</fullName>
+                <default>false</default>
+                <label>Half Page</label>
+            </value>
+            <value>
+                <fullName>Full Page</fullName>
+                <default>false</default>
+                <label>Full Page</label>
+            </value>
+            <value>
+                <fullName>Insert</fullName>
+                <default>false</default>
+                <label>Insert</label>
+            </value>
+            <value>
+                <fullName>Magazine</fullName>
+                <default>false</default>
+                <label>Magazine</label>
+            </value>
+            <value>
+                <fullName>Margin</fullName>
+                <default>false</default>
+                <label>Margin</label>
+            </value>
+            <value>
+                <fullName>Cover</fullName>
+                <default>false</default>
+                <label>Cover</label>
+            </value>
+            <value>
+                <fullName>30s Spot</fullName>
+                <default>false</default>
+                <label>30s Spot</label>
+            </value>
+            <value>
+                <fullName>60s Spot</fullName>
+                <default>false</default>
+                <label>60s Spot</label>
+            </value>
+            <value>
+                <fullName>120s</fullName>
+                <default>false</default>
+                <label>120s</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>10s Spot</fullName>
+                <default>false</default>
+                <label>10s Spot</label>
+            </value>
+            <value>
+                <fullName>20s Spot</fullName>
+                <default>false</default>
+                <label>20s Spot</label>
+            </value>
+            <value>
+                <fullName>30s</fullName>
+                <default>false</default>
+                <label>30s</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Banner</fullName>
+                <default>false</default>
+                <label>Banner</label>
+            </value>
+            <value>
+                <fullName>Pop-up</fullName>
+                <default>false</default>
+                <label>Pop-up</label>
+            </value>
+            <value>
+                <fullName>Search Engine</fullName>
+                <default>false</default>
+                <label>Search Engine</label>
+            </value>
+            <value>
+                <fullName>Outdoor</fullName>
+                <default>false</default>
+                <label>Outdoor</label>
+            </value>
+            <value>
+                <fullName>Bilboard</fullName>
+                <default>false</default>
+                <label>Bilboard</label>
+            </value>
+            <value>
+                <fullName>Poster</fullName>
+                <default>false</default>
+                <label>Poster</label>
+            </value>
+            <value>
+                <fullName>Signage</fullName>
+                <default>false</default>
+                <label>Signage</label>
+            </value>
+            <value>
+                <fullName>Display</fullName>
+                <default>false</default>
+                <label>Display</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <label>Vehicle</label>
+            </value>
+            <value>
+                <fullName>Movie</fullName>
+                <default>false</default>
+                <label>Movie</label>
+            </value>
+            <value>
+                <fullName>Flyer</fullName>
+                <default>false</default>
+                <label>Flyer</label>
+            </value>
+            <value>
+                <fullName>Card</fullName>
+                <default>false</default>
+                <label>Card</label>
+            </value>
+            <value>
+                <fullName>Tagline</fullName>
+                <default>false</default>
+                <label>Tagline</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>Pre-recorded</fullName>
+                <default>false</default>
+                <label>Pre-recorded</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Booth</fullName>
+                <default>false</default>
+                <label>Booth</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Industry</fullName>
+                <default>false</default>
+                <label>Industry</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Discount</fullName>
+                <default>false</default>
+                <label>Discount</label>
+            </value>
+            <value>
+                <fullName>Coupon</fullName>
+                <default>false</default>
+                <label>Coupon</label>
+            </value>
+            <value>
+                <fullName>Offer</fullName>
+                <default>false</default>
+                <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Sample</fullName>
+                <default>false</default>
+                <label>Sample</label>
+            </value>
+            <value>
+                <fullName>Telephone</fullName>
+                <default>false</default>
+                <label>Telephone</label>
+            </value>
+            <value>
+                <fullName>Landing Site</fullName>
+                <default>false</default>
+                <label>Landing Site</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Web - Discount</fullName>
+                <default>false</default>
+                <label>Web - Discount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

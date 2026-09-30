@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C3I_Novartis_L2_Study_Restriction</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+      Account__r.Name = &quot;Novartis&quot;,
+    $Permission.Clinical_Allowed_Positions,
+    OR(
+        ISCHANGED(Study_Name__c),
+        ISCHANGED(Protocol__c ),
+        ISCHANGED(IRT_Usage__c ),
+        ISCHANGED(Site_Activation__c),
+        ISCHANGED(Start_Training__c),
+        ISCHANGED(Study_Allocation__c)
+
+        
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Study_Name__c</errorDisplayField>
+    <errorMessage>Novartis Level 2 users do not have access to update the study Name, Protocol#, IRT Usage, Site Activation, Start Training Date and Study Allocation Fields.</errorMessage>
+</ValidationRule>

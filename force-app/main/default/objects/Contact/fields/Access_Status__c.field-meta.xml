@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Access_Status__c</fullName>
+    <label>Access Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not requested</fullName>
+                <default>false</default>
+                <label>Not requested</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>false</default>
+                <label>Requested</label>
+            </value>
+            <value>
+                <fullName>Granted to training</fullName>
+                <default>false</default>
+                <label>Granted to training</label>
+            </value>
+            <value>
+                <fullName>Initial login successful</fullName>
+                <default>false</default>
+                <label>Initial login successful</label>
+            </value>
+            <value>
+                <fullName>Granted to production</fullName>
+                <default>false</default>
+                <label>Granted to production</label>
+            </value>
+            <value>
+                <fullName>Revoked</fullName>
+                <default>false</default>
+                <label>Revoked</label>
+            </value>
+            <value>
+                <fullName>System Disabled</fullName>
+                <default>false</default>
+                <label>System Disabled</label>
+            </value>
+            <value>
+                <fullName>Account Created, QC pending</fullName>
+                <default>false</default>
+                <label>Account Created, QC pending</label>
+            </value>
+            <value>
+                <fullName>Account Creation Requested</fullName>
+                <default>false</default>
+                <label>Account Creation Requested</label>
+            </value>
+            <value>
+                <fullName>Account Deactivated by C3i</fullName>
+                <default>false</default>
+                <label>Account Deactivated by C3i</label>
+            </value>
+            <value>
+                <fullName>Account Deactivation Requested</fullName>
+                <default>false</default>
+                <label>Account Deactivation Requested</label>
+            </value>
+            <value>
+                <fullName>Credentials Sent</fullName>
+                <default>false</default>
+                <label>Credentials Sent</label>
+            </value>
+            <value>
+                <fullName>Invited to eLearning</fullName>
+                <default>false</default>
+                <label>Invited to eLearning</label>
+            </value>
+            <value>
+                <fullName>On Hold per sponsor</fullName>
+                <default>false</default>
+                <label>On Hold per sponsor</label>
+            </value>
+            <value>
+                <fullName>Successful Completion of eLearning</fullName>
+                <default>false</default>
+                <label>Successful Completion of eLearning</label>
+            </value>
+            <value>
+                <fullName>eLearning Invitation Requested</fullName>
+                <default>false</default>
+                <label>eLearning Invitation Requested</label>
+            </value>
+            <value>
+                <fullName>Consent to F/U</fullName>
+                <default>false</default>
+                <label>Consent to F/U</label>
+            </value>
+            <value>
+                <fullName>No Follow up Required</fullName>
+                <default>false</default>
+                <label>No Follow up Required</label>
+            </value>
+            <value>
+                <fullName>Declined Consent</fullName>
+                <default>false</default>
+                <label>Declined Consent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C3i_Pfizer_Escalation_Type_Required_VR_1</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+     Account_Name__c  = &quot;Pfizer Clinical&quot;,
+    ISPICKVAL(Status__c, &quot;Done&quot;),
+    ISPICKVAL(Escalation_Type__c, &quot;&quot;),
+    OR(
+        ISPICKVAL(Type__c, &quot;Email Inbound&quot;),
+        ISPICKVAL(Type__c, &quot;Follow Up&quot;),
+        ISPICKVAL(Type__c, &quot;Escalate-UIMS&quot;),
+        ISPICKVAL(Type__c, &quot;Deescalate-UIMS&quot;),
+        ISPICKVAL(Type__c, &quot;Create Site&quot;),
+        ISPICKVAL(Type__c, &quot;Assign Privileges in UMT&quot;),
+        ISPICKVAL(Type__c, &quot;EXOSTAR - Subscribe to App&quot;),
+        ISPICKVAL(Type__c, &quot;EXOSTAR - Suspend Access&quot;),
+        ISPICKVAL(Type__c, &quot;Mark Site as not participating&quot;),
+        ISPICKVAL(Type__c, &quot;Modify Site&quot;),
+        ISPICKVAL(Type__c, &quot;Quality Check&quot;),
+        ISPICKVAL(Type__c, &quot;Rapidaccess Request&quot;),
+        ISPICKVAL(Type__c, &quot;Re-instate site&quot;),
+        ISPICKVAL(Type__c, &quot;Role Addition/Modification&quot;),
+        ISPICKVAL(Type__c, &quot;Spotfire Check&quot;),
+        ISPICKVAL(Type__c, &quot;Exostar ID check&quot;),
+        ISPICKVAL(Type__c, &quot;Escalate - ME &amp; Unbinding&quot;),
+        ISPICKVAL(Type__c, &quot;Deescalate - ME &amp; Unbinding&quot;),
+        ISPICKVAL(Type__c, &quot;ME Resolution via Conference&quot;),
+        ISPICKVAL(Type__c, &quot;Country&quot;),
+        ISPICKVAL(Type__c, &quot;Assign Privileges in REDCap&quot;),
+        ISPICKVAL(Type__c, &quot;SIP Access Check&quot;),
+        ISPICKVAL(Type__c, &quot;Check IMS Account&quot;),
+        ISPICKVAL(Type__c, &quot;Assign Privileges in EIP&quot;),
+        ISPICKVAL(Type__c, &quot;InForm UAT access&quot;),
+        ISPICKVAL(Type__c, &quot;InForm Prod access&quot;),
+        ISPICKVAL(Type__c, &quot;Insufficient Info&quot;)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Escalation_Type__c</errorDisplayField>
+    <errorMessage>Escalation Type is a required field for this activity type. Please select the Escalation Type to the activity.</errorMessage>
+</ValidationRule>

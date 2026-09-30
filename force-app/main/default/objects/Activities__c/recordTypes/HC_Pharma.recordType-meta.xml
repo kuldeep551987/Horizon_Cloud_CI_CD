@@ -1,0 +1,2237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Pharma</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Activity_Highlight_Panel</compactLayoutAssignment>
+    <description>This record type is used for pharma.</description>
+    <label>HC Pharma</label>
+    <picklistValues>
+        <picklist>Display_In__c</picklist>
+        <values>
+            <fullName>Activities Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assignment and Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendar and Activities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communication and Activities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Position and Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Do and Activities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Duration__c</picklist>
+        <values>
+            <fullName>120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalation_Type__c</picklist>
+        <values>
+            <fullName>3rd Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800-390-3737 Amelie RSV Vaccine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800-596-7002-CPB%282y-4y%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800-596-7004 Covid19 Flu-Vaccine Stratego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800-680-3221 - Seagen-002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>833-751-4343 - HCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>833-751-5252 -Zoster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>833-751-6767-My%28O%29path</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>833-751-7676 - Cachexia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>833-877-8333-Tactive-K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-311-6354 - Migraine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-778-2323-CPB%286m-23m%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-866-0007 - Sickle Cell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-866-0066- Atopic Derm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-866-0154 - Shine-HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-866-0332 - Veritac-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>866-866-0335-Veritac3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-225-0115-T2DM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-225-0143-Covid_Flu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-345-5108 %E2%80%93 AD002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-345-5127-Tranquillo-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-445-2688 - Ped Bivalent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-477-2425- Talapro-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-477-2431- Vitiligo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>888-851-0018 - MagnetisMM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alignments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Article Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CQ Fluency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Continuing Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correction Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMD-C3391003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSI Internal Data Governance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DataGovernance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deskside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deskside - Edison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deskside - Parsippany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dislike</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-mail Template</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IncentiveCompensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incoming Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Seeker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Seeker 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Seeker 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left VM - On Client System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level II Technician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media - Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC VM %40 C3I DR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC VM %40 C3i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC VM %40 Client VM Acct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC VM %40 Client VM After Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rec VM%2C no CB Req</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote Session</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolution Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russia%2FUkraine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Complaints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Personnel Inquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotfire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS%2FSME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier2-Salix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TransPerfect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPDATE REQUEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive %C2%BF No VMs Option</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive - Closed 3 VMs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsuccessful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iConnect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Call_Disposition__c</picklist>
+        <values>
+            <fullName>Completed Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hang up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Completed Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Call_Source__c</picklist>
+        <values>
+            <fullName>Call - Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call - Outbound</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Call_Topic__c</picklist>
+        <values>
+            <fullName>%28%21%29 Aggressive Caller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Bomb Threat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Disaster Procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Injury Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Lawsuit DHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Lawsuit TDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Legal Matters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Lost%26Found%2C Badges%26Keys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Regulatory Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Site Emer %26 Evac Coord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Site Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Suicide Threat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28%21%29 Threatening Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28AE%29 Gilead Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28BUS%29 Grants and Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28BUS%29 Partner Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28BUS%29 Policies %26 Proc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28BUS%29 Records Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28CLUB G%29 Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28ENV HEALTH %26 SFTY%29 Erg Eval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28ENV HEALTH %26 SFTY%29 Work Comp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28FAC%29 Catering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28FAC%29 Commuter Checks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28FAC%29 Conference Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28FAC%29 Site Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28FIN%29 Exp Rep%2C Check Req%26Inv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GEN%29 Opt-Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GEN%29 Unidentified Topic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GEN%29 Wrong Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28HR%29 HR%2C Benefits%2C Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28IT%29 Software%2C Hardware %26 Sys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28LOBBY%29 Check-In %26 Directions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MED REQ%29 Discontinued Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MED REQ%29 Dist%2FWholesaler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MED REQ%29 Gilead Prod Samples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MED REQ%29 Non-Gilead Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MI%2FCLIN%29 Canada Inquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MI%2FCLIN%29 Clinical Trials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MI%2FCLIN%29 MI - Gilead Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28MI%2FCLIN%29 MI - KITE Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PATIENT SUPP%29 Gilead Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PATIENT SUPP%29 KITE Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PATIENT SUPP%29 Trodelvy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PAY%29 Dir Deposit %26 Paychecks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PAY%29 Time Cards%2C PTO Accrual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PAY%29 Withholding Allowances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PQC%29 Gilead Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PUB%29 Feedback%2FMedia%2FInvestor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PURCH%29 Office Supp %26 Merch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PURCH%29 Purch Orders %26 Reqs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28SALES%29 Field Rep Req</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28SALES%29 Marketing Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28SHIP%2FREC%29 Carrier Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28SHIP%2FREC%29 Shipment Inquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28STK SVCS%29 Stock%2C RSU%26 ESPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRANSFER%29 C-Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRANSFER%29 Gilead Personnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRANSFER%29 Verify Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRVL%29 Business Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRVL%29 Concur%2C Trvl%26Exp Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28TRVL%29 Transport Req</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Call_Type__c</picklist>
+        <values>
+            <fullName>Employee Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilead Non-Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilead Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Procedure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Caller_Type__c</picklist>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilead Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare Professional %28HCP%2FHBP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketer%2FVOE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Inquiry_Request__c</picklist>
+        <values>
+            <fullName>Aggressive caller identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Other Gilead Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All emergencies%2C accidents%2C illnesses%2C life threatening situations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asegua Co-Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bomb threat received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carriers inquiry on where to deliver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayston Access Program %28CAP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Trials for Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Pay Card Program %28Ranexa%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Pay Card Program HCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Pay Card Program HIV %26 HBV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoPay Card Program Cayston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoPay Card Program Letairis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoPay Card Program Vemlidy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoPay Card Program Zydelig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumers threatening legal action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directions to Foster City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Ergonomic Evaluation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Inquiry for HR%2C Benefits%2C Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee assistance with Concur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee assistance with catering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee assistance with commuter checks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee assistance with conference setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee assistance with site maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employees requesting expense reports or checks%3B Suppliers for invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employees requiring travel assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employess inquiry on Club G access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDA%2C Law Enforcement%2C Health Agencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilead Field Rep Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries %28Ranexa%29 - Use FAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries %28Vistide%29 - Use FAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries %28Vitekta%29 - Use FAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries Ambisome or Lexiscan %28Astellas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries Macugen %28Bausch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries Momelotinib %28Sierra Oncology%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries Tamiflu %28Roche%2FGenentech%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiries related to Worker%27s Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry %28Trade Operations%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for Corporate Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for Disaster procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for Office supplies or merchandise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for Workers Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for direct deposits or paychecks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for lost %26 found%2Fbadges %26 keys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for policies %26 procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for purchase orders or requisitions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for record management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for site security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for stock options%2C rsu %26 employee stock purchase program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for time cards or PTO accrual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry for witholding allowances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry on DHS Lawsuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry on Shipments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry on TDF Lawsuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry pertaining to Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry to Public Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KITEKONNECT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letairis Education %26 Access Program %28LEAP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letairis REMS Requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letairis Samples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Employee Inquiry for HR%2C Benefits%2C Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Employee inquiry for employment verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opt-out Gilead communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARI Customer Service %28Altera%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pamphlets%2C Pill Models HCP Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personnel at Gilead assistance with transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranexa Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranexa Samples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Related to legal matters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report TC%2FPQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for C-Suite Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Compassiontate Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Generic Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Raw Material%2FDrug Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for Grants or Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for HCP Locator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for HCP Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for KITE Medical Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for SDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for Trodelvy Medical Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for US Medical Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests for software%2C hardware %26 systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy List %28Cayston%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy List %28Letairis%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suicide threat received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Path</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Threatening call received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer to Gilead personnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trodelvy Access Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Advancing Access %28HIV %26 HBV Products%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unidentified call topic identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visitor inquiry for check-in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number Identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zydelig Access Connect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Product_Type__c</picklist>
+        <values>
+            <fullName>Antifungal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorized Generic Use Harvoni%2FEpclusa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COVID-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiovascular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cystic Fibrosis %28CF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepatitis B Virus %28HBV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepatitis C Virus %28HCV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Immunodeficiency Virus %28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inflammation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonalcoholic Steatohepatitis %28NASH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology %28ONC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Biliary Cholangitis %28P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulmonary Arterial Hypertensio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Product__c</picklist>
+        <values>
+            <fullName>AmBisome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antifungal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atripla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atripla %28Discontinued%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorized Generic Use Harvoni%2FEpclusa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biktarvy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COVID-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiovascular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cystic Fibrosis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cystic Fibrosis %28CF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Descovy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emtriva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epclusa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filgotinib</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genvoya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HBV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harvoni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepatitis B Virus %28HBV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepatitis C Virus %28HCV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepsera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hepsera %28Discontinued%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Immunodeficiency Virus %28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inflammation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jyseleca %28Filgotinib%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letairis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexiscan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macugen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Momelotinib</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonalcoholic Steatohepatitis %28NASH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odefsey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology %28ONC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Biliary Cholangitis %28P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulmonary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulmonary Arterial Hypertensio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranexa %28Discontinued%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remdesivir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selonsertib</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sovaldi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stribild</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunlenca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamiflu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecartus-KITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trodelvy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truvada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truvada for PrEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tybost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veklury %28Remdesivir%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vemlidy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viread</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vistide %28Discontinued%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitekta %28Discontinued%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vosevi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yescarta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yescarta-KITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yeztugo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zydelig</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Resolution_Required__c</picklist>
+        <values>
+            <fullName>Forwarded Request to Corporate Contact Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forwarded Request to Sales Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forwarded Request to Site Lobby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forwarded Request to Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OB Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reported AE%2FSSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reported PQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spoke off FAQs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Authorized Generics Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Business Conduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Cayston Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Clinical Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Club G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Crisis Center%2FC3i Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to EH%26S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Employee Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Facilities%2FSite Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Gilead Personnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Gilead Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Kite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to KnippeRx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Letairis Education Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Lobby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to MSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Medical Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Non-Gilead Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Non-US Gilead Dept</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to PARI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Patient Injury Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Public Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Purchasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to QA%2FPQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Ranexa Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Samples Line%2FEmail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Shipping %26 Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Support Path</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Travel Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to US Advancing Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triaged to Zydelig Access</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gilead_Resource_Referenced__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language__c</picklist>
+        <values>
+            <fullName>Arabic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulgarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese %28Simplified%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese %28Traditional%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dutch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English %28UK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English %28US%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finnish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>German</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hebrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonesian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japanese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norwegian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese %28Brazil%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese %28Portugal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Romanian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovenian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish %28Mexico%2FLatin America%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swedish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukrainian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnamese</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Notification_Priority__c</picklist>
+        <values>
+            <fullName>n%2Fa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin__c</picklist>
+        <values>
+            <fullName>INCIDENT MGMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SITE MGMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USER MGMT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pass_Fail__c</picklist>
+        <values>
+            <fullName>Fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>n%2Fa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>1-ASAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Low</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Repeat_Frequency__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Repeating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Level__c</picklist>
+        <values>
+            <fullName>Level 0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>n%2Fa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Fax Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending POI Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLN Validated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Account Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Modified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automated Follow-up email sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call - Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call - Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call-Inbound-PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call-Outbound-PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De-escalation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email - Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email - Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email-Inbound PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email-Outbound PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate %E2%80%93 Connect Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate %E2%80%93 NNEXUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Client- PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Glooko</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Internal- PCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - J%26J Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Kore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Missing Site UMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - SaMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate - Tier2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate to CSMS Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate to CSMS IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalate to GSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue not resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knowledge Base Usage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Next Steps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Modified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspend activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended-Awaiting Cust Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Translation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Account Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Account Deactivated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Account Modified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iConnect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Urgency__c</picklist>
+        <values>
+            <fullName>Business critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

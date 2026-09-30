@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Study_Compact_Layout</fullName>
+    <fields>Study_Name__c</fields>
+    <fields>Study__c</fields>
+    <fields>Protocol__c</fields>
+    <fields>Account__c</fields>
+    <label>Study Compact Layout</label>
+</CompactLayout>

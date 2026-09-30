@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version_Status__c</fullName>
+    <label>Version Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>6</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>7</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>8</label>
+            </value>
+            <value>
+                <fullName>9</fullName>
+                <default>false</default>
+                <label>9</label>
+            </value>
+            <value>
+                <fullName>30 days Delinquent</fullName>
+                <default>false</default>
+                <label>30 days Delinquent</label>
+            </value>
+            <value>
+                <fullName>60 days Delinquent</fullName>
+                <default>false</default>
+                <label>60 days Delinquent</label>
+            </value>
+            <value>
+                <fullName>510K Submitted</fullName>
+                <default>false</default>
+                <label>510K Submitted</label>
+            </value>
+            <value>
+                <fullName>Account Terminated</fullName>
+                <default>false</default>
+                <label>Account Terminated</label>
+            </value>
+            <value>
+                <fullName>Allocated</fullName>
+                <default>false</default>
+                <label>Allocated</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+                <label>Bankruptcy</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Charge Off</fullName>
+                <default>false</default>
+                <label>Charge Off</label>
+            </value>
+            <value>
+                <fullName>Clinical Trial</fullName>
+                <default>false</default>
+                <label>Clinical Trial</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Connected</fullName>
+                <default>false</default>
+                <label>Connected</label>
+            </value>
+            <value>
+                <fullName>Customer Owned</fullName>
+                <default>false</default>
+                <label>Customer Owned</label>
+            </value>
+            <value>
+                <fullName>Customer Submitted</fullName>
+                <default>false</default>
+                <label>Customer Submitted</label>
+            </value>
+            <value>
+                <fullName>Damage Protection</fullName>
+                <default>false</default>
+                <label>Damage Protection</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Disconnected</fullName>
+                <default>false</default>
+                <label>Disconnected</label>
+            </value>
+            <value>
+                <fullName>Dormant</fullName>
+                <default>false</default>
+                <label>Dormant</label>
+            </value>
+            <value>
+                <fullName>Doubtful</fullName>
+                <default>false</default>
+                <label>Doubtful</label>
+            </value>
+            <value>
+                <fullName>Expiring Loan</fullName>
+                <default>false</default>
+                <label>Expiring Loan</label>
+            </value>
+            <value>
+                <fullName>Extended Lease</fullName>
+                <default>false</default>
+                <label>Extended Lease</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>In Force</fullName>
+                <default>false</default>
+                <label>In Force</label>
+            </value>
+            <value>
+                <fullName>In Inventory</fullName>
+                <default>false</default>
+                <label>In Inventory</label>
+            </value>
+            <value>
+                <fullName>In Use</fullName>
+                <default>false</default>
+                <label>In Use</label>
+            </value>
+            <value>
+                <fullName>Inventory - ASP</fullName>
+                <default>false</default>
+                <label>Inventory - ASP</label>
+            </value>
+            <value>
+                <fullName>Lapsed</fullName>
+                <default>false</default>
+                <label>Lapsed</label>
+            </value>
+            <value>
+                <fullName>Leased</fullName>
+                <default>false</default>
+                <label>Leased</label>
+            </value>
+            <value>
+                <fullName>Liquidated</fullName>
+                <default>false</default>
+                <label>Liquidated</label>
+            </value>
+            <value>
+                <fullName>Loaner</fullName>
+                <default>false</default>
+                <label>Loaner</label>
+            </value>
+            <value>
+                <fullName>Loss</fullName>
+                <default>false</default>
+                <label>Loss</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>Normal Status</fullName>
+                <default>false</default>
+                <label>Normal Status</label>
+            </value>
+            <value>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+                <label>Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Not Taken</fullName>
+                <default>false</default>
+                <label>Not Taken</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Out of Warranty</fullName>
+                <default>false</default>
+                <label>Out of Warranty</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Planned</fullName>
+                <default>false</default>
+                <label>Planned</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+                <label>Purchased</label>
+            </value>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Refinance</fullName>
+                <default>false</default>
+                <label>Refinance</label>
+            </value>
+            <value>
+                <fullName>Release</fullName>
+                <default>false</default>
+                <label>Release</label>
+            </value>
+            <value>
+                <fullName>Removed</fullName>
+                <default>false</default>
+                <label>Removed</label>
+            </value>
+            <value>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+                <label>Renewal</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+                <label>Reserved</label>
+            </value>
+            <value>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+                <label>Reversed</label>
+            </value>
+            <value>
+                <fullName>Sold</fullName>
+                <default>false</default>
+                <label>Sold</label>
+            </value>
+            <value>
+                <fullName>Sold - ASP</fullName>
+                <default>false</default>
+                <label>Sold - ASP</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Sub Standard</fullName>
+                <default>false</default>
+                <label>Sub Standard</label>
+            </value>
+            <value>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+                <label>Temporary</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Test Market</fullName>
+                <default>false</default>
+                <label>Test Market</label>
+            </value>
+            <value>
+                <fullName>Unavailable</fullName>
+                <default>false</default>
+                <label>Unavailable</label>
+            </value>
+            <value>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+                <label>Under Review</label>
+            </value>
+            <value>
+                <fullName>Uninitiated</fullName>
+                <default>false</default>
+                <label>Uninitiated</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Watch Status</fullName>
+                <default>false</default>
+                <label>Watch Status</label>
+            </value>
+            <value>
+                <fullName>Yet to be Initiated</fullName>
+                <default>false</default>
+                <label>Yet to be Initiated</label>
+            </value>
+            <value>
+                <fullName>n/a</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n/a</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

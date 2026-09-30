@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Clinical_Study</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(ISBLANK(Study__c),ISNULL(Study__c))</errorConditionFormula>
+    <errorDisplayField>Study__c</errorDisplayField>
+    <errorMessage>Study is a required field</errorMessage>
+</ValidationRule>

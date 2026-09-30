@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deployment_Type__c</fullName>
+    <label>Deployment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medical Device</fullName>
+                <default>false</default>
+                <label>Medical Device</label>
+            </value>
+            <value>
+                <fullName>Patient Device</fullName>
+                <default>false</default>
+                <label>Patient Device</label>
+            </value>
+            <value>
+                <fullName>Patient Redeployment</fullName>
+                <default>false</default>
+                <label>Patient Redeployment</label>
+            </value>
+            <value>
+                <fullName>Site Device</fullName>
+                <default>false</default>
+                <label>Site Device</label>
+            </value>
+            <value>
+                <fullName>Site Redeployment</fullName>
+                <default>false</default>
+                <label>Site Redeployment</label>
+            </value>
+            <value>
+                <fullName>Wearable Device</fullName>
+                <default>false</default>
+                <label>Wearable Device</label>
+            </value>
+            <value>
+                <fullName>n/a</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n/a</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

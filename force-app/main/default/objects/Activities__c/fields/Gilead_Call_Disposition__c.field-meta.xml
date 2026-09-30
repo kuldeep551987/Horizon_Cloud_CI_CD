@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Call_Disposition__c</fullName>
+    <label>Call Disposition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completed Successfully</fullName>
+                <default>false</default>
+                <label>Completed Successfully</label>
+            </value>
+            <value>
+                <fullName>Transfer Completed Successfully</fullName>
+                <default>false</default>
+                <label>Transfer Completed Successfully</label>
+            </value>
+            <value>
+                <fullName>Incomplete</fullName>
+                <default>false</default>
+                <label>Incomplete</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Test Call</fullName>
+                <default>false</default>
+                <label>Test Call</label>
+            </value>
+            <value>
+                <fullName>Hang up</fullName>
+                <default>false</default>
+                <label>Hang up</label>
+            </value>
+            <value>
+                <fullName>Disconnected</fullName>
+                <default>false</default>
+                <label>Disconnected</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

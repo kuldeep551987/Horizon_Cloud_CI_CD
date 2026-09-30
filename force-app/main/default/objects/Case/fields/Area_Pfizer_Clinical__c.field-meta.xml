@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_Pfizer_Clinical__c</fullName>
+    <label>Area (Pfizer Clinical)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Creation</fullName>
+                <default>false</default>
+                <label>Account Creation</label>
+            </value>
+            <value>
+                <fullName>Account De-activation</fullName>
+                <default>false</default>
+                <label>Account De-activation</label>
+            </value>
+            <value>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+                <label>Account Management</label>
+            </value>
+            <value>
+                <fullName>Account Modification</fullName>
+                <default>false</default>
+                <label>Account Modification</label>
+            </value>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Application Access Manager</fullName>
+                <default>false</default>
+                <label>Application Access Manager</label>
+            </value>
+            <value>
+                <fullName>Business Process</fullName>
+                <default>false</default>
+                <label>Business Process</label>
+            </value>
+            <value>
+                <fullName>CAM Tool</fullName>
+                <default>false</default>
+                <label>CAM Tool</label>
+            </value>
+            <value>
+                <fullName>CIH</fullName>
+                <default>false</default>
+                <label>CIH</label>
+            </value>
+            <value>
+                <fullName>CTMS</fullName>
+                <default>false</default>
+                <label>CTMS</label>
+            </value>
+            <value>
+                <fullName>Central Designer</fullName>
+                <default>false</default>
+                <label>Central Designer</label>
+            </value>
+            <value>
+                <fullName>Closeout</fullName>
+                <default>false</default>
+                <label>Closeout</label>
+            </value>
+            <value>
+                <fullName>Conform</fullName>
+                <default>false</default>
+                <label>Conform</label>
+            </value>
+            <value>
+                <fullName>DeCS</fullName>
+                <default>false</default>
+                <label>DeCS</label>
+            </value>
+            <value>
+                <fullName>Exostar</fullName>
+                <default>false</default>
+                <label>Exostar</label>
+            </value>
+            <value>
+                <fullName>Exostar Issues</fullName>
+                <default>false</default>
+                <label>Exostar Issues</label>
+            </value>
+            <value>
+                <fullName>GRAABS</fullName>
+                <default>false</default>
+                <label>GRAABS</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Impala-C3i</fullName>
+                <default>false</default>
+                <label>Impala-C3i</label>
+            </value>
+            <value>
+                <fullName>Impala-KitVerify</fullName>
+                <default>false</default>
+                <label>Impala-KitVerify</label>
+            </value>
+            <value>
+                <fullName>Impala-PFE</fullName>
+                <default>false</default>
+                <label>Impala-PFE</label>
+            </value>
+            <value>
+                <fullName>Impala-Shipment</fullName>
+                <default>false</default>
+                <label>Impala-Shipment</label>
+            </value>
+            <value>
+                <fullName>Impala2.0-C3i</fullName>
+                <default>false</default>
+                <label>Impala2.0-C3i</label>
+            </value>
+            <value>
+                <fullName>Impala2.0-PFE</fullName>
+                <default>false</default>
+                <label>Impala2.0-PFE</label>
+            </value>
+            <value>
+                <fullName>Inform</fullName>
+                <default>false</default>
+                <label>Inform</label>
+            </value>
+            <value>
+                <fullName>InteliNotion</fullName>
+                <default>false</default>
+                <label>InteliNotion</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>IntraLinks</fullName>
+                <default>false</default>
+                <label>IntraLinks</label>
+            </value>
+            <value>
+                <fullName>ME&amp;Unblinding</fullName>
+                <default>false</default>
+                <label>ME&amp;Unblinding</label>
+            </value>
+            <value>
+                <fullName>OC RDC</fullName>
+                <default>false</default>
+                <label>OC RDC</label>
+            </value>
+            <value>
+                <fullName>Oracle Clinical</fullName>
+                <default>false</default>
+                <label>Oracle Clinical</label>
+            </value>
+            <value>
+                <fullName>PSSA</fullName>
+                <default>false</default>
+                <label>PSSA</label>
+            </value>
+            <value>
+                <fullName>PfizerLink</fullName>
+                <default>false</default>
+                <label>PfizerLink</label>
+            </value>
+            <value>
+                <fullName>RCC Portal</fullName>
+                <default>false</default>
+                <label>RCC Portal</label>
+            </value>
+            <value>
+                <fullName>REDCap EDC</fullName>
+                <default>false</default>
+                <label>REDCap EDC</label>
+            </value>
+            <value>
+                <fullName>SIRIUS</fullName>
+                <default>false</default>
+                <label>SIRIUS</label>
+            </value>
+            <value>
+                <fullName>SIRIUS Compassionate</fullName>
+                <default>false</default>
+                <label>SIRIUS Compassionate</label>
+            </value>
+            <value>
+                <fullName>Signant TM</fullName>
+                <default>false</default>
+                <label>Signant TM</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>System Performance</fullName>
+                <default>false</default>
+                <label>System Performance</label>
+            </value>
+            <value>
+                <fullName>Trackstar</fullName>
+                <default>false</default>
+                <label>Trackstar</label>
+            </value>
+            <value>
+                <fullName>TruLab</fullName>
+                <default>false</default>
+                <label>TruLab</label>
+            </value>
+            <value>
+                <fullName>US CO</fullName>
+                <default>false</default>
+                <label>US CO</label>
+            </value>
+            <value>
+                <fullName>Unsupported</fullName>
+                <default>false</default>
+                <label>Unsupported</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>eFax</fullName>
+                <default>false</default>
+                <label>eFax</label>
+            </value>
+            <value>
+                <fullName>iConnect Navigation</fullName>
+                <default>false</default>
+                <label>iConnect Navigation</label>
+            </value>
+            <value>
+                <fullName>iView2</fullName>
+                <default>false</default>
+                <label>iView2</label>
+            </value>
+            <value>
+                <fullName>Investigator Portal</fullName>
+                <default>false</default>
+                <label>Investigator Portal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

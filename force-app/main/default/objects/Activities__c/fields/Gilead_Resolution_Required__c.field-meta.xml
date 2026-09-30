@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Resolution_Required__c</fullName>
+    <label>Resolution Required</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Forwarded Request to Corporate Contact Center</fullName>
+                <default>false</default>
+                <label>Forwarded Request to Corporate Contact Center</label>
+            </value>
+            <value>
+                <fullName>Forwarded Request to Sales Ops</fullName>
+                <default>false</default>
+                <label>Forwarded Request to Sales Ops</label>
+            </value>
+            <value>
+                <fullName>Forwarded Request to Site Lobby</fullName>
+                <default>false</default>
+                <label>Forwarded Request to Site Lobby</label>
+            </value>
+            <value>
+                <fullName>Forwarded Request to Transportation</fullName>
+                <default>false</default>
+                <label>Forwarded Request to Transportation</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>OB Call</fullName>
+                <default>false</default>
+                <label>OB Call</label>
+            </value>
+            <value>
+                <fullName>Reported AE/SSR</fullName>
+                <default>false</default>
+                <label>Reported AE/SSR</label>
+            </value>
+            <value>
+                <fullName>Reported PQC</fullName>
+                <default>false</default>
+                <label>Reported PQC</label>
+            </value>
+            <value>
+                <fullName>Spoke off FAQs</fullName>
+                <default>false</default>
+                <label>Spoke off FAQs</label>
+            </value>
+            <value>
+                <fullName>Triaged to AE</fullName>
+                <default>false</default>
+                <label>Triaged to AE</label>
+            </value>
+            <value>
+                <fullName>Triaged to Admin</fullName>
+                <default>false</default>
+                <label>Triaged to Admin</label>
+            </value>
+            <value>
+                <fullName>Triaged to Authorized Generics Line</fullName>
+                <default>false</default>
+                <label>Triaged to Authorized Generics Line</label>
+            </value>
+            <value>
+                <fullName>Triaged to Business Conduct</fullName>
+                <default>false</default>
+                <label>Triaged to Business Conduct</label>
+            </value>
+            <value>
+                <fullName>Triaged to Cayston Access</fullName>
+                <default>false</default>
+                <label>Triaged to Cayston Access</label>
+            </value>
+            <value>
+                <fullName>Triaged to Clinical Line</fullName>
+                <default>false</default>
+                <label>Triaged to Clinical Line</label>
+            </value>
+            <value>
+                <fullName>Triaged to Club G</fullName>
+                <default>false</default>
+                <label>Triaged to Club G</label>
+            </value>
+            <value>
+                <fullName>Triaged to Crisis Center/C3i Management</fullName>
+                <default>false</default>
+                <label>Triaged to Crisis Center/C3i Management</label>
+            </value>
+            <value>
+                <fullName>Triaged to EH&amp;S</fullName>
+                <default>false</default>
+                <label>Triaged to EH&amp;S</label>
+            </value>
+            <value>
+                <fullName>Triaged to Employee Resources</fullName>
+                <default>false</default>
+                <label>Triaged to Employee Resources</label>
+            </value>
+            <value>
+                <fullName>Triaged to Facilities/Site Services</fullName>
+                <default>false</default>
+                <label>Triaged to Facilities/Site Services</label>
+            </value>
+            <value>
+                <fullName>Triaged to Finance</fullName>
+                <default>false</default>
+                <label>Triaged to Finance</label>
+            </value>
+            <value>
+                <fullName>Triaged to Gilead Personnel</fullName>
+                <default>false</default>
+                <label>Triaged to Gilead Personnel</label>
+            </value>
+            <value>
+                <fullName>Triaged to Gilead Travel</fullName>
+                <default>false</default>
+                <label>Triaged to Gilead Travel</label>
+            </value>
+            <value>
+                <fullName>Triaged to IT</fullName>
+                <default>false</default>
+                <label>Triaged to IT</label>
+            </value>
+            <value>
+                <fullName>Triaged to Kite</fullName>
+                <default>false</default>
+                <label>Triaged to Kite</label>
+            </value>
+            <value>
+                <fullName>Triaged to KnippeRx</fullName>
+                <default>false</default>
+                <label>Triaged to KnippeRx</label>
+            </value>
+            <value>
+                <fullName>Triaged to Letairis Education Program</fullName>
+                <default>false</default>
+                <label>Triaged to Letairis Education Program</label>
+            </value>
+            <value>
+                <fullName>Triaged to Lobby</fullName>
+                <default>false</default>
+                <label>Triaged to Lobby</label>
+            </value>
+            <value>
+                <fullName>Triaged to MSO</fullName>
+                <default>false</default>
+                <label>Triaged to MSO</label>
+            </value>
+            <value>
+                <fullName>Triaged to Medical Information</fullName>
+                <default>false</default>
+                <label>Triaged to Medical Information</label>
+            </value>
+            <value>
+                <fullName>Triaged to Non-Gilead Company</fullName>
+                <default>false</default>
+                <label>Triaged to Non-Gilead Company</label>
+            </value>
+            <value>
+                <fullName>Triaged to Non-US Gilead Dept</fullName>
+                <default>false</default>
+                <label>Triaged to Non-US Gilead Dept</label>
+            </value>
+            <value>
+                <fullName>Triaged to PARI</fullName>
+                <default>false</default>
+                <label>Triaged to PARI</label>
+            </value>
+            <value>
+                <fullName>Triaged to Patient Injury Claim</fullName>
+                <default>false</default>
+                <label>Triaged to Patient Injury Claim</label>
+            </value>
+            <value>
+                <fullName>Triaged to Payroll</fullName>
+                <default>false</default>
+                <label>Triaged to Payroll</label>
+            </value>
+            <value>
+                <fullName>Triaged to Public Affairs</fullName>
+                <default>false</default>
+                <label>Triaged to Public Affairs</label>
+            </value>
+            <value>
+                <fullName>Triaged to Purchasing</fullName>
+                <default>false</default>
+                <label>Triaged to Purchasing</label>
+            </value>
+            <value>
+                <fullName>Triaged to QA/PQC</fullName>
+                <default>false</default>
+                <label>Triaged to QA/PQC</label>
+            </value>
+            <value>
+                <fullName>Triaged to Ranexa Connect</fullName>
+                <default>false</default>
+                <label>Triaged to Ranexa Connect</label>
+            </value>
+            <value>
+                <fullName>Triaged to Samples Line/Email</fullName>
+                <default>false</default>
+                <label>Triaged to Samples Line/Email</label>
+            </value>
+            <value>
+                <fullName>Triaged to Security</fullName>
+                <default>false</default>
+                <label>Triaged to Security</label>
+            </value>
+            <value>
+                <fullName>Triaged to Shipping &amp; Receiving</fullName>
+                <default>false</default>
+                <label>Triaged to Shipping &amp; Receiving</label>
+            </value>
+            <value>
+                <fullName>Triaged to Support Path</fullName>
+                <default>false</default>
+                <label>Triaged to Support Path</label>
+            </value>
+            <value>
+                <fullName>Triaged to Travel Vendor</fullName>
+                <default>false</default>
+                <label>Triaged to Travel Vendor</label>
+            </value>
+            <value>
+                <fullName>Triaged to US Advancing Access</fullName>
+                <default>false</default>
+                <label>Triaged to US Advancing Access</label>
+            </value>
+            <value>
+                <fullName>Triaged to Zydelig Access</fullName>
+                <default>false</default>
+                <label>Triaged to Zydelig Access</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
