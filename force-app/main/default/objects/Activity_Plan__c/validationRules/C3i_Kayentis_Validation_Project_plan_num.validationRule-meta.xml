@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C3i_Kayentis_Validation_Project_plan_num</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Account_Name__c = &quot;Kayentis&quot; ,
+    ISPICKVAL(Status__c , &quot;Escalated to Tier 2&quot;),
+    ISBLANK(Project_Plan_Number__c)
+)</errorConditionFormula>
+    <errorDisplayField>Project_Plan_Number__c</errorDisplayField>
+    <errorMessage>The &apos;Project Plan #&apos; field must not be blank when AP Status is &apos;Escalated to Tier 2&apos;.</errorMessage>
+</ValidationRule>

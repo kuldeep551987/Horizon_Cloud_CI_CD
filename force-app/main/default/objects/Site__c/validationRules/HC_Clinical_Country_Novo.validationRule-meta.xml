@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Clinical_Country_Novo</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ Account__r.Name = &quot;Novo Nordisk Clinical&quot;,
+ ISPICKVAL(Country__c,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Country__c</errorDisplayField>
+    <errorMessage>Country is a required field for Novo Nordisk Clinical.  Please enter a value for the field</errorMessage>
+</ValidationRule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Display_In__c</fullName>
+    <label>Display In</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activities Only</fullName>
+                <default>false</default>
+                <label>Activities Only</label>
+            </value>
+            <value>
+                <fullName>Assignment and Activity</fullName>
+                <default>false</default>
+                <label>Assignment and Activity</label>
+            </value>
+            <value>
+                <fullName>Calendar and Activities</fullName>
+                <default>false</default>
+                <label>Calendar and Activities</label>
+            </value>
+            <value>
+                <fullName>Communication and Activities</fullName>
+                <default>false</default>
+                <label>Communication and Activities</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Position and Activity</fullName>
+                <default>false</default>
+                <label>Position and Activity</label>
+            </value>
+            <value>
+                <fullName>To Do and Activities</fullName>
+                <default>false</default>
+                <label>To Do and Activities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

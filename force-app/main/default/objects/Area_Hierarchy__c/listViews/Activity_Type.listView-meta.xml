@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Task_Type__c</columns>
+    <columns>Task_ESCL_Type__c</columns>
+    <columns>Is_Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Task_ESCL_Type__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Activity Type</label>
+</ListView>

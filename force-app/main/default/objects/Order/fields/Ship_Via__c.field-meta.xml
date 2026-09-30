@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ship_Via__c</fullName>
+    <label>Ship Via</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Glovia_Shipping_Carrier__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>02R02 FX Ground Home</fullName>
+                <default>false</default>
+                <label>02R02 FX Ground Home</label>
+            </value>
+            <value>
+                <fullName>A01-ABX Exp</fullName>
+                <default>false</default>
+                <label>A01-ABX Exp</label>
+            </value>
+            <value>
+                <fullName>A01R-ABX Exp W/Ret Label</fullName>
+                <default>false</default>
+                <label>A01R-ABX Exp W/Ret Label</label>
+            </value>
+            <value>
+                <fullName>A01S-ABX Exp Sat Del</fullName>
+                <default>false</default>
+                <label>A01S-ABX Exp Sat Del</label>
+            </value>
+            <value>
+                <fullName>A01SR-ABX Exp w/Ret Label</fullName>
+                <default>false</default>
+                <label>A01SR-ABX Exp w/Ret Label</label>
+            </value>
+            <value>
+                <fullName>A02-ABX Exp Ltr</fullName>
+                <default>false</default>
+                <label>A02-ABX Exp Ltr</label>
+            </value>
+            <value>
+                <fullName>A02R-ABX Exp Ltr W/Ret Label</fullName>
+                <default>false</default>
+                <label>A02R-ABX Exp Ltr W/Ret Label</label>
+            </value>
+            <value>
+                <fullName>A03-ABX 2Day</fullName>
+                <default>false</default>
+                <label>A03-ABX 2Day</label>
+            </value>
+            <value>
+                <fullName>A03R-ABX 2Day W/Ret Label</fullName>
+                <default>false</default>
+                <label>A03R-ABX 2Day W/Ret Label</label>
+            </value>
+            <value>
+                <fullName>A04-ABX 2Day Ltr</fullName>
+                <default>false</default>
+                <label>A04-ABX 2Day Ltr</label>
+            </value>
+            <value>
+                <fullName>A04R-ABX 2Day Ltr W/Ret Label</fullName>
+                <default>false</default>
+                <label>A04R-ABX 2Day Ltr W/Ret Label</label>
+            </value>
+            <value>
+                <fullName>A05-ABX Ground</fullName>
+                <default>false</default>
+                <label>A05-ABX Ground</label>
+            </value>
+            <value>
+                <fullName>Air</fullName>
+                <default>false</default>
+                <label>Air</label>
+            </value>
+            <value>
+                <fullName>Airborne</fullName>
+                <default>false</default>
+                <label>Airborne</label>
+            </value>
+            <value>
+                <fullName>D01-DHL Worldwide Pri Exp</fullName>
+                <default>false</default>
+                <label>D01-DHL Worldwide Pri Exp</label>
+            </value>
+            <value>
+                <fullName>D01-DHL Worldwide Pri Exp(NON-EU)</fullName>
+                <default>false</default>
+                <label>D01-DHL Worldwide Pri Exp(NON-EU)</label>
+            </value>
+            <value>
+                <fullName>D04-DHL Ovrnite PCK</fullName>
+                <default>false</default>
+                <label>D04-DHL Ovrnite PCK</label>
+            </value>
+            <value>
+                <fullName>D04R-DHL Ovrnite PCK w/RL</fullName>
+                <default>false</default>
+                <label>D04R-DHL Ovrnite PCK w/RL</label>
+            </value>
+            <value>
+                <fullName>D04S-DHL Sat PCK</fullName>
+                <default>false</default>
+                <label>D04S-DHL Sat PCK</label>
+            </value>
+            <value>
+                <fullName>D04SR-DHL Sat PCK w/RL</fullName>
+                <default>false</default>
+                <label>D04SR-DHL Sat PCK w/RL</label>
+            </value>
+            <value>
+                <fullName>D05-DHL Ovrnite Let</fullName>
+                <default>false</default>
+                <label>D05-DHL Ovrnite Let</label>
+            </value>
+            <value>
+                <fullName>D05R-DHL Ovrnite Let w/RL</fullName>
+                <default>false</default>
+                <label>D05R-DHL Ovrnite Let w/RL</label>
+            </value>
+            <value>
+                <fullName>D05S-DHL Sat Let</fullName>
+                <default>false</default>
+                <label>D05S-DHL Sat Let</label>
+            </value>
+            <value>
+                <fullName>D05SR-DHL Sat Let w/RL</fullName>
+                <default>false</default>
+                <label>D05SR-DHL Sat Let w/RL</label>
+            </value>
+            <value>
+                <fullName>D10-DHL USA 2nd Day</fullName>
+                <default>false</default>
+                <label>D10-DHL USA 2nd Day</label>
+            </value>
+            <value>
+                <fullName>D1-DHL DOMESTIC EXPRESS</fullName>
+                <default>false</default>
+                <label>D1-DHL DOMESTIC EXPRESS</label>
+            </value>
+            <value>
+                <fullName>DHL</fullName>
+                <default>false</default>
+                <label>DHL</label>
+            </value>
+            <value>
+                <fullName>ECONOMY SELECT</fullName>
+                <default>false</default>
+                <label>ECONOMY SELECT</label>
+            </value>
+            <value>
+                <fullName>F01-FX Pri Ovnght</fullName>
+                <default>false</default>
+                <label>F01-FX Pri Ovnght</label>
+            </value>
+            <value>
+                <fullName>F01S-FX Saturday Del</fullName>
+                <default>false</default>
+                <label>F01S-FX Saturday Del</label>
+            </value>
+            <value>
+                <fullName>F02-FX Pri Ovnght Env</fullName>
+                <default>false</default>
+                <label>F02-FX Pri Ovnght Env</label>
+            </value>
+            <value>
+                <fullName>F03-FX Pri Ovnght Pak</fullName>
+                <default>false</default>
+                <label>F03-FX Pri Ovnght Pak</label>
+            </value>
+            <value>
+                <fullName>F04-FX Pri Ovnght Box</fullName>
+                <default>false</default>
+                <label>F04-FX Pri Ovnght Box</label>
+            </value>
+            <value>
+                <fullName>F06-FX Stn Ovnght</fullName>
+                <default>false</default>
+                <label>F06-FX Stn Ovnght</label>
+            </value>
+            <value>
+                <fullName>F11-FX 2nd Day</fullName>
+                <default>false</default>
+                <label>F11-FX 2nd Day</label>
+            </value>
+            <value>
+                <fullName>F14-FX EXP SVR</fullName>
+                <default>false</default>
+                <label>F14-FX EXP SVR</label>
+            </value>
+            <value>
+                <fullName>F14-FX EX SVR</fullName>
+                <default>false</default>
+                <label>F14-FX EX SVR</label>
+            </value>
+            <value>
+                <fullName>F18-FX First Ovnght</fullName>
+                <default>false</default>
+                <label>F18-FX First Ovnght</label>
+            </value>
+            <value>
+                <fullName>Federal Express</fullName>
+                <default>false</default>
+                <label>Federal Express</label>
+            </value>
+            <value>
+                <fullName>FedEx International</fullName>
+                <default>false</default>
+                <label>FedEx International</label>
+            </value>
+            <value>
+                <fullName>Ground</fullName>
+                <default>false</default>
+                <label>Ground</label>
+            </value>
+            <value>
+                <fullName>Sea</fullName>
+                <default>false</default>
+                <label>Sea</label>
+            </value>
+            <value>
+                <fullName>Select Shipper</fullName>
+                <default>false</default>
+                <label>Select Shipper</label>
+            </value>
+            <value>
+                <fullName>U01R-UPS Next Day Air w/RL</fullName>
+                <default>false</default>
+                <label>U01R-UPS Next Day Air w/RL</label>
+            </value>
+            <value>
+                <fullName>U01S-UPS ND Air Sat</fullName>
+                <default>false</default>
+                <label>U01S-UPS ND Air Sat</label>
+            </value>
+            <value>
+                <fullName>U01S-UPS Next Day Air Saturday</fullName>
+                <default>false</default>
+                <label>U01S-UPS Next Day Air Saturday</label>
+            </value>
+            <value>
+                <fullName>U01-UPS Next Day Air</fullName>
+                <default>false</default>
+                <label>U01-UPS Next Day Air</label>
+            </value>
+            <value>
+                <fullName>U07R-UPS 2nd Day Air w/RL</fullName>
+                <default>false</default>
+                <label>U07R-UPS 2nd Day Air w/RL</label>
+            </value>
+            <value>
+                <fullName>U07-UPS 2nd Day Air</fullName>
+                <default>false</default>
+                <label>U07-UPS 2nd Day Air</label>
+            </value>
+            <value>
+                <fullName>U11R-UPS Ground w/RL</fullName>
+                <default>false</default>
+                <label>U11R-UPS Ground w/RL</label>
+            </value>
+            <value>
+                <fullName>U11-UPS Ground</fullName>
+                <default>false</default>
+                <label>U11-UPS Ground</label>
+            </value>
+            <value>
+                <fullName>U21R-UPS 3 Day Select w/RL</fullName>
+                <default>false</default>
+                <label>U21R-UPS 3 Day Select w/RL</label>
+            </value>
+            <value>
+                <fullName>U21-UPS 3 Day Select</fullName>
+                <default>false</default>
+                <label>U21-UPS 3 Day Select</label>
+            </value>
+            <value>
+                <fullName>U35R-UPS 2nd Day Air A.M. w/RL</fullName>
+                <default>false</default>
+                <label>U35R-UPS 2nd Day Air A.M. w/RL</label>
+            </value>
+            <value>
+                <fullName>U35-UPS 2nd Day Air A.M.</fullName>
+                <default>false</default>
+                <label>U35-UPS 2nd Day Air A.M.</label>
+            </value>
+            <value>
+                <fullName>U43R-UPS Next Day Air Saver RL</fullName>
+                <default>false</default>
+                <label>U43R-UPS Next Day Air Saver RL</label>
+            </value>
+            <value>
+                <fullName>U43-UPS Next Day Air Saver</fullName>
+                <default>false</default>
+                <label>U43-UPS Next Day Air Saver</label>
+            </value>
+            <value>
+                <fullName>U49R-UPS Ship Exp Svc Intl RL</fullName>
+                <default>false</default>
+                <label>U49R-UPS Ship Exp Svc Intl RL</label>
+            </value>
+            <value>
+                <fullName>U49-UPS Ship Exp Svc Intl</fullName>
+                <default>false</default>
+                <label>U49-UPS Ship Exp Svc Intl</label>
+            </value>
+            <value>
+                <fullName>U54R-UPS Ship Expd Svc Intl RL</fullName>
+                <default>false</default>
+                <label>U54R-UPS Ship Expd Svc Intl RL</label>
+            </value>
+            <value>
+                <fullName>U54-UPS Ship Expd Svc Intl</fullName>
+                <default>false</default>
+                <label>U54-UPS Ship Expd Svc Intl</label>
+            </value>
+            <value>
+                <fullName>U60R-UPS Early A.M. w/RL</fullName>
+                <default>false</default>
+                <label>U60R-UPS Early A.M. w/RL</label>
+            </value>
+            <value>
+                <fullName>U60-UPS Early A.M.</fullName>
+                <default>false</default>
+                <label>U60-UPS Early A.M.</label>
+            </value>
+            <value>
+                <fullName>U61R-UPS Early A.M. Letter RL</fullName>
+                <default>false</default>
+                <label>U61R-UPS Early A.M. Letter RL</label>
+            </value>
+            <value>
+                <fullName>U61-UPS Early A.M. Letter</fullName>
+                <default>false</default>
+                <label>U61-UPS Early A.M. Letter</label>
+            </value>
+            <value>
+                <fullName>U63R-UPS Ship Exp+ Svc Intl RL</fullName>
+                <default>false</default>
+                <label>U63R-UPS Ship Exp+ Svc Intl RL</label>
+            </value>
+            <value>
+                <fullName>U63-UPS Ship Exp+ Svc Intl</fullName>
+                <default>false</default>
+                <label>U63-UPS Ship Exp+ Svc Intl</label>
+            </value>
+            <value>
+                <fullName>UPS</fullName>
+                <default>false</default>
+                <label>UPS</label>
+            </value>
+            <value>
+                <fullName>UPS international</fullName>
+                <default>false</default>
+                <label>UPS international</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A01-ABX Exp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A01R-ABX Exp W/Ret Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A01S-ABX Exp Sat Del</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A01SR-ABX Exp w/Ret Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A02-ABX Exp Ltr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A02R-ABX Exp Ltr W/Ret Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airborne</controllingFieldValue>
+            <valueName>A03-ABX 2Day</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DHL</controllingFieldValue>
+            <valueName>D01-DHL Worldwide Pri Exp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DHL</controllingFieldValue>
+            <valueName>D01-DHL Worldwide Pri Exp(NON-EU)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DHL</controllingFieldValue>
+            <valueName>D1-DHL DOMESTIC EXPRESS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DHL</controllingFieldValue>
+            <valueName>ECONOMY SELECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>02R02 FX Ground Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F01-FX Pri Ovnght</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F01S-FX Saturday Del</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F02-FX Pri Ovnght Env</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F03-FX Pri Ovnght Pak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F04-FX Pri Ovnght Box</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F06-FX Stn Ovnght</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F11-FX 2nd Day</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F14-FX EXP SVR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>F18-FX First Ovnght</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Federal Express</controllingFieldValue>
+            <valueName>FedEx International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U01-UPS Next Day Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U07-UPS 2nd Day Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U11-UPS Ground</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U21-UPS 3 Day Select</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U35-UPS 2nd Day Air A.M.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U43-UPS Next Day Air Saver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>U60-UPS Early A.M.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UPS</controllingFieldValue>
+            <valueName>UPS international</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

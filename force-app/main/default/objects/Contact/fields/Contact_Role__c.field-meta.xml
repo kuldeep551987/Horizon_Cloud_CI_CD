@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <label>Contact Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>BUDGET/GRANT CONTACT</fullName>
+                <default>false</default>
+                <label>BUDGET/GRANT CONTACT</label>
+            </value>
+            <value>
+                <fullName>Business Administrator</fullName>
+                <default>false</default>
+                <label>Business Administrator</label>
+            </value>
+            <value>
+                <fullName>CLINICAL PROJECT MANAGER(PCO)</fullName>
+                <default>false</default>
+                <label>CLINICAL PROJECT MANAGER(PCO)</label>
+            </value>
+            <value>
+                <fullName>CLINICAL PROTOCOL MANAGER</fullName>
+                <default>false</default>
+                <label>CLINICAL PROTOCOL MANAGER</label>
+            </value>
+            <value>
+                <fullName>CO-ORDINATOR</fullName>
+                <default>false</default>
+                <label>CO-ORDINATOR</label>
+            </value>
+            <value>
+                <fullName>CRF SHIPMENT CONTACT</fullName>
+                <default>false</default>
+                <label>CRF SHIPMENT CONTACT</label>
+            </value>
+            <value>
+                <fullName>CTA/PA</fullName>
+                <default>false</default>
+                <label>CTA/PA</label>
+            </value>
+            <value>
+                <fullName>DATA CO-ORDINATION CONTACT</fullName>
+                <default>false</default>
+                <label>DATA CO-ORDINATION CONTACT</label>
+            </value>
+            <value>
+                <fullName>DRUG SHIPMENT CONTACT</fullName>
+                <default>false</default>
+                <label>DRUG SHIPMENT CONTACT</label>
+            </value>
+            <value>
+                <fullName>ETHICS COMMITTEE CHAIRPERSON</fullName>
+                <default>false</default>
+                <label>ETHICS COMMITTEE CHAIRPERSON</label>
+            </value>
+            <value>
+                <fullName>GRAABS User</fullName>
+                <default>false</default>
+                <label>GRAABS User</label>
+            </value>
+            <value>
+                <fullName>IRB CONTACT</fullName>
+                <default>false</default>
+                <label>IRB CONTACT</label>
+            </value>
+            <value>
+                <fullName>IT CONTACT</fullName>
+                <default>false</default>
+                <label>IT CONTACT</label>
+            </value>
+            <value>
+                <fullName>LAB SUPPLY CONTACT</fullName>
+                <default>false</default>
+                <label>LAB SUPPLY CONTACT</label>
+            </value>
+            <value>
+                <fullName>LEAD CLINICIAN</fullName>
+                <default>false</default>
+                <label>LEAD CLINICIAN</label>
+            </value>
+            <value>
+                <fullName>LEAD DATA MANAGER</fullName>
+                <default>false</default>
+                <label>LEAD DATA MANAGER</label>
+            </value>
+            <value>
+                <fullName>LEGAL CONTACT</fullName>
+                <default>false</default>
+                <label>LEGAL CONTACT</label>
+            </value>
+            <value>
+                <fullName>MONITOR</fullName>
+                <default>false</default>
+                <label>MONITOR</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PHARMACY CONTACT</fullName>
+                <default>false</default>
+                <label>PHARMACY CONTACT</label>
+            </value>
+            <value>
+                <fullName>PRINCIPAL INVESTIGATOR</fullName>
+                <default>false</default>
+                <label>PRINCIPAL INVESTIGATOR</label>
+            </value>
+            <value>
+                <fullName>PROGRAM DATA MANAGER</fullName>
+                <default>false</default>
+                <label>PROGRAM DATA MANAGER</label>
+            </value>
+            <value>
+                <fullName>PROJECT ASSISTANT</fullName>
+                <default>false</default>
+                <label>PROJECT ASSISTANT</label>
+            </value>
+            <value>
+                <fullName>REGULATORY CONTACT</fullName>
+                <default>false</default>
+                <label>REGULATORY CONTACT</label>
+            </value>
+            <value>
+                <fullName>REGULATORYDOCUMENTCO-ORDINATOR</fullName>
+                <default>false</default>
+                <label>REGULATORYDOCUMENTCO-ORDINATOR</label>
+            </value>
+            <value>
+                <fullName>Rand Administrator</fullName>
+                <default>false</default>
+                <label>Rand Administrator</label>
+            </value>
+            <value>
+                <fullName>SIRIUS Contact</fullName>
+                <default>false</default>
+                <label>SIRIUS Contact</label>
+            </value>
+            <value>
+                <fullName>STUDY MANAGER</fullName>
+                <default>false</default>
+                <label>STUDY MANAGER</label>
+            </value>
+            <value>
+                <fullName>STUDY NURSE</fullName>
+                <default>false</default>
+                <label>STUDY NURSE</label>
+            </value>
+            <value>
+                <fullName>SUB INVESTIGATOR</fullName>
+                <default>false</default>
+                <label>SUB INVESTIGATOR</label>
+            </value>
+            <value>
+                <fullName>Study Statistician</fullName>
+                <default>false</default>
+                <label>Study Statistician</label>
+            </value>
+            <value>
+                <fullName>Adjudicator</fullName>
+                <default>false</default>
+                <label>Adjudicator</label>
+            </value>
+            <value>
+                <fullName>Angiogram</fullName>
+                <default>false</default>
+                <label>Angiogram</label>
+            </value>
+            <value>
+                <fullName>C3i</fullName>
+                <default>false</default>
+                <label>C3i</label>
+            </value>
+            <value>
+                <fullName>CEC Adjudicator</fullName>
+                <default>false</default>
+                <label>CEC Adjudicator</label>
+            </value>
+            <value>
+                <fullName>CRA</fullName>
+                <default>false</default>
+                <label>CRA</label>
+            </value>
+            <value>
+                <fullName>Cardio CT or CTA Lab</fullName>
+                <default>false</default>
+                <label>Cardio CT or CTA Lab</label>
+            </value>
+            <value>
+                <fullName>Chemistry Lab</fullName>
+                <default>false</default>
+                <label>Chemistry Lab</label>
+            </value>
+            <value>
+                <fullName>Clinical Pathology Lab</fullName>
+                <default>false</default>
+                <label>Clinical Pathology Lab</label>
+            </value>
+            <value>
+                <fullName>Data Manager</fullName>
+                <default>false</default>
+                <label>Data Manager</label>
+            </value>
+            <value>
+                <fullName>Echocardiogram Lab</fullName>
+                <default>false</default>
+                <label>Echocardiogram Lab</label>
+            </value>
+            <value>
+                <fullName>Electrocardiogram Lab</fullName>
+                <default>false</default>
+                <label>Electrocardiogram Lab</label>
+            </value>
+            <value>
+                <fullName>General Core Lab</fullName>
+                <default>false</default>
+                <label>General Core Lab</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Investigator</fullName>
+                <default>false</default>
+                <label>Investigator</label>
+            </value>
+            <value>
+                <fullName>Investigator/Study Coordinator</fullName>
+                <default>false</default>
+                <label>Investigator/Study Coordinator</label>
+            </value>
+            <value>
+                <fullName>No Access</fullName>
+                <default>false</default>
+                <label>No Access</label>
+            </value>
+            <value>
+                <fullName>Quality Of Life Lab</fullName>
+                <default>false</default>
+                <label>Quality Of Life Lab</label>
+            </value>
+            <value>
+                <fullName>Read Only</fullName>
+                <default>false</default>
+                <label>Read Only</label>
+            </value>
+            <value>
+                <fullName>Read Only Account</fullName>
+                <default>false</default>
+                <label>Read Only Account</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Study Coordinator</fullName>
+                <default>false</default>
+                <label>Study Coordinator</label>
+            </value>
+            <value>
+                <fullName>Study Site Coordinator</fullName>
+                <default>false</default>
+                <label>Study Site Coordinator</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Ultrasound</fullName>
+                <default>false</default>
+                <label>Ultrasound</label>
+            </value>
+            <value>
+                <fullName>Xray Or Radiology Lab</fullName>
+                <default>false</default>
+                <label>Xray Or Radiology Lab</label>
+            </value>
+            <value>
+                <fullName>Budget Admin</fullName>
+                <default>false</default>
+                <label>Budget Admin</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>CRC</fullName>
+                <default>false</default>
+                <label>CRC</label>
+            </value>
+            <value>
+                <fullName>Economic Buyer</fullName>
+                <default>false</default>
+                <label>Economic Buyer</label>
+            </value>
+            <value>
+                <fullName>Finance Admin</fullName>
+                <default>false</default>
+                <label>Finance Admin</label>
+            </value>
+            <value>
+                <fullName>Payee</fullName>
+                <default>false</default>
+                <label>Payee</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>MDSOL</fullName>
+                <default>false</default>
+                <label>MDSOL</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Subject</fullName>
+                <default>false</default>
+                <label>Subject</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

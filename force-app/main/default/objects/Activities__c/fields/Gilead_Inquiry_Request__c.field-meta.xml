@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Inquiry_Request__c</fullName>
+    <label>Inquiry Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Gilead_Call_Topic__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aggressive caller identified</fullName>
+                <default>false</default>
+                <label>Aggressive caller identified</label>
+            </value>
+            <value>
+                <fullName>All Other Gilead Products</fullName>
+                <default>false</default>
+                <label>All Other Gilead Products</label>
+            </value>
+            <value>
+                <fullName>All emergencies, accidents, illnesses, life threatening situations</fullName>
+                <default>false</default>
+                <label>All emergencies, accidents, illnesses, life threatening situations</label>
+            </value>
+            <value>
+                <fullName>Asegua Co-Pay</fullName>
+                <default>false</default>
+                <label>Asegua Co-Pay</label>
+            </value>
+            <value>
+                <fullName>Bomb threat received</fullName>
+                <default>false</default>
+                <label>Bomb threat received</label>
+            </value>
+            <value>
+                <fullName>Carriers inquiry on where to deliver</fullName>
+                <default>false</default>
+                <label>Carriers inquiry on where to deliver</label>
+            </value>
+            <value>
+                <fullName>Cayston Access Program (CAP)</fullName>
+                <default>false</default>
+                <label>Cayston Access Program (CAP)</label>
+            </value>
+            <value>
+                <fullName>Clinical Trials for Product</fullName>
+                <default>false</default>
+                <label>Clinical Trials for Product</label>
+            </value>
+            <value>
+                <fullName>Co-Pay Card Program (Ranexa)</fullName>
+                <default>false</default>
+                <label>Co-Pay Card Program (Ranexa)</label>
+            </value>
+            <value>
+                <fullName>Co-Pay Card Program HCV</fullName>
+                <default>false</default>
+                <label>Co-Pay Card Program HCV</label>
+            </value>
+            <value>
+                <fullName>Co-Pay Card Program HIV &amp; HBV</fullName>
+                <default>false</default>
+                <label>Co-Pay Card Program HIV &amp; HBV</label>
+            </value>
+            <value>
+                <fullName>CoPay Card Program Cayston</fullName>
+                <default>false</default>
+                <label>CoPay Card Program Cayston</label>
+            </value>
+            <value>
+                <fullName>CoPay Card Program Letairis</fullName>
+                <default>false</default>
+                <label>CoPay Card Program Letairis</label>
+            </value>
+            <value>
+                <fullName>CoPay Card Program Vemlidy</fullName>
+                <default>false</default>
+                <label>CoPay Card Program Vemlidy</label>
+            </value>
+            <value>
+                <fullName>CoPay Card Program Zydelig</fullName>
+                <default>false</default>
+                <label>CoPay Card Program Zydelig</label>
+            </value>
+            <value>
+                <fullName>Consumers threatening legal action</fullName>
+                <default>false</default>
+                <label>Consumers threatening legal action</label>
+            </value>
+            <value>
+                <fullName>Directions to Foster City</fullName>
+                <default>false</default>
+                <label>Directions to Foster City</label>
+            </value>
+            <value>
+                <fullName>Employee Ergonomic Evaluation</fullName>
+                <default>false</default>
+                <label>Employee Ergonomic Evaluation</label>
+            </value>
+            <value>
+                <fullName>Employee Inquiry for HR, Benefits, Training</fullName>
+                <default>false</default>
+                <label>Employee Inquiry for HR, Benefits, Training</label>
+            </value>
+            <value>
+                <fullName>Employee assistance with Concur</fullName>
+                <default>false</default>
+                <label>Employee assistance with Concur</label>
+            </value>
+            <value>
+                <fullName>Employee assistance with catering</fullName>
+                <default>false</default>
+                <label>Employee assistance with catering</label>
+            </value>
+            <value>
+                <fullName>Employee assistance with commuter checks</fullName>
+                <default>false</default>
+                <label>Employee assistance with commuter checks</label>
+            </value>
+            <value>
+                <fullName>Employee assistance with conference setup</fullName>
+                <default>false</default>
+                <label>Employee assistance with conference setup</label>
+            </value>
+            <value>
+                <fullName>Employee assistance with site maintenance</fullName>
+                <default>false</default>
+                <label>Employee assistance with site maintenance</label>
+            </value>
+            <value>
+                <fullName>Employees requesting expense reports or checks; Suppliers for invoices</fullName>
+                <default>false</default>
+                <label>Employees requesting expense reports or checks; Suppliers for invoices</label>
+            </value>
+            <value>
+                <fullName>Employees requiring travel assistance</fullName>
+                <default>false</default>
+                <label>Employees requiring travel assistance</label>
+            </value>
+            <value>
+                <fullName>Employess inquiry on Club G access</fullName>
+                <default>false</default>
+                <label>Employess inquiry on Club G access</label>
+            </value>
+            <value>
+                <fullName>FDA, Law Enforcement, Health Agencies</fullName>
+                <default>false</default>
+                <label>FDA, Law Enforcement, Health Agencies</label>
+            </value>
+            <value>
+                <fullName>Gilead Field Rep Request</fullName>
+                <default>false</default>
+                <label>Gilead Field Rep Request</label>
+            </value>
+            <value>
+                <fullName>Inquiries (Ranexa) - Use FAQ</fullName>
+                <default>false</default>
+                <label>Inquiries (Ranexa) - Use FAQ</label>
+            </value>
+            <value>
+                <fullName>Inquiries (Vistide) - Use FAQ</fullName>
+                <default>false</default>
+                <label>Inquiries (Vistide) - Use FAQ</label>
+            </value>
+            <value>
+                <fullName>Inquiries (Vitekta) - Use FAQ</fullName>
+                <default>false</default>
+                <label>Inquiries (Vitekta) - Use FAQ</label>
+            </value>
+            <value>
+                <fullName>Inquiries Ambisome or Lexiscan (Astellas)</fullName>
+                <default>false</default>
+                <label>Inquiries Ambisome or Lexiscan (Astellas)</label>
+            </value>
+            <value>
+                <fullName>Inquiries Macugen (Bausch)</fullName>
+                <default>false</default>
+                <label>Inquiries Macugen (Bausch)</label>
+            </value>
+            <value>
+                <fullName>Inquiries Momelotinib (Sierra Oncology)</fullName>
+                <default>false</default>
+                <label>Inquiries Momelotinib (Sierra Oncology)</label>
+            </value>
+            <value>
+                <fullName>Inquiries Tamiflu (Roche/Genentech)</fullName>
+                <default>false</default>
+                <label>Inquiries Tamiflu (Roche/Genentech)</label>
+            </value>
+            <value>
+                <fullName>Inquiries related to Worker&apos;s Compensation</fullName>
+                <default>false</default>
+                <label>Inquiries related to Worker&apos;s Compensation</label>
+            </value>
+            <value>
+                <fullName>Inquiry (Trade Operations)</fullName>
+                <default>false</default>
+                <label>Inquiry (Trade Operations)</label>
+            </value>
+            <value>
+                <fullName>Inquiry for Corporate Development</fullName>
+                <default>false</default>
+                <label>Inquiry for Corporate Development</label>
+            </value>
+            <value>
+                <fullName>Inquiry for Disaster procedure</fullName>
+                <default>false</default>
+                <label>Inquiry for Disaster procedure</label>
+            </value>
+            <value>
+                <fullName>Inquiry for Office supplies or merchandise</fullName>
+                <default>false</default>
+                <label>Inquiry for Office supplies or merchandise</label>
+            </value>
+            <value>
+                <fullName>Inquiry for Workers Compensation</fullName>
+                <default>false</default>
+                <label>Inquiry for Workers Compensation</label>
+            </value>
+            <value>
+                <fullName>Inquiry for direct deposits or paychecks</fullName>
+                <default>false</default>
+                <label>Inquiry for direct deposits or paychecks</label>
+            </value>
+            <value>
+                <fullName>Inquiry for lost &amp; found/badges &amp; keys</fullName>
+                <default>false</default>
+                <label>Inquiry for lost &amp; found/badges &amp; keys</label>
+            </value>
+            <value>
+                <fullName>Inquiry for policies &amp; procedures</fullName>
+                <default>false</default>
+                <label>Inquiry for policies &amp; procedures</label>
+            </value>
+            <value>
+                <fullName>Inquiry for purchase orders or requisitions</fullName>
+                <default>false</default>
+                <label>Inquiry for purchase orders or requisitions</label>
+            </value>
+            <value>
+                <fullName>Inquiry for record management</fullName>
+                <default>false</default>
+                <label>Inquiry for record management</label>
+            </value>
+            <value>
+                <fullName>Inquiry for site security</fullName>
+                <default>false</default>
+                <label>Inquiry for site security</label>
+            </value>
+            <value>
+                <fullName>Inquiry for stock options, rsu &amp; employee stock purchase program</fullName>
+                <default>false</default>
+                <label>Inquiry for stock options, rsu &amp; employee stock purchase program</label>
+            </value>
+            <value>
+                <fullName>Inquiry for time cards or PTO accrual</fullName>
+                <default>false</default>
+                <label>Inquiry for time cards or PTO accrual</label>
+            </value>
+            <value>
+                <fullName>Inquiry for witholding allowances</fullName>
+                <default>false</default>
+                <label>Inquiry for witholding allowances</label>
+            </value>
+            <value>
+                <fullName>Inquiry on DHS Lawsuit</fullName>
+                <default>false</default>
+                <label>Inquiry on DHS Lawsuit</label>
+            </value>
+            <value>
+                <fullName>Inquiry on Shipments</fullName>
+                <default>false</default>
+                <label>Inquiry on Shipments</label>
+            </value>
+            <value>
+                <fullName>Inquiry on TDF Lawsuit</fullName>
+                <default>false</default>
+                <label>Inquiry on TDF Lawsuit</label>
+            </value>
+            <value>
+                <fullName>Inquiry pertaining to Canada</fullName>
+                <default>false</default>
+                <label>Inquiry pertaining to Canada</label>
+            </value>
+            <value>
+                <fullName>Inquiry to Public Affairs</fullName>
+                <default>false</default>
+                <label>Inquiry to Public Affairs</label>
+            </value>
+            <value>
+                <fullName>KITEKONNECT</fullName>
+                <default>false</default>
+                <label>KITEKONNECT</label>
+            </value>
+            <value>
+                <fullName>Letairis Education &amp; Access Program (LEAP)</fullName>
+                <default>false</default>
+                <label>Letairis Education &amp; Access Program (LEAP)</label>
+            </value>
+            <value>
+                <fullName>Letairis REMS Requirements</fullName>
+                <default>false</default>
+                <label>Letairis REMS Requirements</label>
+            </value>
+            <value>
+                <fullName>Letairis Samples</fullName>
+                <default>false</default>
+                <label>Letairis Samples</label>
+            </value>
+            <value>
+                <fullName>Non-Employee Inquiry for HR, Benefits, Training</fullName>
+                <default>false</default>
+                <label>Non-Employee Inquiry for HR, Benefits, Training</label>
+            </value>
+            <value>
+                <fullName>Non-Employee inquiry for employment verification</fullName>
+                <default>false</default>
+                <label>Non-Employee inquiry for employment verification</label>
+            </value>
+            <value>
+                <fullName>Opt-out Gilead communication</fullName>
+                <default>false</default>
+                <label>Opt-out Gilead communication</label>
+            </value>
+            <value>
+                <fullName>PARI Customer Service (Altera)</fullName>
+                <default>false</default>
+                <label>PARI Customer Service (Altera)</label>
+            </value>
+            <value>
+                <fullName>Pamphlets, Pill Models HCP Requests</fullName>
+                <default>false</default>
+                <label>Pamphlets, Pill Models HCP Requests</label>
+            </value>
+            <value>
+                <fullName>Personnel at Gilead assistance with transportation</fullName>
+                <default>false</default>
+                <label>Personnel at Gilead assistance with transportation</label>
+            </value>
+            <value>
+                <fullName>Ranexa Connect</fullName>
+                <default>false</default>
+                <label>Ranexa Connect</label>
+            </value>
+            <value>
+                <fullName>Ranexa Samples</fullName>
+                <default>false</default>
+                <label>Ranexa Samples</label>
+            </value>
+            <value>
+                <fullName>Related to legal matters</fullName>
+                <default>false</default>
+                <label>Related to legal matters</label>
+            </value>
+            <value>
+                <fullName>Report AE</fullName>
+                <default>false</default>
+                <label>Report AE</label>
+            </value>
+            <value>
+                <fullName>Report TC/PQC</fullName>
+                <default>false</default>
+                <label>Report TC/PQC</label>
+            </value>
+            <value>
+                <fullName>Request for C-Suite Contact</fullName>
+                <default>false</default>
+                <label>Request for C-Suite Contact</label>
+            </value>
+            <value>
+                <fullName>Request for Compassiontate Use</fullName>
+                <default>false</default>
+                <label>Request for Compassiontate Use</label>
+            </value>
+            <value>
+                <fullName>Request for Generic Product</fullName>
+                <default>false</default>
+                <label>Request for Generic Product</label>
+            </value>
+            <value>
+                <fullName>Request for Raw Material/Drug Study</fullName>
+                <default>false</default>
+                <label>Request for Raw Material/Drug Study</label>
+            </value>
+            <value>
+                <fullName>Requests for Grants or Funding</fullName>
+                <default>false</default>
+                <label>Requests for Grants or Funding</label>
+            </value>
+            <value>
+                <fullName>Requests for HCP Locator</fullName>
+                <default>false</default>
+                <label>Requests for HCP Locator</label>
+            </value>
+            <value>
+                <fullName>Requests for HCP Materials</fullName>
+                <default>false</default>
+                <label>Requests for HCP Materials</label>
+            </value>
+            <value>
+                <fullName>Requests for KITE Medical Information</fullName>
+                <default>false</default>
+                <label>Requests for KITE Medical Information</label>
+            </value>
+            <value>
+                <fullName>Requests for SDS</fullName>
+                <default>false</default>
+                <label>Requests for SDS</label>
+            </value>
+            <value>
+                <fullName>Requests for Trodelvy Medical Information</fullName>
+                <default>false</default>
+                <label>Requests for Trodelvy Medical Information</label>
+            </value>
+            <value>
+                <fullName>Requests for US Medical Information</fullName>
+                <default>false</default>
+                <label>Requests for US Medical Information</label>
+            </value>
+            <value>
+                <fullName>Requests for software, hardware &amp; systems</fullName>
+                <default>false</default>
+                <label>Requests for software, hardware &amp; systems</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy List (Cayston)</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy List (Cayston)</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy List (Letairis)</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy List (Letairis)</label>
+            </value>
+            <value>
+                <fullName>Suicide threat received</fullName>
+                <default>false</default>
+                <label>Suicide threat received</label>
+            </value>
+            <value>
+                <fullName>Support Path</fullName>
+                <default>false</default>
+                <label>Support Path</label>
+            </value>
+            <value>
+                <fullName>Threatening call received</fullName>
+                <default>false</default>
+                <label>Threatening call received</label>
+            </value>
+            <value>
+                <fullName>Transfer to Gilead personnel</fullName>
+                <default>false</default>
+                <label>Transfer to Gilead personnel</label>
+            </value>
+            <value>
+                <fullName>Trodelvy Access Support</fullName>
+                <default>false</default>
+                <label>Trodelvy Access Support</label>
+            </value>
+            <value>
+                <fullName>US Advancing Access (HIV &amp; HBV Products)</fullName>
+                <default>false</default>
+                <label>US Advancing Access (HIV &amp; HBV Products)</label>
+            </value>
+            <value>
+                <fullName>Unidentified call topic identified</fullName>
+                <default>false</default>
+                <label>Unidentified call topic identified</label>
+            </value>
+            <value>
+                <fullName>Visitor inquiry for check-in</fullName>
+                <default>false</default>
+                <label>Visitor inquiry for check-in</label>
+            </value>
+            <value>
+                <fullName>Wrong Number Identified</fullName>
+                <default>false</default>
+                <label>Wrong Number Identified</label>
+            </value>
+            <value>
+                <fullName>Zydelig Access Connect</fullName>
+                <default>false</default>
+                <label>Zydelig Access Connect</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>(PAY) Dir Deposit &amp; Paychecks</controllingFieldValue>
+            <valueName>Inquiry for direct deposits or paychecks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PAY) Time Cards, PTO Accrual</controllingFieldValue>
+            <valueName>Inquiry for time cards or PTO accrual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PAY) Withholding Allowances</controllingFieldValue>
+            <valueName>Inquiry for witholding allowances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PQC) Gilead Product</controllingFieldValue>
+            <valueName>Report TC/PQC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PUB) Feedback/Media/Investor</controllingFieldValue>
+            <valueName>Inquiry to Public Affairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PURCH) Office Supp &amp; Merch</controllingFieldValue>
+            <valueName>Inquiry for Office supplies or merchandise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PURCH) Purch Orders &amp; Reqs</controllingFieldValue>
+            <valueName>Inquiry for purchase orders or requisitions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(SALES) Field Rep Req</controllingFieldValue>
+            <valueName>Gilead Field Rep Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(SALES) Marketing Materials</controllingFieldValue>
+            <valueName>Pamphlets, Pill Models HCP Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(SHIP/REC) Carrier Delivery</controllingFieldValue>
+            <valueName>Carriers inquiry on where to deliver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Site Emer &amp; Evac Coord</controllingFieldValue>
+            <valueName>All emergencies, accidents, illnesses, life threatening situations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(SHIP/REC) Shipment Inquiries</controllingFieldValue>
+            <valueName>Inquiry on Shipments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Site Security</controllingFieldValue>
+            <valueName>Inquiry for site security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(STK SVCS) Stock, RSU&amp; ESPP</controllingFieldValue>
+            <valueName>Inquiry for stock options, rsu &amp; employee stock purchase program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Suicide Threat</controllingFieldValue>
+            <valueName>Suicide threat received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRANSFER) C-Suite</controllingFieldValue>
+            <valueName>Request for C-Suite Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Threatening Call</controllingFieldValue>
+            <valueName>Threatening call received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRANSFER) Gilead Personnel</controllingFieldValue>
+            <valueName>Transfer to Gilead personnel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(AE) Gilead Product</controllingFieldValue>
+            <valueName>Report AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRANSFER) Verify Employment</controllingFieldValue>
+            <valueName>Non-Employee inquiry for employment verification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(BUS) Grants and Funding</controllingFieldValue>
+            <valueName>Requests for Grants or Funding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRVL) Business Travel</controllingFieldValue>
+            <valueName>Employees requiring travel assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(BUS) Partner Inquiry</controllingFieldValue>
+            <valueName>Inquiry for Corporate Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(BUS) Policies &amp; Proc</controllingFieldValue>
+            <valueName>Inquiry for policies &amp; procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(BUS) Records Management</controllingFieldValue>
+            <valueName>Inquiry for record management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(CLUB G) Access</controllingFieldValue>
+            <valueName>Employess inquiry on Club G access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Aggressive Caller</controllingFieldValue>
+            <valueName>Aggressive caller identified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Bomb Threat</controllingFieldValue>
+            <valueName>Bomb threat received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Disaster Procedures</controllingFieldValue>
+            <valueName>Inquiry for Disaster procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Injury Compensation</controllingFieldValue>
+            <valueName>Consumers threatening legal action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Lawsuit DHS</controllingFieldValue>
+            <valueName>Inquiry on DHS Lawsuit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Lawsuit TDF</controllingFieldValue>
+            <valueName>Inquiry on TDF Lawsuit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Legal Matters</controllingFieldValue>
+            <valueName>Related to legal matters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Lost&amp;Found, Badges&amp;Keys</controllingFieldValue>
+            <valueName>Inquiry for lost &amp; found/badges &amp; keys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(!) Regulatory Agency</controllingFieldValue>
+            <valueName>FDA, Law Enforcement, Health Agencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRVL) Concur, Trvl&amp;Exp Policy</controllingFieldValue>
+            <valueName>Employee assistance with Concur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(TRVL) Transport Req</controllingFieldValue>
+            <valueName>Personnel at Gilead assistance with transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(ENV HEALTH &amp; SFTY) Erg Eval</controllingFieldValue>
+            <valueName>Employee Ergonomic Evaluation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(ENV HEALTH &amp; SFTY) Erg Eval</controllingFieldValue>
+            <valueName>Inquiry for Workers Compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(ENV HEALTH &amp; SFTY) Work Comp</controllingFieldValue>
+            <valueName>Inquiries related to Worker&apos;s Compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(FAC) Catering</controllingFieldValue>
+            <valueName>Employee assistance with catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(FAC) Commuter Checks</controllingFieldValue>
+            <valueName>Employee assistance with commuter checks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(FAC) Conference Room</controllingFieldValue>
+            <valueName>Employee assistance with conference setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(FAC) Site Maintenance</controllingFieldValue>
+            <valueName>Employee assistance with site maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(FIN) Exp Rep, Check Req&amp;Inv</controllingFieldValue>
+            <valueName>Employees requesting expense reports or checks; Suppliers for invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(GEN) Opt-Out</controllingFieldValue>
+            <valueName>Opt-out Gilead communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(GEN) Unidentified Topic</controllingFieldValue>
+            <valueName>Unidentified call topic identified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(GEN) Wrong Number</controllingFieldValue>
+            <valueName>Wrong Number Identified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(HR) HR, Benefits, Training</controllingFieldValue>
+            <valueName>Employee Inquiry for HR, Benefits, Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(HR) HR, Benefits, Training</controllingFieldValue>
+            <valueName>Non-Employee Inquiry for HR, Benefits, Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(IT) Software, Hardware &amp; Sys</controllingFieldValue>
+            <valueName>Requests for software, hardware &amp; systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(LOBBY) Check-In &amp; Directions</controllingFieldValue>
+            <valueName>Directions to Foster City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(LOBBY) Check-In &amp; Directions</controllingFieldValue>
+            <valueName>Visitor inquiry for check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Discontinued Product</controllingFieldValue>
+            <valueName>Inquiries (Ranexa) - Use FAQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Discontinued Product</controllingFieldValue>
+            <valueName>Inquiries (Vistide) - Use FAQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Discontinued Product</controllingFieldValue>
+            <valueName>Inquiries (Vitekta) - Use FAQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Dist/Wholesaler</controllingFieldValue>
+            <valueName>Inquiry (Trade Operations)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Gilead Prod Samples</controllingFieldValue>
+            <valueName>All Other Gilead Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Gilead Prod Samples</controllingFieldValue>
+            <valueName>Letairis Samples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Gilead Prod Samples</controllingFieldValue>
+            <valueName>Ranexa Samples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Non-Gilead Prod</controllingFieldValue>
+            <valueName>Inquiries Ambisome or Lexiscan (Astellas)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Non-Gilead Prod</controllingFieldValue>
+            <valueName>Inquiries Macugen (Bausch)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Non-Gilead Prod</controllingFieldValue>
+            <valueName>Inquiries Momelotinib (Sierra Oncology)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MED REQ) Non-Gilead Prod</controllingFieldValue>
+            <valueName>Inquiries Tamiflu (Roche/Genentech)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) Canada Inquiries</controllingFieldValue>
+            <valueName>Inquiry pertaining to Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) Clinical Trials</controllingFieldValue>
+            <valueName>Clinical Trials for Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Request for Compassiontate Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Request for Generic Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Request for Raw Material/Drug Study</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Requests for HCP Locator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Requests for HCP Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Requests for SDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - Gilead Prod</controllingFieldValue>
+            <valueName>Requests for US Medical Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(MI/CLIN) MI - KITE Prod</controllingFieldValue>
+            <valueName>Requests for KITE Medical Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Asegua Co-Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Cayston Access Program (CAP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Co-Pay Card Program (Ranexa)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Co-Pay Card Program HCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Co-Pay Card Program HIV &amp; HBV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>CoPay Card Program Cayston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>CoPay Card Program Letairis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>CoPay Card Program Vemlidy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>CoPay Card Program Zydelig</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Letairis Education &amp; Access Program (LEAP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Letairis REMS Requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>PARI Customer Service (Altera)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Ranexa Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Specialty Pharmacy List (Cayston)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Specialty Pharmacy List (Letairis)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Support Path</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>US Advancing Access (HIV &amp; HBV Products)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Gilead Prod</controllingFieldValue>
+            <valueName>Zydelig Access Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) KITE Prod</controllingFieldValue>
+            <valueName>KITEKONNECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(PATIENT SUPP) Trodelvy</controllingFieldValue>
+            <valueName>Trodelvy Access Support</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

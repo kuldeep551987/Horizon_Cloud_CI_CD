@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <label>Sub-Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+            <value>
+                <fullName>Dalian</fullName>
+                <default>false</default>
+                <label>Dalian</label>
+            </value>
+            <value>
+                <fullName>Fukuoka</fullName>
+                <default>false</default>
+                <label>Fukuoka</label>
+            </value>
+            <value>
+                <fullName>Hyderabad</fullName>
+                <default>false</default>
+                <label>Hyderabad</label>
+            </value>
+            <value>
+                <fullName>Pittston</fullName>
+                <default>false</default>
+                <label>Pittston</label>
+            </value>
+            <value>
+                <fullName>POC-Pittston</fullName>
+                <default>false</default>
+                <label>POC-Pittston</label>
+            </value>
+            <value>
+                <fullName>Sao Leopoldo</fullName>
+                <default>false</default>
+                <label>Sao Leopoldo</label>
+            </value>
+            <value>
+                <fullName>Sofia</fullName>
+                <default>false</default>
+                <label>Sofia</label>
+            </value>
+            <value>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+                <label>South Africa</label>
+            </value>
+            <value>
+                <fullName>Boston</fullName>
+                <default>false</default>
+                <label>Boston</label>
+            </value>
+            <value>
+                <fullName>Seaport</fullName>
+                <default>false</default>
+                <label>Seaport</label>
+            </value>
+            <value>
+                <fullName>Waltham</fullName>
+                <default>false</default>
+                <label>Waltham</label>
+            </value>
+            <value>
+                <fullName>Wayne</fullName>
+                <default>false</default>
+                <label>Wayne</label>
+            </value>
+            <value>
+                <fullName>Data CD</fullName>
+                <default>false</default>
+                <label>Data CD</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Refresh</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>Dalian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Refresh</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>Fukuoka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Refresh</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>Hyderabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>l</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <valueName>Pittston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Refresh</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>POC-Pittston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Refresh</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>Sao Leopoldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>New Hire - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Order Category</controllingFieldValue>
+            <controllingFieldValue>Password Document</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Docking Station</controllingFieldValue>
+            <controllingFieldValue>Refresh - Refurbs</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Reship</controllingFieldValue>
+            <controllingFieldValue>Headset</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>IT Request</controllingFieldValue>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Client Request</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>CRTC</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <controllingFieldValue>Mobile Device</controllingFieldValue>
+            <controllingFieldValue>WUE</controllingFieldValue>
+            <controllingFieldValue>Monitor</controllingFieldValue>
+            <controllingFieldValue>WUE - Refurbs</controllingFieldValue>
+            <valueName>Sofia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <valueName>Boston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <valueName>Seaport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <valueName>Waltham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Equipment</controllingFieldValue>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>New Hire Configuration</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>POA No-Show</controllingFieldValue>
+            <controllingFieldValue>POA Request</controllingFieldValue>
+            <controllingFieldValue>POA Return to Inventory</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Field Transfer</controllingFieldValue>
+            <controllingFieldValue>Rollout Request</controllingFieldValue>
+            <controllingFieldValue>Help Desk Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Return</controllingFieldValue>
+            <controllingFieldValue>Home Office Request</controllingFieldValue>
+            <controllingFieldValue>Rollout Shipment</controllingFieldValue>
+            <controllingFieldValue>Internal Transaction</controllingFieldValue>
+            <controllingFieldValue>Shell Repair</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Lost/Stolen</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <controllingFieldValue>Complete Reconfiguration</controllingFieldValue>
+            <controllingFieldValue>Direct Wire</controllingFieldValue>
+            <controllingFieldValue>Warranty Repair</controllingFieldValue>
+            <valueName>Wayne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <valueName>Brazil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <valueName>South Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <controllingFieldValue>Investigator Meeting</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Box</controllingFieldValue>
+            <controllingFieldValue>CD</controllingFieldValue>
+            <valueName>Data CD</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

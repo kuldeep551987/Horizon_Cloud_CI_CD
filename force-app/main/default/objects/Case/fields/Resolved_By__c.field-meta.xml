@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolved_By__c</fullName>
+    <label>Resolved By</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Help Desk</fullName>
+                <default>false</default>
+                <label>Help Desk</label>
+            </value>
+            <value>
+                <fullName>Home Office</fullName>
+                <default>false</default>
+                <label>Home Office</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>C3i</fullName>
+                <default>false</default>
+                <label>C3i</label>
+            </value>
+            <value>
+                <fullName>Pfizer</fullName>
+                <default>false</default>
+                <label>Pfizer</label>
+            </value>
+            <value>
+                <fullName>C3i Cognos/SAP BW-BI</fullName>
+                <default>false</default>
+                <label>C3i Cognos/SAP BW-BI</label>
+            </value>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>C3i Helpdesk</fullName>
+                <default>false</default>
+                <label>C3i Helpdesk</label>
+            </value>
+            <value>
+                <fullName>C3i Helpdesk w/3rd Party</fullName>
+                <default>false</default>
+                <label>C3i Helpdesk w/3rd Party</label>
+            </value>
+            <value>
+                <fullName>C3i Helpdesk w/Client</fullName>
+                <default>false</default>
+                <label>C3i Helpdesk w/Client</label>
+            </value>
+            <value>
+                <fullName>C3i Siebel Admin</fullName>
+                <default>false</default>
+                <label>C3i Siebel Admin</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>SMS Team</fullName>
+                <default>false</default>
+                <label>SMS Team</label>
+            </value>
+            <value>
+                <fullName>By Customer</fullName>
+                <default>false</default>
+                <label>By Customer</label>
+            </value>
+            <value>
+                <fullName>C3i–By remote session</fullName>
+                <default>false</default>
+                <label>C3i–By remote session</label>
+            </value>
+            <value>
+                <fullName>C3i-By Chat</fullName>
+                <default>false</default>
+                <label>C3i-By Chat</label>
+            </value>
+            <value>
+                <fullName>C3i-By Email</fullName>
+                <default>false</default>
+                <label>C3i-By Email</label>
+            </value>
+            <value>
+                <fullName>C3i-By phone</fullName>
+                <default>false</default>
+                <label>C3i-By phone</label>
+            </value>
+            <value>
+                <fullName>Escalated -Tier 2</fullName>
+                <default>false</default>
+                <label>Escalated -Tier 2</label>
+            </value>
+            <value>
+                <fullName>Escalated-Tier 3</fullName>
+                <default>false</default>
+                <label>Escalated-Tier 3</label>
+            </value>
+            <value>
+                <fullName>C3i-Email</fullName>
+                <default>false</default>
+                <label>C3i-Email</label>
+            </value>
+            <value>
+                <fullName>C3i-Escalated</fullName>
+                <default>false</default>
+                <label>C3i-Escalated</label>
+            </value>
+            <value>
+                <fullName>C3i-Phone</fullName>
+                <default>false</default>
+                <label>C3i-Phone</label>
+            </value>
+            <value>
+                <fullName>C3i-Remote session</fullName>
+                <default>false</default>
+                <label>C3i-Remote session</label>
+            </value>
+            <value>
+                <fullName>Argus Team</fullName>
+                <default>false</default>
+                <label>Argus Team</label>
+            </value>
+            <value>
+                <fullName>CRM Team</fullName>
+                <default>false</default>
+                <label>CRM Team</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>PVIntake</fullName>
+                <default>false</default>
+                <label>PVIntake</label>
+            </value>
+            <value>
+                <fullName>SSO</fullName>
+                <default>false</default>
+                <label>SSO</label>
+            </value>
+            <value>
+                <fullName>Service Desk</fullName>
+                <default>false</default>
+                <label>Service Desk</label>
+            </value>
+            <value>
+                <fullName>Transfer</fullName>
+                <default>false</default>
+                <label>Transfer</label>
+            </value>
+            <value>
+                <fullName>Deskside</fullName>
+                <default>false</default>
+                <label>Deskside</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

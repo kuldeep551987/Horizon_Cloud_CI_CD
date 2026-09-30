@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Pharma</fullName>
+    <active>false</active>
+    <businessProcess>HC Pharma</businessProcess>
+    <label>HC Pharma</label>
+    <picklistValues>
+        <picklist>Area_Pfizer_Clinical__c</picklist>
+        <values>
+            <fullName>Account Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account De-activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Modification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Access Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Designer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exostar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exostar Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRAABS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala-C3i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala-KitVerify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala-PFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala-Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala2%2E0-C3i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impala2%2E0-PFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InteliNotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IntraLinks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigator Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME%26Unblinding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OC RDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle Clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PfizerLink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCC Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REDCap EDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIRIUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIRIUS Compassionate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signant TM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trackstar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TruLab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsupported</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eFax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iConnect Navigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iView2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Complexity_Level__c</picklist>
+        <values>
+            <fullName>Level 0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>GC1020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5060</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Complexity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Code__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolved_By__c</picklist>
+        <values>
+            <fullName>3rd Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Argus Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i Cognos%2FSAP BW-BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i Helpdesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i Helpdesk w%2F3rd Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i Helpdesk w%2FClient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i Siebel Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i%E2%80%93By remote session</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-By Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-By Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-By phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3i-Remote session</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deskside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated -Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated-Tier 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Help Desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVIntake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pfizer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLAViolation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Substatus__c</picklist>
+        <values>
+            <fullName>AR Created in error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Documents Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Received - Missing Attest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved - Sent to Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved%2C Subject To</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attest Incomp App Miss Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attest Not Rcvd App Miss Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attest Received - Missing App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attest Sent - App Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attest with App Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting 2nd Attempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting 3rd Attempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting 3rd Party Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting C3I Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Client Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Client response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Cognizant Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Covance Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Customer Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Deskside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Escalation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Exostar Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Internal Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Medidata Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Oracle Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting PF Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Project Completion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting T1 Level 1 Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting T1 Level 2 Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting TSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Third Party Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Tier 2 Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting User Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting info from requester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Booked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Could not Verify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dead Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disregard AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email %5BNo follow-up%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erroneous - Letter Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For Automated Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For Automated Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Info - Letter Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Issue Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected App - Letter Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved by Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Response Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervisor Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unassigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unconfirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verification in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WT Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WT Unsuccessful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Documents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Urgency__c</picklist>
+        <values>
+            <fullName>Business critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

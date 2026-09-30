@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Call_Topic__c</fullName>
+    <label>Call Topic</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(!) Aggressive Caller</fullName>
+                <default>false</default>
+                <label>(!) Aggressive Caller</label>
+            </value>
+            <value>
+                <fullName>(!) Bomb Threat</fullName>
+                <default>false</default>
+                <label>(!) Bomb Threat</label>
+            </value>
+            <value>
+                <fullName>(!) Disaster Procedures</fullName>
+                <default>false</default>
+                <label>(!) Disaster Procedures</label>
+            </value>
+            <value>
+                <fullName>(!) Injury Compensation</fullName>
+                <default>false</default>
+                <label>(!) Injury Compensation</label>
+            </value>
+            <value>
+                <fullName>(!) Lawsuit DHS</fullName>
+                <default>false</default>
+                <label>(!) Lawsuit DHS</label>
+            </value>
+            <value>
+                <fullName>(!) Lawsuit TDF</fullName>
+                <default>false</default>
+                <label>(!) Lawsuit TDF</label>
+            </value>
+            <value>
+                <fullName>(!) Legal Matters</fullName>
+                <default>false</default>
+                <label>(!) Legal Matters</label>
+            </value>
+            <value>
+                <fullName>(!) Lost&amp;Found, Badges&amp;Keys</fullName>
+                <default>false</default>
+                <label>(!) Lost&amp;Found, Badges&amp;Keys</label>
+            </value>
+            <value>
+                <fullName>(!) Regulatory Agency</fullName>
+                <default>false</default>
+                <label>(!) Regulatory Agency</label>
+            </value>
+            <value>
+                <fullName>(!) Site Emer &amp; Evac Coord</fullName>
+                <default>false</default>
+                <label>(!) Site Emer &amp; Evac Coord</label>
+            </value>
+            <value>
+                <fullName>(!) Site Security</fullName>
+                <default>false</default>
+                <label>(!) Site Security</label>
+            </value>
+            <value>
+                <fullName>(!) Suicide Threat</fullName>
+                <default>false</default>
+                <label>(!) Suicide Threat</label>
+            </value>
+            <value>
+                <fullName>(!) Threatening Call</fullName>
+                <default>false</default>
+                <label>(!) Threatening Call</label>
+            </value>
+            <value>
+                <fullName>(AE) Gilead Product</fullName>
+                <default>false</default>
+                <label>(AE) Gilead Product</label>
+            </value>
+            <value>
+                <fullName>(BUS) Grants and Funding</fullName>
+                <default>false</default>
+                <label>(BUS) Grants and Funding</label>
+            </value>
+            <value>
+                <fullName>(BUS) Partner Inquiry</fullName>
+                <default>false</default>
+                <label>(BUS) Partner Inquiry</label>
+            </value>
+            <value>
+                <fullName>(BUS) Policies &amp; Proc</fullName>
+                <default>false</default>
+                <label>(BUS) Policies &amp; Proc</label>
+            </value>
+            <value>
+                <fullName>(BUS) Records Management</fullName>
+                <default>false</default>
+                <label>(BUS) Records Management</label>
+            </value>
+            <value>
+                <fullName>(CLUB G) Access</fullName>
+                <default>false</default>
+                <label>(CLUB G) Access</label>
+            </value>
+            <value>
+                <fullName>(ENV HEALTH &amp; SFTY) Erg Eval</fullName>
+                <default>false</default>
+                <label>(ENV HEALTH &amp; SFTY) Erg Eval</label>
+            </value>
+            <value>
+                <fullName>(ENV HEALTH &amp; SFTY) Work Comp</fullName>
+                <default>false</default>
+                <label>(ENV HEALTH &amp; SFTY) Work Comp</label>
+            </value>
+            <value>
+                <fullName>(FAC) Catering</fullName>
+                <default>false</default>
+                <label>(FAC) Catering</label>
+            </value>
+            <value>
+                <fullName>(FAC) Commuter Checks</fullName>
+                <default>false</default>
+                <label>(FAC) Commuter Checks</label>
+            </value>
+            <value>
+                <fullName>(FAC) Conference Room</fullName>
+                <default>false</default>
+                <label>(FAC) Conference Room</label>
+            </value>
+            <value>
+                <fullName>(FAC) Site Maintenance</fullName>
+                <default>false</default>
+                <label>(FAC) Site Maintenance</label>
+            </value>
+            <value>
+                <fullName>(FIN) Exp Rep, Check Req&amp;Inv</fullName>
+                <default>false</default>
+                <label>(FIN) Exp Rep, Check Req&amp;Inv</label>
+            </value>
+            <value>
+                <fullName>(GEN) Opt-Out</fullName>
+                <default>false</default>
+                <label>(GEN) Opt-Out</label>
+            </value>
+            <value>
+                <fullName>(GEN) Unidentified Topic</fullName>
+                <default>false</default>
+                <label>(GEN) Unidentified Topic</label>
+            </value>
+            <value>
+                <fullName>(GEN) Wrong Number</fullName>
+                <default>false</default>
+                <label>(GEN) Wrong Number</label>
+            </value>
+            <value>
+                <fullName>(HR) HR, Benefits, Training</fullName>
+                <default>false</default>
+                <label>(HR) HR, Benefits, Training</label>
+            </value>
+            <value>
+                <fullName>(IT) Software, Hardware &amp; Sys</fullName>
+                <default>false</default>
+                <label>(IT) Software, Hardware &amp; Sys</label>
+            </value>
+            <value>
+                <fullName>(LOBBY) Check-In &amp; Directions</fullName>
+                <default>false</default>
+                <label>(LOBBY) Check-In &amp; Directions</label>
+            </value>
+            <value>
+                <fullName>(MED REQ) Discontinued Product</fullName>
+                <default>false</default>
+                <label>(MED REQ) Discontinued Product</label>
+            </value>
+            <value>
+                <fullName>(MED REQ) Dist/Wholesaler</fullName>
+                <default>false</default>
+                <label>(MED REQ) Dist/Wholesaler</label>
+            </value>
+            <value>
+                <fullName>(MED REQ) Gilead Prod Samples</fullName>
+                <default>false</default>
+                <label>(MED REQ) Gilead Prod Samples</label>
+            </value>
+            <value>
+                <fullName>(MED REQ) Non-Gilead Prod</fullName>
+                <default>false</default>
+                <label>(MED REQ) Non-Gilead Prod</label>
+            </value>
+            <value>
+                <fullName>(MI/CLIN) Canada Inquiries</fullName>
+                <default>false</default>
+                <label>(MI/CLIN) Canada Inquiries</label>
+            </value>
+            <value>
+                <fullName>(MI/CLIN) Clinical Trials</fullName>
+                <default>false</default>
+                <label>(MI/CLIN) Clinical Trials</label>
+            </value>
+            <value>
+                <fullName>(MI/CLIN) MI - Gilead Prod</fullName>
+                <default>false</default>
+                <label>(MI/CLIN) MI - Gilead Prod</label>
+            </value>
+            <value>
+                <fullName>(MI/CLIN) MI - KITE Prod</fullName>
+                <default>false</default>
+                <label>(MI/CLIN) MI - KITE Prod</label>
+            </value>
+            <value>
+                <fullName>(PATIENT SUPP) Gilead Prod</fullName>
+                <default>false</default>
+                <label>(PATIENT SUPP) Gilead Prod</label>
+            </value>
+            <value>
+                <fullName>(PATIENT SUPP) KITE Prod</fullName>
+                <default>false</default>
+                <label>(PATIENT SUPP) KITE Prod</label>
+            </value>
+            <value>
+                <fullName>(PATIENT SUPP) Trodelvy</fullName>
+                <default>false</default>
+                <label>(PATIENT SUPP) Trodelvy</label>
+            </value>
+            <value>
+                <fullName>(PAY) Dir Deposit &amp; Paychecks</fullName>
+                <default>false</default>
+                <label>(PAY) Dir Deposit &amp; Paychecks</label>
+            </value>
+            <value>
+                <fullName>(PAY) Time Cards, PTO Accrual</fullName>
+                <default>false</default>
+                <label>(PAY) Time Cards, PTO Accrual</label>
+            </value>
+            <value>
+                <fullName>(PAY) Withholding Allowances</fullName>
+                <default>false</default>
+                <label>(PAY) Withholding Allowances</label>
+            </value>
+            <value>
+                <fullName>(PQC) Gilead Product</fullName>
+                <default>false</default>
+                <label>(PQC) Gilead Product</label>
+            </value>
+            <value>
+                <fullName>(PUB) Feedback/Media/Investor</fullName>
+                <default>false</default>
+                <label>(PUB) Feedback/Media/Investor</label>
+            </value>
+            <value>
+                <fullName>(PURCH) Office Supp &amp; Merch</fullName>
+                <default>false</default>
+                <label>(PURCH) Office Supp &amp; Merch</label>
+            </value>
+            <value>
+                <fullName>(PURCH) Purch Orders &amp; Reqs</fullName>
+                <default>false</default>
+                <label>(PURCH) Purch Orders &amp; Reqs</label>
+            </value>
+            <value>
+                <fullName>(SALES) Field Rep Req</fullName>
+                <default>false</default>
+                <label>(SALES) Field Rep Req</label>
+            </value>
+            <value>
+                <fullName>(SALES) Marketing Materials</fullName>
+                <default>false</default>
+                <label>(SALES) Marketing Materials</label>
+            </value>
+            <value>
+                <fullName>(SHIP/REC) Carrier Delivery</fullName>
+                <default>false</default>
+                <label>(SHIP/REC) Carrier Delivery</label>
+            </value>
+            <value>
+                <fullName>(SHIP/REC) Shipment Inquiries</fullName>
+                <default>false</default>
+                <label>(SHIP/REC) Shipment Inquiries</label>
+            </value>
+            <value>
+                <fullName>(STK SVCS) Stock, RSU&amp; ESPP</fullName>
+                <default>false</default>
+                <label>(STK SVCS) Stock, RSU&amp; ESPP</label>
+            </value>
+            <value>
+                <fullName>(TRANSFER) C-Suite</fullName>
+                <default>false</default>
+                <label>(TRANSFER) C-Suite</label>
+            </value>
+            <value>
+                <fullName>(TRANSFER) Gilead Personnel</fullName>
+                <default>false</default>
+                <label>(TRANSFER) Gilead Personnel</label>
+            </value>
+            <value>
+                <fullName>(TRANSFER) Verify Employment</fullName>
+                <default>false</default>
+                <label>(TRANSFER) Verify Employment</label>
+            </value>
+            <value>
+                <fullName>(TRVL) Business Travel</fullName>
+                <default>false</default>
+                <label>(TRVL) Business Travel</label>
+            </value>
+            <value>
+                <fullName>(TRVL) Concur, Trvl&amp;Exp Policy</fullName>
+                <default>false</default>
+                <label>(TRVL) Concur, Trvl&amp;Exp Policy</label>
+            </value>
+            <value>
+                <fullName>(TRVL) Transport Req</fullName>
+                <default>false</default>
+                <label>(TRVL) Transport Req</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

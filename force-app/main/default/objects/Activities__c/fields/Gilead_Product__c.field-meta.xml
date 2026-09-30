@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Product__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AmBisome</fullName>
+                <default>false</default>
+                <label>AmBisome</label>
+            </value>
+            <value>
+                <fullName>Atripla</fullName>
+                <default>false</default>
+                <label>Atripla</label>
+            </value>
+            <value>
+                <fullName>Atripla (Discontinued)</fullName>
+                <default>false</default>
+                <label>Atripla (Discontinued)</label>
+            </value>
+            <value>
+                <fullName>Authorized Generic Use Harvoni/Epclusa</fullName>
+                <default>false</default>
+                <label>Authorized Generic Use Harvoni/Epclusa</label>
+            </value>
+            <value>
+                <fullName>Biktarvy</fullName>
+                <default>false</default>
+                <label>Biktarvy</label>
+            </value>
+            <value>
+                <fullName>Cayston</fullName>
+                <default>false</default>
+                <label>Cayston</label>
+            </value>
+            <value>
+                <fullName>Complera</fullName>
+                <default>false</default>
+                <label>Complera</label>
+            </value>
+            <value>
+                <fullName>Descovy</fullName>
+                <default>false</default>
+                <label>Descovy</label>
+            </value>
+            <value>
+                <fullName>Emtriva</fullName>
+                <default>false</default>
+                <label>Emtriva</label>
+            </value>
+            <value>
+                <fullName>Epclusa</fullName>
+                <default>false</default>
+                <label>Epclusa</label>
+            </value>
+            <value>
+                <fullName>Filgotinib</fullName>
+                <default>false</default>
+                <label>Filgotinib</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Genvoya</fullName>
+                <default>false</default>
+                <label>Genvoya</label>
+            </value>
+            <value>
+                <fullName>Harvoni</fullName>
+                <default>false</default>
+                <label>Harvoni</label>
+            </value>
+            <value>
+                <fullName>Hepsera</fullName>
+                <default>false</default>
+                <label>Hepsera</label>
+            </value>
+            <value>
+                <fullName>Hepsera (Discontinued)</fullName>
+                <default>false</default>
+                <label>Hepsera (Discontinued)</label>
+            </value>
+            <value>
+                <fullName>Jyseleca (Filgotinib)</fullName>
+                <default>false</default>
+                <label>Jyseleca (Filgotinib)</label>
+            </value>
+            <value>
+                <fullName>Letairis</fullName>
+                <default>false</default>
+                <label>Letairis</label>
+            </value>
+            <value>
+                <fullName>Lexiscan</fullName>
+                <default>false</default>
+                <label>Lexiscan</label>
+            </value>
+            <value>
+                <fullName>Macugen</fullName>
+                <default>false</default>
+                <label>Macugen</label>
+            </value>
+            <value>
+                <fullName>Momelotinib</fullName>
+                <default>false</default>
+                <label>Momelotinib</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Odefsey</fullName>
+                <default>false</default>
+                <label>Odefsey</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Ranexa (Discontinued)</fullName>
+                <default>false</default>
+                <label>Ranexa (Discontinued)</label>
+            </value>
+            <value>
+                <fullName>Remdesivir</fullName>
+                <default>false</default>
+                <label>Remdesivir</label>
+            </value>
+            <value>
+                <fullName>Selonsertib</fullName>
+                <default>false</default>
+                <label>Selonsertib</label>
+            </value>
+            <value>
+                <fullName>Sovaldi</fullName>
+                <default>false</default>
+                <label>Sovaldi</label>
+            </value>
+            <value>
+                <fullName>Stribild</fullName>
+                <default>false</default>
+                <label>Stribild</label>
+            </value>
+            <value>
+                <fullName>Sunlenca</fullName>
+                <default>false</default>
+                <label>Sunlenca</label>
+            </value>
+            <value>
+                <fullName>Tamiflu</fullName>
+                <default>false</default>
+                <label>Tamiflu</label>
+            </value>
+            <value>
+                <fullName>Tecartus-KITE</fullName>
+                <default>false</default>
+                <label>Tecartus-KITE</label>
+            </value>
+            <value>
+                <fullName>Trodelvy</fullName>
+                <default>false</default>
+                <label>Trodelvy</label>
+            </value>
+            <value>
+                <fullName>Truvada</fullName>
+                <default>false</default>
+                <label>Truvada</label>
+            </value>
+            <value>
+                <fullName>Truvada for PrEP</fullName>
+                <default>false</default>
+                <label>Truvada for PrEP</label>
+            </value>
+            <value>
+                <fullName>Tybost</fullName>
+                <default>false</default>
+                <label>Tybost</label>
+            </value>
+            <value>
+                <fullName>Veklury (Remdesivir)</fullName>
+                <default>false</default>
+                <label>Veklury (Remdesivir)</label>
+            </value>
+            <value>
+                <fullName>Vemlidy</fullName>
+                <default>false</default>
+                <label>Vemlidy</label>
+            </value>
+            <value>
+                <fullName>Viread</fullName>
+                <default>false</default>
+                <label>Viread</label>
+            </value>
+            <value>
+                <fullName>Vistide (Discontinued)</fullName>
+                <default>false</default>
+                <label>Vistide (Discontinued)</label>
+            </value>
+            <value>
+                <fullName>Vitekta (Discontinued)</fullName>
+                <default>false</default>
+                <label>Vitekta (Discontinued)</label>
+            </value>
+            <value>
+                <fullName>Vosevi</fullName>
+                <default>false</default>
+                <label>Vosevi</label>
+            </value>
+            <value>
+                <fullName>Yescarta</fullName>
+                <default>false</default>
+                <label>Yescarta</label>
+            </value>
+            <value>
+                <fullName>Yescarta-KITE</fullName>
+                <default>false</default>
+                <label>Yescarta-KITE</label>
+            </value>
+            <value>
+                <fullName>Yeztugo</fullName>
+                <default>false</default>
+                <label>Yeztugo</label>
+            </value>
+            <value>
+                <fullName>Zydelig</fullName>
+                <default>false</default>
+                <label>Zydelig</label>
+            </value>
+            <value>
+                <fullName>Antifungal</fullName>
+                <default>false</default>
+                <label>Antifungal</label>
+            </value>
+            <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular</fullName>
+                <default>false</default>
+                <label>Cardiovascular</label>
+            </value>
+            <value>
+                <fullName>Cystic Fibrosis</fullName>
+                <default>false</default>
+                <label>Cystic Fibrosis</label>
+            </value>
+            <value>
+                <fullName>Cystic Fibrosis (CF)</fullName>
+                <default>false</default>
+                <label>Cystic Fibrosis (CF)</label>
+            </value>
+            <value>
+                <fullName>HBV</fullName>
+                <default>false</default>
+                <label>HBV</label>
+            </value>
+            <value>
+                <fullName>HCV</fullName>
+                <default>false</default>
+                <label>HCV</label>
+            </value>
+            <value>
+                <fullName>HIV</fullName>
+                <default>false</default>
+                <label>HIV</label>
+            </value>
+            <value>
+                <fullName>Hepatitis B Virus (HBV)</fullName>
+                <default>false</default>
+                <label>Hepatitis B Virus (HBV)</label>
+            </value>
+            <value>
+                <fullName>Hepatitis C Virus (HCV)</fullName>
+                <default>false</default>
+                <label>Hepatitis C Virus (HCV)</label>
+            </value>
+            <value>
+                <fullName>Human Immunodeficiency Virus (</fullName>
+                <default>false</default>
+                <label>Human Immunodeficiency Virus (</label>
+            </value>
+            <value>
+                <fullName>Inflammation</fullName>
+                <default>false</default>
+                <label>Inflammation</label>
+            </value>
+            <value>
+                <fullName>Nonalcoholic Steatohepatitis (NASH)</fullName>
+                <default>false</default>
+                <label>Nonalcoholic Steatohepatitis (NASH)</label>
+            </value>
+            <value>
+                <fullName>ONC</fullName>
+                <default>false</default>
+                <label>ONC</label>
+            </value>
+            <value>
+                <fullName>Oncology (ONC)</fullName>
+                <default>false</default>
+                <label>Oncology (ONC)</label>
+            </value>
+            <value>
+                <fullName>PrEP</fullName>
+                <default>false</default>
+                <label>PrEP</label>
+            </value>
+            <value>
+                <fullName>Primary Biliary Cholangitis (P</fullName>
+                <default>false</default>
+                <label>Primary Biliary Cholangitis (P</label>
+            </value>
+            <value>
+                <fullName>Pulmonary</fullName>
+                <default>false</default>
+                <label>Pulmonary</label>
+            </value>
+            <value>
+                <fullName>Pulmonary Arterial Hypertensio</fullName>
+                <default>false</default>
+                <label>Pulmonary Arterial Hypertensio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

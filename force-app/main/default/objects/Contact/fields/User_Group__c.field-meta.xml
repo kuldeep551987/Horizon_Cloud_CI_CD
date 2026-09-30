@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Group__c</fullName>
+    <label>User Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Site Personnel</fullName>
+                <default>false</default>
+                <label>Site Personnel</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Info Seeker</fullName>
+                <default>false</default>
+                <label>Info Seeker</label>
+            </value>
+            <value>
+                <fullName>Trial Participant</fullName>
+                <default>false</default>
+                <label>Trial Participant</label>
+            </value>
+            <value>
+                <fullName>HCP</fullName>
+                <default>false</default>
+                <label>HCP</label>
+            </value>
+            <value>
+                <fullName>Trial Alumni</fullName>
+                <default>false</default>
+                <label>Trial Alumni</label>
+            </value>
+            <value>
+                <fullName>Caregiver</fullName>
+                <default>false</default>
+                <label>Caregiver</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Pfizer Employee</fullName>
+                <default>false</default>
+                <label>Pfizer Employee</label>
+            </value>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Minor</fullName>
+                <default>false</default>
+                <label>Minor</label>
+            </value>
+            <value>
+                <fullName>US CO</fullName>
+                <default>false</default>
+                <label>US CO</label>
+            </value>
+            <value>
+                <fullName>All Studies</fullName>
+                <default>false</default>
+                <label>All Studies</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>ANI</fullName>
+                <default>false</default>
+                <label>ANI</label>
+            </value>
+            <value>
+                <fullName>Abbott</fullName>
+                <default>false</default>
+                <label>Abbott</label>
+            </value>
+            <value>
+                <fullName>Abbvie</fullName>
+                <default>false</default>
+                <label>Abbvie</label>
+            </value>
+            <value>
+                <fullName>EPD</fullName>
+                <default>false</default>
+                <label>EPD</label>
+            </value>
+            <value>
+                <fullName>EPO</fullName>
+                <default>false</default>
+                <label>EPO</label>
+            </value>
+            <value>
+                <fullName>GPRD</fullName>
+                <default>false</default>
+                <label>GPRD</label>
+            </value>
+            <value>
+                <fullName>PPD</fullName>
+                <default>false</default>
+                <label>PPD</label>
+            </value>
+            <value>
+                <fullName>n/a</fullName>
+                <default>false</default>
+                <label>n/a</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

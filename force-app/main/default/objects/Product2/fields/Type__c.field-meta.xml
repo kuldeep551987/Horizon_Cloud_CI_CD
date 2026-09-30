@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accessorial</fullName>
+                <default>false</default>
+                <label>Accessorial</label>
+            </value>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Call Forwarding</fullName>
+                <default>false</default>
+                <label>Call Forwarding</label>
+            </value>
+            <value>
+                <fullName>Call Waiting</fullName>
+                <default>false</default>
+                <label>Call Waiting</label>
+            </value>
+            <value>
+                <fullName>Commercial Bundle</fullName>
+                <default>false</default>
+                <label>Commercial Bundle</label>
+            </value>
+            <value>
+                <fullName>Commodity</fullName>
+                <default>false</default>
+                <label>Commodity</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Compound</fullName>
+                <default>false</default>
+                <label>Compound</label>
+            </value>
+            <value>
+                <fullName>Deposit</fullName>
+                <default>false</default>
+                <label>Deposit</label>
+            </value>
+            <value>
+                <fullName>Detail</fullName>
+                <default>false</default>
+                <label>Detail</label>
+            </value>
+            <value>
+                <fullName>Dummy Product Type</fullName>
+                <default>false</default>
+                <label>Dummy Product Type</label>
+            </value>
+            <value>
+                <fullName>Liability</fullName>
+                <default>false</default>
+                <label>Liability</label>
+            </value>
+            <value>
+                <fullName>Life &amp; Annuity</fullName>
+                <default>false</default>
+                <label>Life &amp; Annuity</label>
+            </value>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Lot</fullName>
+                <default>false</default>
+                <label>Lot</label>
+            </value>
+            <value>
+                <fullName>Market</fullName>
+                <default>false</default>
+                <label>Market</label>
+            </value>
+            <value>
+                <fullName>Non-Network</fullName>
+                <default>false</default>
+                <label>Non-Network</label>
+            </value>
+            <value>
+                <fullName>Option Group</fullName>
+                <default>false</default>
+                <label>Option Group</label>
+            </value>
+            <value>
+                <fullName>Partner Program</fullName>
+                <default>false</default>
+                <label>Partner Program</label>
+            </value>
+            <value>
+                <fullName>Penalty</fullName>
+                <default>false</default>
+                <label>Penalty</label>
+            </value>
+            <value>
+                <fullName>Personal Lines Insurance</fullName>
+                <default>false</default>
+                <label>Personal Lines Insurance</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Product Offer</fullName>
+                <default>false</default>
+                <label>Product Offer</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Promotional Item</fullName>
+                <default>false</default>
+                <label>Promotional Item</label>
+            </value>
+            <value>
+                <fullName>Promotion Group Membership</fullName>
+                <default>false</default>
+                <label>Promotion Group Membership</label>
+            </value>
+            <value>
+                <fullName>Sample</fullName>
+                <default>false</default>
+                <label>Sample</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Special Service</fullName>
+                <default>false</default>
+                <label>Special Service</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>n/a</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n/a</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

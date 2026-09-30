@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blinding__c</fullName>
+    <label>Blinding</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blinded</fullName>
+                <default>false</default>
+                <label>Blinded</label>
+            </value>
+            <value>
+                <fullName>Open Label</fullName>
+                <default>false</default>
+                <label>Open Label</label>
+            </value>
+            <value>
+                <fullName>Partially Blinded</fullName>
+                <default>false</default>
+                <label>Partially Blinded</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

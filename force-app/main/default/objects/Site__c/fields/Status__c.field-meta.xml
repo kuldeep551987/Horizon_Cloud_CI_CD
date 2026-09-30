@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Active-Conectivity</fullName>
+                <default>false</default>
+                <label>Active-Conectivity</label>
+            </value>
+            <value>
+                <fullName>Active-Provisioned</fullName>
+                <default>false</default>
+                <label>Active-Provisioned</label>
+            </value>
+            <value>
+                <fullName>Active-Provisioned&amp;Conectivity</fullName>
+                <default>false</default>
+                <label>Active-Provisioned&amp;Conectivity</label>
+            </value>
+            <value>
+                <fullName>Awaiting Sponsor Action</fullName>
+                <default>false</default>
+                <label>Awaiting Sponsor Action</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Candidate</fullName>
+                <default>false</default>
+                <label>Candidate</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>DBL Threshold</fullName>
+                <default>false</default>
+                <label>DBL Threshold</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+            <value>
+                <fullName>Failed - Connectivity</fullName>
+                <default>false</default>
+                <label>Failed - Connectivity</label>
+            </value>
+            <value>
+                <fullName>Failed - EDC Access</fullName>
+                <default>false</default>
+                <label>Failed - EDC Access</label>
+            </value>
+            <value>
+                <fullName>Failed - Multiple Reasons</fullName>
+                <default>false</default>
+                <label>Failed - Multiple Reasons</label>
+            </value>
+            <value>
+                <fullName>Failed - Provisioning</fullName>
+                <default>false</default>
+                <label>Failed - Provisioning</label>
+            </value>
+            <value>
+                <fullName>Failed - Workspace</fullName>
+                <default>false</default>
+                <label>Failed - Workspace</label>
+            </value>
+            <value>
+                <fullName>HW Provisioning</fullName>
+                <default>false</default>
+                <label>HW Provisioning</label>
+            </value>
+            <value>
+                <fullName>In-Active</fullName>
+                <default>false</default>
+                <label>In-Active</label>
+            </value>
+            <value>
+                <fullName>In Assessment</fullName>
+                <default>false</default>
+                <label>In Assessment</label>
+            </value>
+            <value>
+                <fullName>In Closeout</fullName>
+                <default>false</default>
+                <label>In Closeout</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Not Participating</fullName>
+                <default>false</default>
+                <label>Not Participating</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Passed</fullName>
+                <default>false</default>
+                <label>Passed</label>
+            </value>
+            <value>
+                <fullName>Pending Release</fullName>
+                <default>false</default>
+                <label>Pending Release</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>On-Hold</fullName>
+                <default>false</default>
+                <label>On-Hold</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

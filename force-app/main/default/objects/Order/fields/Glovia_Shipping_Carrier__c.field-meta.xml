@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Glovia_Shipping_Carrier__c</fullName>
+    <label>Glovia Shipping Carrier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airborne</fullName>
+                <default>false</default>
+                <label>Airborne</label>
+            </value>
+            <value>
+                <fullName>Blue Dart Express</fullName>
+                <default>false</default>
+                <label>Blue Dart Express</label>
+            </value>
+            <value>
+                <fullName>DHL</fullName>
+                <default>false</default>
+                <label>DHL</label>
+            </value>
+            <value>
+                <fullName>Emery</fullName>
+                <default>false</default>
+                <label>Emery</label>
+            </value>
+            <value>
+                <fullName>EMS</fullName>
+                <default>false</default>
+                <label>EMS</label>
+            </value>
+            <value>
+                <fullName>Federal Express</fullName>
+                <default>false</default>
+                <label>Federal Express</label>
+            </value>
+            <value>
+                <fullName>MCR</fullName>
+                <default>false</default>
+                <label>MCR</label>
+            </value>
+            <value>
+                <fullName>Sagawa Express</fullName>
+                <default>false</default>
+                <label>Sagawa Express</label>
+            </value>
+            <value>
+                <fullName>SF Express</fullName>
+                <default>false</default>
+                <label>SF Express</label>
+            </value>
+            <value>
+                <fullName>UPS</fullName>
+                <default>false</default>
+                <label>UPS</label>
+            </value>
+            <value>
+                <fullName>US Mail</fullName>
+                <default>false</default>
+                <label>US Mail</label>
+            </value>
+            <value>
+                <fullName>Yamato</fullName>
+                <default>false</default>
+                <label>Yamato</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

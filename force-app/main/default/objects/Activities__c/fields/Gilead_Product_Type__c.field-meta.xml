@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Product_Type__c</fullName>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antifungal</fullName>
+                <default>false</default>
+                <label>Antifungal</label>
+            </value>
+            <value>
+                <fullName>Authorized Generic Use Harvoni/Epclusa</fullName>
+                <default>false</default>
+                <label>Authorized Generic Use Harvoni/Epclusa</label>
+            </value>
+            <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular</fullName>
+                <default>false</default>
+                <label>Cardiovascular</label>
+            </value>
+            <value>
+                <fullName>Cystic Fibrosis (CF)</fullName>
+                <default>false</default>
+                <label>Cystic Fibrosis (CF)</label>
+            </value>
+            <value>
+                <fullName>Hepatitis B Virus (HBV)</fullName>
+                <default>false</default>
+                <label>Hepatitis B Virus (HBV)</label>
+            </value>
+            <value>
+                <fullName>Hepatitis C Virus (HCV)</fullName>
+                <default>false</default>
+                <label>Hepatitis C Virus (HCV)</label>
+            </value>
+            <value>
+                <fullName>Human Immunodeficiency Virus (</fullName>
+                <default>false</default>
+                <label>Human Immunodeficiency Virus (</label>
+            </value>
+            <value>
+                <fullName>Inflammation</fullName>
+                <default>false</default>
+                <label>Inflammation</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Nonalcoholic Steatohepatitis (NASH)</fullName>
+                <default>false</default>
+                <label>Nonalcoholic Steatohepatitis (NASH)</label>
+            </value>
+            <value>
+                <fullName>Oncology (ONC)</fullName>
+                <default>false</default>
+                <label>Oncology (ONC)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PrEP</fullName>
+                <default>false</default>
+                <label>PrEP</label>
+            </value>
+            <value>
+                <fullName>Primary Biliary Cholangitis (P</fullName>
+                <default>false</default>
+                <label>Primary Biliary Cholangitis (P</label>
+            </value>
+            <value>
+                <fullName>Pulmonary Arterial Hypertensio</fullName>
+                <default>false</default>
+                <label>Pulmonary Arterial Hypertensio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

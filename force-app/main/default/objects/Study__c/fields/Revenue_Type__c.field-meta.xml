@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Type__c</fullName>
+    <label>Revenue Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actual</fullName>
+                <default>false</default>
+                <label>Actual</label>
+            </value>
+            <value>
+                <fullName>Advisory Offer</fullName>
+                <default>false</default>
+                <label>Advisory Offer</label>
+            </value>
+            <value>
+                <fullName>Billed</fullName>
+                <default>false</default>
+                <label>Billed</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Debt Offer</fullName>
+                <default>false</default>
+                <label>Debt Offer</label>
+            </value>
+            <value>
+                <fullName>Deposit Offer</fullName>
+                <default>false</default>
+                <label>Deposit Offer</label>
+            </value>
+            <value>
+                <fullName>Equity Offer</fullName>
+                <default>false</default>
+                <label>Equity Offer</label>
+            </value>
+            <value>
+                <fullName>Loan Offer</fullName>
+                <default>false</default>
+                <label>Loan Offer</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Projected</fullName>
+                <default>false</default>
+                <label>Projected</label>
+            </value>
+            <value>
+                <fullName>Quota</fullName>
+                <default>false</default>
+                <label>Quota</label>
+            </value>
+            <value>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+                <label>Renewal</label>
+            </value>
+            <value>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+                <label>Shipped</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

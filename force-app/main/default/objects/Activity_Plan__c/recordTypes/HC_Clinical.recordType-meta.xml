@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HC_Clinical</fullName>
+    <active>true</active>
+    <label>HC Clinical</label>
+    <picklistValues>
+        <picklist>QC_Status__c</picklist>
+        <values>
+            <fullName>Double QCed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QCed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active by Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deescalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated to Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Ordered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ordered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent RFP to Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting Payment Fin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Template__c</picklist>
+        <values>
+            <fullName>AR %2F Termination Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleaning Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Provisioning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DU File Pre-Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DU File Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Database Lock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Database Unlock%2FRelock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I*NET Laptop Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I*NET Site Laptop Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Provisioning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT System Roles Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-Site-Distribution Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-Site-Drug Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-Site-Supplying Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-UAM-Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-UAM-Inactivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRT-UAM-Modification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAVE External Account Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAVE Internal Account Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC Database Lock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-Add Access-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-CRA Account Revoke-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-CRA Add Access-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-CRA New Account-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-CRA Remove Access-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-CRA-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-IAP-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-Modification-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-New Account-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-Remove Access-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-Revoke Account-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDC-Vendor-IAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP-Webscreen-UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Assesment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site CSR CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Closeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Closeout - I*Net</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Closeout - I*Net %28EDC Form%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Closeout - Transferred patient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Data Archival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Laptop Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Closeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup - Dispensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup - Main</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup - UAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup-Dispensation-Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup-Main-Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup-Training-Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Setup-UAM-Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet Provisioning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet Setup Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Deactivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor Extract Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease - UAM - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease GMP-DOCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease GxP Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease IMP QA Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Perform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Remove Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease Role Modification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease VPH%2F PH CA Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease VPH%2FPH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iRelease iCS-NIRT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+                <label>Accessory</label>
+            </value>
+            <value>
+                <fullName>Aruba</fullName>
+                <default>false</default>
+                <label>Aruba</label>
+            </value>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Box</fullName>
+                <default>false</default>
+                <label>Box</label>
+            </value>
+            <value>
+                <fullName>CD</fullName>
+                <default>false</default>
+                <label>CD</label>
+            </value>
+            <value>
+                <fullName>Client Request</fullName>
+                <default>false</default>
+                <label>Client Request</label>
+            </value>
+            <value>
+                <fullName>Complete Reconfiguration</fullName>
+                <default>false</default>
+                <label>Complete Reconfiguration</label>
+            </value>
+            <value>
+                <fullName>CRTC</fullName>
+                <default>false</default>
+                <label>CRTC</label>
+            </value>
+            <value>
+                <fullName>Direct Wire</fullName>
+                <default>false</default>
+                <label>Direct Wire</label>
+            </value>
+            <value>
+                <fullName>Docking Station</fullName>
+                <default>false</default>
+                <label>Docking Station</label>
+            </value>
+            <value>
+                <fullName>Field Transfer</fullName>
+                <default>false</default>
+                <label>Field Transfer</label>
+            </value>
+            <value>
+                <fullName>Headset</fullName>
+                <default>false</default>
+                <label>Headset</label>
+            </value>
+            <value>
+                <fullName>Help Desk Request</fullName>
+                <default>false</default>
+                <label>Help Desk Request</label>
+            </value>
+            <value>
+                <fullName>Home Office Request</fullName>
+                <default>false</default>
+                <label>Home Office Request</label>
+            </value>
+            <value>
+                <fullName>Internal Transaction</fullName>
+                <default>false</default>
+                <label>Internal Transaction</label>
+            </value>
+            <value>
+                <fullName>IT Request</fullName>
+                <default>false</default>
+                <label>IT Request</label>
+            </value>
+            <value>
+                <fullName>l</fullName>
+                <default>false</default>
+                <label>l</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Lost/Stolen</fullName>
+                <default>false</default>
+                <label>Lost/Stolen</label>
+            </value>
+            <value>
+                <fullName>Mobile Device</fullName>
+                <default>false</default>
+                <label>Mobile Device</label>
+            </value>
+            <value>
+                <fullName>Monitor</fullName>
+                <default>false</default>
+                <label>Monitor</label>
+            </value>
+            <value>
+                <fullName>New Equipment</fullName>
+                <default>false</default>
+                <label>New Equipment</label>
+            </value>
+            <value>
+                <fullName>New Hire Configuration</fullName>
+                <default>false</default>
+                <label>New Hire Configuration</label>
+            </value>
+            <value>
+                <fullName>New Hire - Refurbs</fullName>
+                <default>false</default>
+                <label>New Hire - Refurbs</label>
+            </value>
+            <value>
+                <fullName>Order Category</fullName>
+                <default>false</default>
+                <label>Order Category</label>
+            </value>
+            <value>
+                <fullName>Password Document</fullName>
+                <default>false</default>
+                <label>Password Document</label>
+            </value>
+            <value>
+                <fullName>POA No-Show</fullName>
+                <default>false</default>
+                <label>POA No-Show</label>
+            </value>
+            <value>
+                <fullName>POA Request</fullName>
+                <default>false</default>
+                <label>POA Request</label>
+            </value>
+            <value>
+                <fullName>POA Return to Inventory</fullName>
+                <default>false</default>
+                <label>POA Return to Inventory</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Refresh</fullName>
+                <default>false</default>
+                <label>Refresh</label>
+            </value>
+            <value>
+                <fullName>Refresh - Refurbs</fullName>
+                <default>false</default>
+                <label>Refresh - Refurbs</label>
+            </value>
+            <value>
+                <fullName>Reship</fullName>
+                <default>false</default>
+                <label>Reship</label>
+            </value>
+            <value>
+                <fullName>Rollout Request</fullName>
+                <default>false</default>
+                <label>Rollout Request</label>
+            </value>
+            <value>
+                <fullName>Rollout Return</fullName>
+                <default>false</default>
+                <label>Rollout Return</label>
+            </value>
+            <value>
+                <fullName>Rollout Shipment</fullName>
+                <default>false</default>
+                <label>Rollout Shipment</label>
+            </value>
+            <value>
+                <fullName>Shell Repair</fullName>
+                <default>false</default>
+                <label>Shell Repair</label>
+            </value>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Termination</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Warranty Repair</fullName>
+                <default>false</default>
+                <label>Warranty Repair</label>
+            </value>
+            <value>
+                <fullName>WUE</fullName>
+                <default>false</default>
+                <label>WUE</label>
+            </value>
+            <value>
+                <fullName>WUE - Refurbs</fullName>
+                <default>false</default>
+                <label>WUE - Refurbs</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Investigator Meeting</fullName>
+                <default>false</default>
+                <label>Investigator Meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

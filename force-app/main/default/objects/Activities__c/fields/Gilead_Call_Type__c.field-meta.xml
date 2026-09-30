@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gilead_Call_Type__c</fullName>
+    <label>Call Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employee Vendor</fullName>
+                <default>false</default>
+                <label>Employee Vendor</label>
+            </value>
+            <value>
+                <fullName>Gilead Non-Public</fullName>
+                <default>false</default>
+                <label>Gilead Non-Public</label>
+            </value>
+            <value>
+                <fullName>Gilead Public</fullName>
+                <default>false</default>
+                <label>Gilead Public</label>
+            </value>
+            <value>
+                <fullName>Special Procedure</fullName>
+                <default>false</default>
+                <label>Special Procedure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

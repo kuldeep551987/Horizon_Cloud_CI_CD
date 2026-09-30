@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Sub Type</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Picklist_Value__c.Type__c</field>
+            <operation>equals</operation>
+            <value>ACT_SUB_TYPE</value>
+        </filterItems>
+        <filterItems>
+            <field>Picklist_Value__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Account__c</field>
+            <operation>equals</operation>
+            <valueField>Picklist_Value__c.Account__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Picklist_Value__c</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

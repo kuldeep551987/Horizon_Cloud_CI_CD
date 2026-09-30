@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Substatus__c</fullName>
+    <label>Substatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Documents Required</fullName>
+                <default>false</default>
+                <label>Additional Documents Required</label>
+            </value>
+            <value>
+                <fullName>App Received - Missing Attest</fullName>
+                <default>false</default>
+                <label>App Received - Missing Attest</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Approved, Subject To</fullName>
+                <default>false</default>
+                <label>Approved, Subject To</label>
+            </value>
+            <value>
+                <fullName>Approved - Sent to Pharmacy</fullName>
+                <default>false</default>
+                <label>Approved - Sent to Pharmacy</label>
+            </value>
+            <value>
+                <fullName>AR Created in error</fullName>
+                <default>false</default>
+                <label>AR Created in error</label>
+            </value>
+            <value>
+                <fullName>Attest Incomp App Miss Info</fullName>
+                <default>false</default>
+                <label>Attest Incomp App Miss Info</label>
+            </value>
+            <value>
+                <fullName>Attest Not Rcvd App Miss Info</fullName>
+                <default>false</default>
+                <label>Attest Not Rcvd App Miss Info</label>
+            </value>
+            <value>
+                <fullName>Attest Received - Missing App</fullName>
+                <default>false</default>
+                <label>Attest Received - Missing App</label>
+            </value>
+            <value>
+                <fullName>Attest Sent - App Filed</fullName>
+                <default>false</default>
+                <label>Attest Sent - App Filed</label>
+            </value>
+            <value>
+                <fullName>Attest with App Sent</fullName>
+                <default>false</default>
+                <label>Attest with App Sent</label>
+            </value>
+            <value>
+                <fullName>Awaiting 2nd Attempt</fullName>
+                <default>false</default>
+                <label>Awaiting 2nd Attempt</label>
+            </value>
+            <value>
+                <fullName>Awaiting 3rd Attempt</fullName>
+                <default>false</default>
+                <label>Awaiting 3rd Attempt</label>
+            </value>
+            <value>
+                <fullName>Awaiting 3rd Party Response</fullName>
+                <default>false</default>
+                <label>Awaiting 3rd Party Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting C3I Action</fullName>
+                <default>false</default>
+                <label>Awaiting C3I Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client Action</fullName>
+                <default>false</default>
+                <label>Awaiting Client Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client response</fullName>
+                <default>false</default>
+                <label>Awaiting Client response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Cognizant Action</fullName>
+                <default>false</default>
+                <label>Awaiting Cognizant Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Covance Action</fullName>
+                <default>false</default>
+                <label>Awaiting Covance Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Customer Response</fullName>
+                <default>false</default>
+                <label>Awaiting Customer Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Deskside</fullName>
+                <default>false</default>
+                <label>Awaiting Deskside</label>
+            </value>
+            <value>
+                <fullName>Awaiting Escalation</fullName>
+                <default>false</default>
+                <label>Awaiting Escalation</label>
+            </value>
+            <value>
+                <fullName>Awaiting Exostar Action</fullName>
+                <default>false</default>
+                <label>Awaiting Exostar Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting info from requester</fullName>
+                <default>false</default>
+                <label>Awaiting info from requester</label>
+            </value>
+            <value>
+                <fullName>Awaiting Internal Response</fullName>
+                <default>false</default>
+                <label>Awaiting Internal Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Medidata Action</fullName>
+                <default>false</default>
+                <label>Awaiting Medidata Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Oracle Action</fullName>
+                <default>false</default>
+                <label>Awaiting Oracle Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting PF Action</fullName>
+                <default>false</default>
+                <label>Awaiting PF Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Project Completion</fullName>
+                <default>false</default>
+                <label>Awaiting Project Completion</label>
+            </value>
+            <value>
+                <fullName>Awaiting T1 Level 1 Action</fullName>
+                <default>false</default>
+                <label>Awaiting T1 Level 1 Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting T1 Level 2 Action</fullName>
+                <default>false</default>
+                <label>Awaiting T1 Level 2 Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting Third Party Response</fullName>
+                <default>false</default>
+                <label>Awaiting Third Party Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Tier 2 Action</fullName>
+                <default>false</default>
+                <label>Awaiting Tier 2 Action</label>
+            </value>
+            <value>
+                <fullName>Awaiting TSR</fullName>
+                <default>false</default>
+                <label>Awaiting TSR</label>
+            </value>
+            <value>
+                <fullName>Awaiting User Confirmation</fullName>
+                <default>false</default>
+                <label>Awaiting User Confirmation</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>Could not Verify</fullName>
+                <default>false</default>
+                <label>Could not Verify</label>
+            </value>
+            <value>
+                <fullName>Dead Application</fullName>
+                <default>false</default>
+                <label>Dead Application</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Disregard AR</fullName>
+                <default>false</default>
+                <label>Disregard AR</label>
+            </value>
+            <value>
+                <fullName>Email [No follow-up]</fullName>
+                <default>false</default>
+                <label>Email [No follow-up]</label>
+            </value>
+            <value>
+                <fullName>Erroneous - Letter Sent</fullName>
+                <default>false</default>
+                <label>Erroneous - Letter Sent</label>
+            </value>
+            <value>
+                <fullName>Executed</fullName>
+                <default>false</default>
+                <label>Executed</label>
+            </value>
+            <value>
+                <fullName>For Automated Follow up</fullName>
+                <default>false</default>
+                <label>For Automated Follow up</label>
+            </value>
+            <value>
+                <fullName>For Automated Follow-up</fullName>
+                <default>false</default>
+                <label>For Automated Follow-up</label>
+            </value>
+            <value>
+                <fullName>Incomplete</fullName>
+                <default>false</default>
+                <label>Incomplete</label>
+            </value>
+            <value>
+                <fullName>Missing Info - Letter Sent</fullName>
+                <default>false</default>
+                <label>Missing Info - Letter Sent</label>
+            </value>
+            <value>
+                <fullName>Product Issue Created</fullName>
+                <default>false</default>
+                <label>Product Issue Created</label>
+            </value>
+            <value>
+                <fullName>Rejected App - Letter Sent</fullName>
+                <default>false</default>
+                <label>Rejected App - Letter Sent</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Resolved by Tier 2</fullName>
+                <default>false</default>
+                <label>Resolved by Tier 2</label>
+            </value>
+            <value>
+                <fullName>Response Received</fullName>
+                <default>false</default>
+                <label>Response Received</label>
+            </value>
+            <value>
+                <fullName>Special Handling</fullName>
+                <default>false</default>
+                <label>Special Handling</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Successful</fullName>
+                <default>false</default>
+                <label>Successful</label>
+            </value>
+            <value>
+                <fullName>Supervisor Approval</fullName>
+                <default>false</default>
+                <label>Supervisor Approval</label>
+            </value>
+            <value>
+                <fullName>Unassigned</fullName>
+                <default>false</default>
+                <label>Unassigned</label>
+            </value>
+            <value>
+                <fullName>Unconfirmed</fullName>
+                <default>false</default>
+                <label>Unconfirmed</label>
+            </value>
+            <value>
+                <fullName>Verification in Progress</fullName>
+                <default>false</default>
+                <label>Verification in Progress</label>
+            </value>
+            <value>
+                <fullName>Waiting On Documents</fullName>
+                <default>false</default>
+                <label>Waiting On Documents</label>
+            </value>
+            <value>
+                <fullName>WT Successful</fullName>
+                <default>false</default>
+                <label>WT Successful</label>
+            </value>
+            <value>
+                <fullName>WT Unsuccessful</fullName>
+                <default>false</default>
+                <label>WT Unsuccessful</label>
+            </value>
+            <value>
+                <fullName>Automated Follow up Re-Opened</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Automated Follow up Re-Opened</label>
+            </value>
+            <value>
+                <fullName>Automated Follow up Resolved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Automated Follow up Resolved</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Confirmed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Could not Verify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Dead Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Email [No follow-up]</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Unconfirmed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>WT Successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>WT Unsuccessful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>App Received - Missing Attest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Approved - Sent to Pharmacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Attest Incomp App Miss Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Attest Not Rcvd App Miss Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Attest Received - Missing App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Attest Sent - App Filed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Attest with App Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting 2nd Attempt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting 3rd Attempt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting 3rd Party Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting C3I Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Client Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Client response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Cognizant Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Covance Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>Awaiting Customer Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Deskside</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Escalation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Exostar Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting info from requester</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Internal Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Medidata Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Oracle Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting PF Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting T1 Level 1 Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting T1 Level 2 Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Third Party Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting Tier 2 Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Awaiting TSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Erroneous - Letter Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Missing Info - Letter Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Rejected App - Letter Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Unassigned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Verification in Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delete</controllingFieldValue>
+            <valueName>AR Created in error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delete</controllingFieldValue>
+            <valueName>Disregard AR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>Awaiting Project Completion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>Awaiting User Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>For Automated Follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>Resolved by Tier 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <valueName>Response Received</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

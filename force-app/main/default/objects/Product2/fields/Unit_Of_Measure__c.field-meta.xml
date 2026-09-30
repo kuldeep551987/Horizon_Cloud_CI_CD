@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Of_Measure__c</fullName>
+    <label>Unit Of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>Bag</fullName>
+                <default>false</default>
+                <label>Bag</label>
+            </value>
+            <value>
+                <fullName>Case</fullName>
+                <default>false</default>
+                <label>Case</label>
+            </value>
+            <value>
+                <fullName>Currency Unit</fullName>
+                <default>false</default>
+                <label>Currency Unit</label>
+            </value>
+            <value>
+                <fullName>Day</fullName>
+                <default>false</default>
+                <label>Day</label>
+            </value>
+            <value>
+                <fullName>Dollar</fullName>
+                <default>false</default>
+                <label>Dollar</label>
+            </value>
+            <value>
+                <fullName>Dozen</fullName>
+                <default>false</default>
+                <label>Dozen</label>
+            </value>
+            <value>
+                <fullName>Each</fullName>
+                <default>false</default>
+                <label>Each</label>
+            </value>
+            <value>
+                <fullName>Foot</fullName>
+                <default>false</default>
+                <label>Foot</label>
+            </value>
+            <value>
+                <fullName>Gram</fullName>
+                <default>false</default>
+                <label>Gram</label>
+            </value>
+            <value>
+                <fullName>Half Pallet</fullName>
+                <default>false</default>
+                <label>Half Pallet</label>
+            </value>
+            <value>
+                <fullName>Hour</fullName>
+                <default>false</default>
+                <label>Hour</label>
+            </value>
+            <value>
+                <fullName>Kilogram</fullName>
+                <default>false</default>
+                <label>Kilogram</label>
+            </value>
+            <value>
+                <fullName>Litre</fullName>
+                <default>false</default>
+                <label>Litre</label>
+            </value>
+            <value>
+                <fullName>mg</fullName>
+                <default>false</default>
+                <label>mg</label>
+            </value>
+            <value>
+                <fullName>Month</fullName>
+                <default>false</default>
+                <label>Month</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>One-Time</fullName>
+                <default>false</default>
+                <label>One-Time</label>
+            </value>
+            <value>
+                <fullName>Ounce</fullName>
+                <default>false</default>
+                <label>Ounce</label>
+            </value>
+            <value>
+                <fullName>Pallet</fullName>
+                <default>false</default>
+                <label>Pallet</label>
+            </value>
+            <value>
+                <fullName>Percentage</fullName>
+                <default>false</default>
+                <label>Percentage</label>
+            </value>
+            <value>
+                <fullName>Per Day</fullName>
+                <default>false</default>
+                <label>Per Day</label>
+            </value>
+            <value>
+                <fullName>Per Gigabyte</fullName>
+                <default>false</default>
+                <label>Per Gigabyte</label>
+            </value>
+            <value>
+                <fullName>Per kWh</fullName>
+                <default>false</default>
+                <label>Per kWh</label>
+            </value>
+            <value>
+                <fullName>Per Message</fullName>
+                <default>false</default>
+                <label>Per Message</label>
+            </value>
+            <value>
+                <fullName>Per Minute</fullName>
+                <default>false</default>
+                <label>Per Minute</label>
+            </value>
+            <value>
+                <fullName>Per Month</fullName>
+                <default>false</default>
+                <label>Per Month</label>
+            </value>
+            <value>
+                <fullName>Per Person</fullName>
+                <default>false</default>
+                <label>Per Person</label>
+            </value>
+            <value>
+                <fullName>Per Quarter</fullName>
+                <default>false</default>
+                <label>Per Quarter</label>
+            </value>
+            <value>
+                <fullName>Per Room</fullName>
+                <default>false</default>
+                <label>Per Room</label>
+            </value>
+            <value>
+                <fullName>Person</fullName>
+                <default>false</default>
+                <label>Person</label>
+            </value>
+            <value>
+                <fullName>Per Use</fullName>
+                <default>false</default>
+                <label>Per Use</label>
+            </value>
+            <value>
+                <fullName>Per User</fullName>
+                <default>false</default>
+                <label>Per User</label>
+            </value>
+            <value>
+                <fullName>Per Week</fullName>
+                <default>false</default>
+                <label>Per Week</label>
+            </value>
+            <value>
+                <fullName>Per Year</fullName>
+                <default>false</default>
+                <label>Per Year</label>
+            </value>
+            <value>
+                <fullName>Pound</fullName>
+                <default>false</default>
+                <label>Pound</label>
+            </value>
+            <value>
+                <fullName>Price Type</fullName>
+                <default>false</default>
+                <label>Price Type</label>
+            </value>
+            <value>
+                <fullName>Quarter</fullName>
+                <default>false</default>
+                <label>Quarter</label>
+            </value>
+            <value>
+                <fullName>Recurring</fullName>
+                <default>false</default>
+                <label>Recurring</label>
+            </value>
+            <value>
+                <fullName>Semi-Annual</fullName>
+                <default>false</default>
+                <label>Semi-Annual</label>
+            </value>
+            <value>
+                <fullName>Sq. Ft.</fullName>
+                <default>false</default>
+                <label>Sq. Ft.</label>
+            </value>
+            <value>
+                <fullName>Sq. Meters</fullName>
+                <default>false</default>
+                <label>Sq. Meters</label>
+            </value>
+            <value>
+                <fullName>Thousand</fullName>
+                <default>false</default>
+                <label>Thousand</label>
+            </value>
+            <value>
+                <fullName>Transaction Amount</fullName>
+                <default>false</default>
+                <label>Transaction Amount</label>
+            </value>
+            <value>
+                <fullName>Unit</fullName>
+                <default>false</default>
+                <label>Unit</label>
+            </value>
+            <value>
+                <fullName>Usage</fullName>
+                <default>false</default>
+                <label>Usage</label>
+            </value>
+            <value>
+                <fullName>USD</fullName>
+                <default>false</default>
+                <label>USD</label>
+            </value>
+            <value>
+                <fullName>Week</fullName>
+                <default>false</default>
+                <label>Week</label>
+            </value>
+            <value>
+                <fullName>Year</fullName>
+                <default>false</default>
+                <label>Year</label>
+            </value>
+            <value>
+                <fullName>n/a</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n/a</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action</fullName>
+                <default>false</default>
+                <label>Action</label>
+            </value>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Call - Inbound</fullName>
+                <default>false</default>
+                <label>Call - Inbound</label>
+            </value>
+            <value>
+                <fullName>Call - Outbound</fullName>
+                <default>false</default>
+                <label>Call - Outbound</label>
+            </value>
+            <value>
+                <fullName>De-escalation</fullName>
+                <default>false</default>
+                <label>De-escalation</label>
+            </value>
+            <value>
+                <fullName>Email - Inbound</fullName>
+                <default>false</default>
+                <label>Email - Inbound</label>
+            </value>
+            <value>
+                <fullName>Email - Outbound</fullName>
+                <default>false</default>
+                <label>Email - Outbound</label>
+            </value>
+            <value>
+                <fullName>Escalation</fullName>
+                <default>false</default>
+                <label>Escalation</label>
+            </value>
+            <value>
+                <fullName>Knowledge Base Usage</fullName>
+                <default>false</default>
+                <label>Knowledge Base Usage</label>
+            </value>
+            <value>
+                <fullName>Next Steps</fullName>
+                <default>false</default>
+                <label>Next Steps</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+            <value>
+                <fullName>Suspended-Awaiting Cust Action</fullName>
+                <default>false</default>
+                <label>Suspended-Awaiting Cust Action</label>
+            </value>
+            <value>
+                <fullName>Update Request</fullName>
+                <default>false</default>
+                <label>Update Request</label>
+            </value>
+            <value>
+                <fullName>Transfer AE</fullName>
+                <default>false</default>
+                <label>Transfer AE</label>
+            </value>
+            <value>
+                <fullName>Transfer PC</fullName>
+                <default>false</default>
+                <label>Transfer PC</label>
+            </value>
+            <value>
+                <fullName>Transfer Combo</fullName>
+                <default>false</default>
+                <label>Transfer Combo</label>
+            </value>
+            <value>
+                <fullName>Escalate - Internal- PCT</fullName>
+                <default>false</default>
+                <label>Escalate - Internal- PCT</label>
+            </value>
+            <value>
+                <fullName>Escalate - Client- PCT</fullName>
+                <default>false</default>
+                <label>Escalate - Client- PCT</label>
+            </value>
+            <value>
+                <fullName>Call-Outbound-PCT</fullName>
+                <default>false</default>
+                <label>Call-Outbound-PCT</label>
+            </value>
+            <value>
+                <fullName>Email-Outbound PCT</fullName>
+                <default>false</default>
+                <label>Email-Outbound PCT</label>
+            </value>
+            <value>
+                <fullName>Call-Inbound-PCT</fullName>
+                <default>false</default>
+                <label>Call-Inbound-PCT</label>
+            </value>
+            <value>
+                <fullName>Email-Inbound PCT</fullName>
+                <default>false</default>
+                <label>Email-Inbound PCT</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+            <value>
+                <fullName>iConnect</fullName>
+                <default>false</default>
+                <label>iConnect</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Automated Follow-up email sent</fullName>
+                <default>false</default>
+                <label>Automated Follow-up email sent</label>
+            </value>
+            <value>
+                <fullName>Issue not resolved</fullName>
+                <default>false</default>
+                <label>Issue not resolved</label>
+            </value>
+            <value>
+                <fullName>Escalate - Internal</fullName>
+                <default>false</default>
+                <label>Escalate - Internal</label>
+            </value>
+            <value>
+                <fullName>Escalate - Tier2</fullName>
+                <default>false</default>
+                <label>Escalate - Tier2</label>
+            </value>
+            <value>
+                <fullName>User Account Created</fullName>
+                <default>false</default>
+                <label>User Account Created</label>
+            </value>
+            <value>
+                <fullName>User Account Modified</fullName>
+                <default>false</default>
+                <label>User Account Modified</label>
+            </value>
+            <value>
+                <fullName>User Account Deactivated</fullName>
+                <default>false</default>
+                <label>User Account Deactivated</label>
+            </value>
+            <value>
+                <fullName>Site Created</fullName>
+                <default>false</default>
+                <label>Site Created</label>
+            </value>
+            <value>
+                <fullName>Site Modified</fullName>
+                <default>false</default>
+                <label>Site Modified</label>
+            </value>
+            <value>
+                <fullName>Escalate - J&amp;J Tier 2</fullName>
+                <default>false</default>
+                <label>Escalate - J&amp;J Tier 2</label>
+            </value>
+            <value>
+                <fullName>Portal request</fullName>
+                <default>false</default>
+                <label>Portal request</label>
+            </value>
+            <value>
+                <fullName>Account Created</fullName>
+                <default>false</default>
+                <label>Account Created</label>
+            </value>
+            <value>
+                <fullName>Escalate – Connect Tier 2</fullName>
+                <default>false</default>
+                <label>Escalate – Connect Tier 2</label>
+            </value>
+            <value>
+                <fullName>Escalate - Missing Site UMT</fullName>
+                <default>false</default>
+                <label>Escalate - Missing Site UMT</label>
+            </value>
+            <value>
+                <fullName>Escalate - Kore</fullName>
+                <default>false</default>
+                <label>Escalate - Kore</label>
+            </value>
+            <value>
+                <fullName>Escalate - Glooko</fullName>
+                <default>false</default>
+                <label>Escalate - Glooko</label>
+            </value>
+            <value>
+                <fullName>Escalate - SaMD</fullName>
+                <default>false</default>
+                <label>Escalate - SaMD</label>
+            </value>
+            <value>
+                <fullName>Escalate – NNEXUS</fullName>
+                <default>false</default>
+                <label>Escalate – NNEXUS</label>
+            </value>
+            <value>
+                <fullName>Account Modified</fullName>
+                <default>false</default>
+                <label>Account Modified</label>
+            </value>
+            <value>
+                <fullName>Suspend activity</fullName>
+                <default>false</default>
+                <label>Suspend activity</label>
+            </value>
+            <value>
+                <fullName>Insufficient Information</fullName>
+                <default>false</default>
+                <label>Insufficient Information</label>
+            </value>
+            <value>
+                <fullName>Escalate to CSMS Business</fullName>
+                <default>false</default>
+                <label>Escalate to CSMS Business</label>
+            </value>
+            <value>
+                <fullName>Escalate to CSMS IT</fullName>
+                <default>false</default>
+                <label>Escalate to CSMS IT</label>
+            </value>
+            <value>
+                <fullName>Escalate to GSD</fullName>
+                <default>false</default>
+                <label>Escalate to GSD</label>
+            </value>
+            <value>
+                <fullName>Escalate - Third Party</fullName>
+                <default>false</default>
+                <label>Escalate - Third Party</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
